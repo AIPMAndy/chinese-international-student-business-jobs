@@ -12,7 +12,7 @@
 
 | 你要做什么 | 入口 |
 | --- | --- |
-| 在线阅读、手机浏览与搜索 | GitHub Pages 待发布；[部署目标与实际验收状态](DEPLOYMENT.md) |
+| 在线阅读、手机浏览与搜索 | [打开正式 GitHub Pages 网站](https://aipmandy.github.io/chinese-international-student-business-jobs/) · [部署说明](DEPLOYMENT.md) |
 | 从零开始，确定本周行动 | [阅读起点](content/00-start.md) |
 | 比较两个目标职能 | [真实岗位研究与职能选择](content/01-function-choice.md) |
 | 找出经历与 JD 的差距 | [能力证据与行动计划](content/02-evidence-plan.md) |
