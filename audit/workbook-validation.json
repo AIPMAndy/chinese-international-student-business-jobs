@@ -1,0 +1,290 @@
+{
+  "checked": "2026-11-13",
+  "engine": "@oai/artifact-tool (bundled runtime); Excel desktop not executed",
+  "sheets": [
+    {
+      "name": "职能选择",
+      "head": 13,
+      "start": 14,
+      "end": 34,
+      "last": "I",
+      "columns": 9
+    },
+    {
+      "name": "岗位研究",
+      "head": 6,
+      "start": 7,
+      "end": 32,
+      "last": "M",
+      "columns": 13
+    },
+    {
+      "name": "能力证据",
+      "head": 6,
+      "start": 7,
+      "end": 32,
+      "last": "J",
+      "columns": 10
+    },
+    {
+      "name": "行动计划",
+      "head": 6,
+      "start": 7,
+      "end": 32,
+      "last": "J",
+      "columns": 10
+    },
+    {
+      "name": "申请记录",
+      "head": 6,
+      "start": 7,
+      "end": 47,
+      "last": "L",
+      "columns": 12
+    },
+    {
+      "name": "面试复盘",
+      "head": 6,
+      "start": 7,
+      "end": 32,
+      "last": "J",
+      "columns": 10
+    },
+    {
+      "name": "资格核验",
+      "head": 6,
+      "start": 7,
+      "end": 32,
+      "last": "I",
+      "columns": 9
+    }
+  ],
+  "events": [
+    {
+      "check": "样例1得分",
+      "passed": true,
+      "actual": 66.66666666666666
+    },
+    {
+      "check": "样例2得分",
+      "passed": true,
+      "actual": 58.333333333333336
+    },
+    {
+      "check": "硬门槛待确认不计算",
+      "passed": true,
+      "actual": ""
+    },
+    {
+      "check": "资格从满足改待确认时分数清空",
+      "passed": true,
+      "actual": ""
+    },
+    {
+      "check": "缺少一项评分不计算",
+      "passed": true,
+      "actual": ""
+    },
+    {
+      "check": "零分为有效输入",
+      "passed": true,
+      "actual": 40
+    },
+    {
+      "check": "越界评分不计算",
+      "passed": true,
+      "actual": ""
+    },
+    {
+      "check": "修改任务证据使分数更新",
+      "passed": true,
+      "actual": 80
+    },
+    {
+      "check": "权重总和错误阻断结果",
+      "passed": true,
+      "actual": {
+        "score": "",
+        "status": "请检查权重"
+      }
+    },
+    {
+      "check": "最后预留行公式可用",
+      "passed": true,
+      "actual": 100
+    },
+    {
+      "check": "临时测试数据已还原",
+      "passed": true,
+      "actual": {
+        "first": 66.66666666666666,
+        "last": ""
+      }
+    },
+    {
+      "check": "XLSX重新导入保留公式结果",
+      "passed": true,
+      "actual": [
+        66.66666666666666,
+        58.333333333333336,
+        ""
+      ]
+    }
+  ],
+  "previews": [
+    {
+      "sheet": "职能选择",
+      "range": "A1:I17",
+      "file": "preview-1-1.png"
+    },
+    {
+      "sheet": "岗位研究",
+      "range": "A1:F9",
+      "file": "preview-2-1.png"
+    },
+    {
+      "sheet": "岗位研究",
+      "range": "G1:J9",
+      "file": "preview-2-2.png"
+    },
+    {
+      "sheet": "岗位研究",
+      "range": "K1:M9",
+      "file": "preview-2-3.png"
+    },
+    {
+      "sheet": "能力证据",
+      "range": "A1:E9",
+      "file": "preview-3-1.png"
+    },
+    {
+      "sheet": "能力证据",
+      "range": "F1:J9",
+      "file": "preview-3-2.png"
+    },
+    {
+      "sheet": "行动计划",
+      "range": "A1:E9",
+      "file": "preview-4-1.png"
+    },
+    {
+      "sheet": "行动计划",
+      "range": "F1:J9",
+      "file": "preview-4-2.png"
+    },
+    {
+      "sheet": "申请记录",
+      "range": "A1:F9",
+      "file": "preview-5-1.png"
+    },
+    {
+      "sheet": "申请记录",
+      "range": "G1:J9",
+      "file": "preview-5-2.png"
+    },
+    {
+      "sheet": "申请记录",
+      "range": "K1:L9",
+      "file": "preview-5-3.png"
+    },
+    {
+      "sheet": "面试复盘",
+      "range": "A1:E9",
+      "file": "preview-6-1.png"
+    },
+    {
+      "sheet": "面试复盘",
+      "range": "F1:J9",
+      "file": "preview-6-2.png"
+    },
+    {
+      "sheet": "资格核验",
+      "range": "A1:E9",
+      "file": "preview-7-1.png"
+    },
+    {
+      "sheet": "资格核验",
+      "range": "F1:I9",
+      "file": "preview-7-2.png"
+    }
+  ],
+  "export": "downloads/business-job-workbook.xlsx",
+  "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "visual_review": {
+    "status": "passed",
+    "reviewed_date": "2026-11-13",
+    "sheets": [
+      "职能选择",
+      "岗位研究",
+      "能力证据",
+      "行动计划",
+      "申请记录",
+      "面试复盘",
+      "资格核验"
+    ],
+    "preview_count": 15,
+    "method": "逐张打开全部 15 张渲染图，覆盖 7 表标题、说明、样例和所有列；中文、数字、日期、长 URL 无截断或重叠。",
+    "limitations": "原生 Excel 桌面未执行；核验使用 artifact-tool 导出、重新导入和 XML 结构检查。"
+  },
+  "xlsx_structure": {
+    "sheets": [
+      "职能选择",
+      "岗位研究",
+      "能力证据",
+      "行动计划",
+      "申请记录",
+      "面试复盘",
+      "资格核验"
+    ],
+    "tables": 7,
+    "details": [
+      {
+        "file": "xl/worksheets/sheet1.xml",
+        "formulas": 23,
+        "validations": 3,
+        "frozen": true
+      },
+      {
+        "file": "xl/worksheets/sheet2.xml",
+        "formulas": 0,
+        "validations": 1,
+        "frozen": true
+      },
+      {
+        "file": "xl/worksheets/sheet3.xml",
+        "formulas": 0,
+        "validations": 2,
+        "frozen": true
+      },
+      {
+        "file": "xl/worksheets/sheet4.xml",
+        "formulas": 0,
+        "validations": 2,
+        "frozen": true
+      },
+      {
+        "file": "xl/worksheets/sheet5.xml",
+        "formulas": 0,
+        "validations": 3,
+        "frozen": true
+      },
+      {
+        "file": "xl/worksheets/sheet6.xml",
+        "formulas": 0,
+        "validations": 1,
+        "frozen": true
+      },
+      {
+        "file": "xl/worksheets/sheet7.xml",
+        "formulas": 0,
+        "validations": 2,
+        "frozen": true
+      }
+    ],
+    "sample_date_native_type": "d",
+    "sample_date": "2026-11-13T00:00:00.000Z",
+    "passed": true
+  },
+  "preview_location": "中间渲染目录；15 张图已逐张查看，不随发布包重复保存。",
+  "builder": "scripts/build-workbook.mjs"
+}

@@ -1,0 +1,356 @@
+{
+  "checked": "2026-11-13",
+  "status": "passed",
+  "data_type": "synthetic",
+  "method": "Python standard library and Decimal; independent CSV recalculation; compare existing case validation.json reference values.",
+  "assumption_sources": [
+    "cases/01-consulting/brief.md",
+    "cases/02-finance-accounting/brief.md",
+    "cases/02-finance-accounting/audit-exercise.md",
+    "cases/02-finance-accounting/credit-exercise.md",
+    "cases/02-finance-accounting/valuation-exercise.md"
+  ],
+  "input_files": [
+    {
+      "path": "cases/01-consulting/channel-data.csv",
+      "sha256": "d2b0c266fffcc31ce2faaee27ed71d8f4ae250b8b3ba3929e1f35db7196088e5"
+    },
+    {
+      "path": "cases/01-consulting/fixed-costs.csv",
+      "sha256": "8ed090241131b819cdab8ef3a90d2359f5228cd9ed3c69b3085fdfa19aab8fe3"
+    },
+    {
+      "path": "cases/01-consulting/options.csv",
+      "sha256": "6c6d5cd13f90d1988e319f2dd0af5cdbef7c470103d5d586773627d407fc0d94"
+    },
+    {
+      "path": "cases/02-finance-accounting/pnl-inputs.csv",
+      "sha256": "ee94cc825252813fbcefc727af983b4c5074c5a3fc6e07c2b11b33c20bc86ac5"
+    },
+    {
+      "path": "cases/02-finance-accounting/working-capital.csv",
+      "sha256": "02cab79a17bf4aee0d8dca1fcb2731e369d83d5d772ef07835e9f3099830c4ec"
+    },
+    {
+      "path": "cases/02-finance-accounting/cash-flows.csv",
+      "sha256": "7c83552a0faa859f3557898ecbcb0867c6fdab283b20e041870d7b511247a321"
+    },
+    {
+      "path": "cases/02-finance-accounting/invoice-sample.csv",
+      "sha256": "a26a7aa6db4d8a61cb2ee0f9e20eb91a0ae80da220ed32a1fa3b7c1ed3effa24"
+    },
+    {
+      "path": "cases/02-finance-accounting/credit-forecast.csv",
+      "sha256": "e490dd510f97807fb2ee4b05296c66a4075e8dc96363f08e5f9f7cf85ab46352"
+    },
+    {
+      "path": "cases/02-finance-accounting/valuation-comps.csv",
+      "sha256": "bb7e5330f05c0679bcf3d751bbc9f853eba6bfa503e44a9753884c76f99c66ee"
+    }
+  ],
+  "check_count": 37,
+  "checks": [
+    {
+      "check": "consulting.channel_sets",
+      "passed": true,
+      "actual": [
+        "delivery",
+        "dine_in"
+      ],
+      "expected": [
+        "delivery",
+        "dine_in"
+      ]
+    },
+    {
+      "check": "consulting.total_order_counts_unchanged",
+      "passed": true,
+      "actual": 20000,
+      "expected": 20000
+    },
+    {
+      "check": "consulting.bridge_assumption.dine_in.revenue_per_order_cny",
+      "passed": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "check": "consulting.bridge_assumption.dine_in.packaging_per_order_cny",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "consulting.bridge_assumption.delivery.revenue_per_order_cny",
+      "passed": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "check": "consulting.bridge_assumption.delivery.packaging_per_order_cny",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "consulting.bridge_assumption.rent_cny",
+      "passed": true,
+      "actual": 100000,
+      "expected": 100000
+    },
+    {
+      "check": "consulting.bridge_assumption.other_fixed_cost_cny",
+      "passed": true,
+      "actual": 30000,
+      "expected": 30000
+    },
+    {
+      "check": "consulting.profit_bridge_reconciles",
+      "passed": true,
+      "actual": -80000,
+      "expected": -80000
+    },
+    {
+      "check": "consulting.pickup_capacity",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "consulting.stable_threshold_meets_target",
+      "passed": true,
+      "actual": 100000,
+      "expected": 100000
+    },
+    {
+      "check": "consulting.first_threshold_meets_target",
+      "passed": true,
+      "actual": 100000,
+      "expected": 100000
+    },
+    {
+      "check": "consulting.reference.baseline_profit",
+      "passed": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "consulting.reference.current_profit",
+      "passed": true,
+      "actual": 60000,
+      "expected": 60000
+    },
+    {
+      "check": "consulting.reference.decline",
+      "passed": true,
+      "actual": 80000,
+      "expected": 80000
+    },
+    {
+      "check": "consulting.reference.stable_three_options",
+      "passed": true,
+      "actual": 105000,
+      "expected": 105000
+    },
+    {
+      "check": "consulting.reference.first_month_three_options",
+      "passed": true,
+      "actual": 102000,
+      "expected": 102000
+    },
+    {
+      "check": "consulting.reference.stable_pickup_threshold",
+      "passed": true,
+      "actual": 1500,
+      "expected": 1500
+    },
+    {
+      "check": "consulting.reference.first_month_pickup_threshold",
+      "passed": true,
+      "actual": 1800,
+      "expected": 1800
+    },
+    {
+      "check": "finance.ebit_bridge_reconciles",
+      "passed": true,
+      "actual": -46000,
+      "expected": -46000
+    },
+    {
+      "check": "finance.direct_equals_indirect_operating_cash",
+      "passed": true,
+      "actual": 48000,
+      "expected": 48000
+    },
+    {
+      "check": "finance.collections_reconcile",
+      "passed": true,
+      "actual": 900000,
+      "expected": 900000
+    },
+    {
+      "check": "finance.supplier_payments_reconcile",
+      "passed": true,
+      "actual": 660000,
+      "expected": 660000
+    },
+    {
+      "check": "finance.operating_payments_reconcile",
+      "passed": true,
+      "actual": 180000,
+      "expected": 180000
+    },
+    {
+      "check": "finance.reference.pnl.budget.revenue",
+      "passed": true,
+      "actual": 1000000,
+      "expected": 1000000
+    },
+    {
+      "check": "finance.reference.pnl.budget.ebit",
+      "passed": true,
+      "actual": 200000,
+      "expected": 200000
+    },
+    {
+      "check": "finance.reference.pnl.budget.pretax",
+      "passed": true,
+      "actual": 190000,
+      "expected": 190000
+    },
+    {
+      "check": "finance.reference.pnl.actual.revenue",
+      "passed": true,
+      "actual": 1056000,
+      "expected": 1056000
+    },
+    {
+      "check": "finance.reference.pnl.actual.ebit",
+      "passed": true,
+      "actual": 154000,
+      "expected": 154000
+    },
+    {
+      "check": "finance.reference.pnl.actual.pretax",
+      "passed": true,
+      "actual": 142000,
+      "expected": 142000
+    },
+    {
+      "check": "finance.reference.operating_cash_flow",
+      "passed": true,
+      "actual": 48000,
+      "expected": 48000
+    },
+    {
+      "check": "finance.reference.ending_cash",
+      "passed": true,
+      "actual": 108000,
+      "expected": 108000
+    },
+    {
+      "check": "finance.reference.september_invoices",
+      "passed": true,
+      "actual": 77000,
+      "expected": 77000
+    },
+    {
+      "check": "finance.reference.adjusted_september_expense",
+      "passed": true,
+      "actual": 56000,
+      "expected": 56000
+    },
+    {
+      "check": "finance.reference.credit.base_cny",
+      "passed": true,
+      "actual": 56000,
+      "expected": 56000
+    },
+    {
+      "check": "finance.reference.credit.downside_cny",
+      "passed": true,
+      "actual": -24000,
+      "expected": -24000
+    },
+    {
+      "check": "finance.reference.valuation_per_share",
+      "passed": true,
+      "actual": 19.2,
+      "expected": 19.2
+    }
+  ],
+  "results": {
+    "consulting": {
+      "baseline_profit": 140000,
+      "current_profit": 60000,
+      "decline": 80000,
+      "stable_three_options": 105000,
+      "first_month_three_options": 102000,
+      "stable_pickup_threshold": 1500,
+      "first_month_pickup_threshold": 1800
+    },
+    "finance": {
+      "pnl": {
+        "budget": {
+          "revenue": 1000000,
+          "ebit": 200000,
+          "pretax": 190000
+        },
+        "actual": {
+          "revenue": 1056000,
+          "ebit": 154000,
+          "pretax": 142000
+        }
+      },
+      "operating_cash_flow": 48000,
+      "ending_cash": 108000,
+      "september_invoices": 77000,
+      "adjusted_september_expense": 56000,
+      "credit": {
+        "base_cny": 56000,
+        "downside_cny": -24000
+      },
+      "valuation_per_share": 19.2
+    }
+  },
+  "details": {
+    "consulting": {
+      "profit_bridge": {
+        "channel_mix": -20000,
+        "food": -20000,
+        "commission": -20000,
+        "labor": -20000
+      },
+      "option_A_monthly": 15000,
+      "option_B_monthly": 18000,
+      "option_C_steady": 12000,
+      "option_C_first_month": 9000
+    },
+    "finance": {
+      "ebit_bridge": {
+        "volume": 40000,
+        "price": -44000,
+        "unit_cost": -22000,
+        "fixed_opex": -20000,
+        "depreciation": 0
+      },
+      "indirect_operating_cash_flow": 48000,
+      "confirmed_duplicate_record_ids": [
+        "R4"
+      ],
+      "credit_cash_buffer_gaps": {
+        "base_cny": 24000,
+        "downside_cny": 104000
+      },
+      "valuation_multiples": [
+        3,
+        4,
+        5
+      ],
+      "valuation_median_multiple": 4,
+      "valuation_enterprise_value_million": 200,
+      "valuation_equity_value_million": 192
+    }
+  },
+  "limits": "Only the published teaching dataset and its stated rules; no real company, audit opinion, lending approval or valuation recommendation."
+}

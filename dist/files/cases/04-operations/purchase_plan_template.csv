@@ -1,0 +1,4 @@
+option,order_week,arrive_week,quantity_units,reason
+regular,1,3,,
+expedite_early,1,2,,
+expedite_late,3,4,,

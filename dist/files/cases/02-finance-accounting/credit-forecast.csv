@@ -1,0 +1,9 @@
+﻿item,base_cny,downside_cny,data_type
+opening_cash,108000,108000,synthetic_assumption
+customer_collections,800000,720000,synthetic_assumption
+supplier_payments,640000,640000,synthetic_assumption
+operating_payments,180000,180000,synthetic_assumption
+interest,12000,12000,synthetic_assumption
+existing_debt_principal_due,20000,20000,synthetic_assumption
+capital_expenditure,0,0,synthetic_assumption
+minimum_cash_buffer,80000,80000,synthetic_assumption

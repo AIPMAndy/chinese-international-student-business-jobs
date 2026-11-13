@@ -1,0 +1,36 @@
+{
+  "checked_at_utc": "2026-11-13T07:58:55.784490+00:00",
+  "repository": "AIPMAndy/chinese-international-student-business-jobs",
+  "simulated_base_url": "https://aipmandy.github.io/chinese-international-student-business-jobs/",
+  "html_pages": 50,
+  "local_references": 3336,
+  "external_references_not_requested": 404,
+  "required_files": [
+    "index.html",
+    "downloads/business-careers-guide.pdf",
+    "downloads/business-job-workbook.xlsx",
+    "downloads/templates-and-cases.zip",
+    "downloads/repository-source.zip"
+  ],
+  "errors": [
+    {
+      "page": "downloads/templates-and-cases.zip",
+      "error": "required_file_missing_or_empty"
+    },
+    {
+      "page": "downloads/repository-source.zip",
+      "error": "required_file_missing_or_empty"
+    },
+    {
+      "page": "index.html",
+      "url": "downloads/templates-and-cases.zip",
+      "error": "missing_local_file"
+    },
+    {
+      "page": "index.html",
+      "url": "downloads/repository-source.zip",
+      "error": "missing_local_file"
+    }
+  ],
+  "scope": "Offline HTML/CSS files, HTML fragments, project-subpath URL resolution and required downloads. No network or JavaScript execution; not proof of deployment."
+}

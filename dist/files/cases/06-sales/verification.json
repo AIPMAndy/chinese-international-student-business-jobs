@@ -1,0 +1,12 @@
+{
+  "case": "06-sales",
+  "status": "passed",
+  "capacity_value_cu": 48000.0,
+  "first_year_cost_cu": 14000.0,
+  "base_net_capacity_value_cu": 14800.0,
+  "downside_net_capacity_value_cu": -4400.0,
+  "break_even_realization_rate": 0.2916666666666667,
+  "raw_annual_contract_value_cu": 64000.0,
+  "qualified_annual_contract_value_cu": 46000.0,
+  "weighted_pipeline_cu": 27200.0
+}

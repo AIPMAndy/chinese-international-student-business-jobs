@@ -1,0 +1,5 @@
+account,annual_contract_value_cu,stage,probability_assumption,qualified,quarter
+Aster,12000,qualified,0.4,1,2026-Q4
+Birch,18000,unqualified,0,0,2026-Q4
+Cedar,24000,proposal,0.6,1,2026-Q4
+Dune,10000,negotiation,0.8,1,2026-Q4

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "CF01",
+    "title": "McKinsey Business Analyst, Job 15136",
+    "url": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalyst-15136",
+    "checked": "2026-11-13",
+    "scope": "多办公室咨询 Business Analyst；具体办公室另核",
+    "type": "employer_jd",
+    "claim": "研究、分析、访谈、交付及英文/办公室语言要求",
+    "limitation": "跨办公室总 JD；不证明任一城市当前名额或签证支持；发布日期未显示"
+  },
+  {
+    "id": "CF02",
+    "title": "Bain Associate Consultant, Job 10397",
+    "url": "https://www.bain.com/careers/find-a-role/position/?jobid=10397",
+    "checked": "2026-11-13",
+    "scope": "Bain 多办公室 Associate Consultant",
+    "type": "employer_jd",
+    "claim": "市场测算、模型、情景、研究与实施；资格、语言和截止日因办公室不同",
+    "limitation": "总 JD 非所有办公室统一资格；发布日期未显示"
+  },
+  {
+    "id": "CF03",
+    "title": "Bain Our Hiring Process",
+    "url": "https://www.bain.com/careers/hiring-process/",
+    "checked": "2026-11-13",
+    "scope": "Bain 总体招聘流程",
+    "type": "employer_program",
+    "claim": "咨询岗位可能有案例面试，流程按岗位设计",
+    "limitation": "不据此断言固定轮次、时限或其他雇主流程"
+  },
+  {
+    "id": "CF04",
+    "title": "Deloitte UK Early Careers Assessment",
+    "url": "https://www.deloitte.com/uk/en/careers/early-careers/early-careers-assessment.html",
+    "checked": "2026-11-13",
+    "scope": "Deloitte 英国早期职业申请",
+    "type": "employer_program",
+    "claim": "行为/认知评估、工作模拟及部分项目例外",
+    "limitation": "仅英国页面；具体邀请和 JD 优先；发布日期未显示"
+  },
+  {
+    "id": "CF05",
+    "title": "Deloitte UK Early Careers Programmes",
+    "url": "https://www.deloitte.com/uk/en/careers/early-careers/early-careers-programmes.html",
+    "checked": "2026-11-13",
+    "scope": "Deloitte 英国服务线与项目",
+    "type": "employer_program",
+    "claim": "咨询、Advisory、审计、税务等分列入口",
+    "limitation": "职位名称在其他国家可能不同"
+  },
+  {
+    "id": "CF06",
+    "title": "J.P. Morgan Investment Banking Full-Time Analyst",
+    "url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/investment-banking-fulltime-analyst",
+    "checked": "2026-11-13",
+    "scope": "投资银行分析师项目介绍",
+    "type": "employer_program",
+    "claim": "报告、财务模型、交易支持与分析沟通要求",
+    "limitation": "项目总页非具体地区 JD；不证明个人申请资格"
+  },
+  {
+    "id": "CF07",
+    "title": "JPMorgan Global Finance & Business Management Analyst Program",
+    "url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/finance-fulltime-analyst",
+    "checked": "2026-11-13",
+    "scope": "财务与业务管理分析师项目介绍",
+    "type": "employer_program",
+    "claim": "预算、预测、报表、会计及差异分析基础",
+    "limitation": "地区开放与条件需查实际职位"
+  },
+  {
+    "id": "CF08",
+    "title": "2027 GFBM Full-Time Warsaw, Job 210800886",
+    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210800886?gh_src=NEXT+Frontier+Capital+job+board",
+    "checked": "2026-11-13",
+    "scope": "波兰华沙，2027 毕业生，2026-10-27 发布",
+    "type": "employer_jd",
+    "claim": "2027 年毕业；财务报表/差异基础；Excel/PowerPoint/Word；页面截止日2026-11-15",
+    "limitation": "全文由搜索服务读取雇主原页；无查询参数页面可能为 JS 空壳；过期仅作历史岗位样本"
+  },
+  {
+    "id": "CF09",
+    "title": "EY UK Audit Graduate Programme, September 2027 intake",
+    "url": "https://ukstudents.ey.com/page/3/?paged=3",
+    "checked": "2026-11-13",
+    "scope": "英国 Newcastle/Reading 等当季审计毕业生岗位",
+    "type": "employer_jd",
+    "claim": "分析、证据、团队协作、职业判断及项目内 ICAEW/ICAS 学习",
+    "limitation": "分页列表会变化；核查岗位标题、地点与入职批次；资格由具体申请页确认"
+  },
+  {
+    "id": "CF10",
+    "title": "EY UK Graduate Programmes",
+    "url": "https://www.ey.com/en_uk/careers/students/graduates",
+    "checked": "2026-11-13",
+    "scope": "EY 英国当季毕业生流程",
+    "type": "employer_program",
+    "claim": "在线评估后 Experience Day，部分项目最终面试；当季日期2026年11月至2027年4月",
+    "limitation": "日期仅本批次；不当作年度固定日期"
+  },
+  {
+    "id": "CF11",
+    "title": "P&G United States Finance and Accounting",
+    "url": "https://www.pgcareers.com/us/en/us-finance",
+    "checked": "2026-11-13",
+    "scope": "美国财务与会计职能介绍",
+    "type": "employer_program",
+    "claim": "核算、成本、内控、现金与供应链财务方向不同",
+    "limitation": "职能总页，不等于具体应届岗位条件"
+  },
+  {
+    "id": "CF12",
+    "title": "ACCA Are you ready for membership?",
+    "url": "https://www.accaglobal.com/gb/en/student/becoming-member/member-ready.html",
+    "checked": "2026-11-13",
+    "scope": "ACCA 会员条件",
+    "type": "qualification",
+    "claim": "考试、伦理模块及实践要求；36个月、九项目标或适用豁免、监督签署",
+    "limitation": "会员资格不自动等于任何地区法定审计/受监管业务许可"
+  },
+  {
+    "id": "CF13",
+    "title": "NASBA Pathways",
+    "url": "https://nasba.org/pathways/",
+    "checked": "2026-11-13",
+    "scope": "美国 CPA 各司法辖区路径更新，页面地图标注2026-10-01",
+    "type": "qualification",
+    "claim": "资格路径正在变化，需逐辖区核对现行法律和规则",
+    "limitation": "概览不替代州会计委员会；本册未逐州确认个人资格"
+  }
+]

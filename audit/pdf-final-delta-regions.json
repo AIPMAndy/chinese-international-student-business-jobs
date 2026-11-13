@@ -1,0 +1,359 @@
+{
+  "reviewer": "/root/regions",
+  "revision": "186-page-final",
+  "checked_at": "2026-11-13T08:12:53.451938+00:00",
+  "pdf": "downloads/business-careers-guide.pdf",
+  "pdf_sha256": "31652098090efc3659eb7bce7828d95bcda156fd515cfb1d39d69c969d119464",
+  "pdf_total_pages": 186,
+  "previous_review": "audit/pdf-review-final-051-100.json",
+  "previous_pdf_sha256": "70ec71f8c647e1a034e47665a8b22d381688b6acbe6a47e336970f2acaba8c48",
+  "pixel_mapping": "audit/pdf-final-page-map.json",
+  "scope": "新51—100页的变化复核及101页边界衔接；仅此范围，不替代其他审阅者对其余页面的检查。",
+  "status": "passed",
+  "final_approval_for_scope": true,
+  "open_issues": [],
+  "resolved_issues": [
+    {
+      "id": "FINAL-H89",
+      "status": "resolved",
+      "evidence_pages": [
+        89,
+        90
+      ]
+    },
+    {
+      "id": "FINAL-H100",
+      "status": "resolved",
+      "evidence_pages": [
+        100,
+        101
+      ]
+    }
+  ],
+  "pages_rechecked": [
+    {
+      "page": 84,
+      "status": "passed",
+      "visual_method": "完整单页PNG放大查看",
+      "render_sha256": "cc739119c0f9c864e9ed3d62b404bcda0bd0dc0a6d110ec21b27a748e650cd21",
+      "body_hash": "c94ede05973826e9c1541b397685aa39a1ae4dcbb1b7a80045f3757ac7f5d81e",
+      "checks": {
+        "chinese_and_english_glyphs": "passed",
+        "table_cells_and_borders": "passed",
+        "heading_table_binding": "passed",
+        "no_orphan_page": "passed",
+        "no_clipping_or_overlap": "passed",
+        "page_header_footer": "passed"
+      },
+      "note": "材料证据表及上下说明完整，评估形式标题已移至下一页，与原内容连续。"
+    },
+    {
+      "page": 85,
+      "status": "passed",
+      "visual_method": "完整单页PNG放大查看",
+      "render_sha256": "e614c2025e34b073893ae79df7000b47204e4a45aca7388304ac6be521dc2d72",
+      "body_hash": "9a971b50c206b8cabc73535ff0f2b66c313654c4b36c7273bb199a7d2f00bcec",
+      "checks": {
+        "chinese_and_english_glyphs": "passed",
+        "table_cells_and_borders": "passed",
+        "heading_table_binding": "passed",
+        "no_orphan_page": "passed",
+        "no_clipping_or_overlap": "passed",
+        "page_header_footer": "passed"
+      },
+      "note": "评估形式标题、两段说明与绿色步骤同页；步骤内容完整，无验收/错误处理拆分和越界。"
+    },
+    {
+      "page": 89,
+      "status": "passed",
+      "visual_method": "完整单页PNG放大查看",
+      "render_sha256": "b246ce091d074120062727c9142e67c0c12e13703ffd17294012e9b4f02ad3a1",
+      "body_hash": "2c69de49fce40006e97a09a77c202903a4e2c691fb06827c9a8a1a6a8028a76e",
+      "checks": {
+        "chinese_and_english_glyphs": "passed",
+        "table_cells_and_borders": "passed",
+        "heading_table_binding": "passed",
+        "no_orphan_page": "passed",
+        "no_clipping_or_overlap": "passed",
+        "page_header_footer": "passed"
+      },
+      "note": "末尾仅保留完整步骤一内容；步骤二标题已随表移至下一页，无孤立标题。"
+    },
+    {
+      "page": 90,
+      "status": "passed",
+      "visual_method": "完整单页PNG放大查看",
+      "render_sha256": "da42a25668ee543ceeee2e46918f49fa0d4c38c315c931cfe87644b88828499d",
+      "body_hash": "569d01ede548fa68716e4c193875e4678406efa5d832ef0de939be9c435508ab",
+      "checks": {
+        "chinese_and_english_glyphs": "passed",
+        "table_cells_and_borders": "passed",
+        "heading_table_binding": "passed",
+        "no_orphan_page": "passed",
+        "no_clipping_or_overlap": "passed",
+        "page_header_footer": "passed"
+      },
+      "note": "步骤二标题与六路线表同页；后续教学模拟和英文句子完整，表格及页脚均清晰。"
+    },
+    {
+      "page": 100,
+      "status": "passed",
+      "visual_method": "完整单页PNG放大查看",
+      "render_sha256": "34e9c5999ec998f7f1306191961ec9a2aa8539ceec7f2ce76ed79de78b57986f",
+      "body_hash": "b56f9eb0ca2a84ccd27818189ebd7ffdcdafe8fa8a2cc938b8109deb54d2b05e",
+      "checks": {
+        "chinese_and_english_glyphs": "passed",
+        "table_cells_and_borders": "passed",
+        "heading_table_binding": "passed",
+        "no_orphan_page": "passed",
+        "no_clipping_or_overlap": "passed",
+        "page_header_footer": "passed"
+      },
+      "note": "结尾完整停在复盘段落；观察表标题已移往下一页，不再孤立。"
+    },
+    {
+      "page": 101,
+      "status": "passed",
+      "visual_method": "完整单页PNG放大查看",
+      "render_sha256": "fa06fa3a03e72ef402004ab7e21b4c5dc209c0628d16c291f57b5be6d3210303",
+      "body_hash": "cccb0014ad9c1411d3b95fd3fda46f37ed431eca488a45a51a6659a297eb9c4b",
+      "checks": {
+        "chinese_and_english_glyphs": "passed",
+        "table_cells_and_borders": "passed",
+        "heading_table_binding": "passed",
+        "no_orphan_page": "passed",
+        "no_clipping_or_overlap": "passed",
+        "page_header_footer": "passed"
+      },
+      "note": "观察表标题与整表同页；复盘例子、表格、中文及页码均正常。"
+    }
+  ],
+  "inherited_unchanged_pages": [
+    {
+      "page": 51,
+      "from_page": 51,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 52,
+      "from_page": 52,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 53,
+      "from_page": 53,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 54,
+      "from_page": 54,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 55,
+      "from_page": 55,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 56,
+      "from_page": 56,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 57,
+      "from_page": 57,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 58,
+      "from_page": 58,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 59,
+      "from_page": 59,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 60,
+      "from_page": 60,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 61,
+      "from_page": 61,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 62,
+      "from_page": 62,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 63,
+      "from_page": 63,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 64,
+      "from_page": 64,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 65,
+      "from_page": 65,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 66,
+      "from_page": 66,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 67,
+      "from_page": 67,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 68,
+      "from_page": 68,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 69,
+      "from_page": 69,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 70,
+      "from_page": 70,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 71,
+      "from_page": 71,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 72,
+      "from_page": 72,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 73,
+      "from_page": 73,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 74,
+      "from_page": 74,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 75,
+      "from_page": 75,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 76,
+      "from_page": 76,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 77,
+      "from_page": 77,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 78,
+      "from_page": 78,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 79,
+      "from_page": 79,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 80,
+      "from_page": 80,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 81,
+      "from_page": 81,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 82,
+      "from_page": 82,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 83,
+      "from_page": 83,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 86,
+      "from_page": 86,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 87,
+      "from_page": 87,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 88,
+      "from_page": 88,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 91,
+      "from_page": 91,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 92,
+      "from_page": 92,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 93,
+      "from_page": 93,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 94,
+      "from_page": 94,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 95,
+      "from_page": 95,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 96,
+      "from_page": 96,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 97,
+      "from_page": 97,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 98,
+      "from_page": 98,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    },
+    {
+      "page": 99,
+      "from_page": 99,
+      "basis": "正文像素哈希一致，沿用185-page-final逐页视觉记录"
+    }
+  ],
+  "summary": "6张变化页或相邻衔接页均经单页视觉检查通过。两处标题与短表分离已经修复；45页按正文像素一致映射沿用上一轮逐页审阅。未发现文字缺失、表格截断、遮挡、越界或孤页。"
+}

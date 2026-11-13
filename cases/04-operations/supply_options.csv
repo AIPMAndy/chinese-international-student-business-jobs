@@ -1,0 +1,4 @@
+option,order_week,arrive_week,max_quantity,lot_size,unit_cost_cu
+regular,1,3,200,50,12
+expedite_early,1,2,100,25,17
+expedite_late,3,4,100,25,17

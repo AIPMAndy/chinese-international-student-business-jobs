@@ -1,0 +1,9 @@
+{
+  "name":"chinese-international-student-business-jobs",
+  "version":"1.0.0",
+  "private":true,
+  "description":"Chinese international students' business careers handbook by AI Chief Andy",
+  "scripts":{"build":"node scripts/build-site.mjs","check":"python3 scripts/verify.py && node --check assets/app.js"},
+  "devDependencies":{"marked":"17.0.5"},
+  "engines":{"node":">=20"}
+}

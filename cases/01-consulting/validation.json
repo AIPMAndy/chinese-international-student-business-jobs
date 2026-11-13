@@ -1,0 +1,15 @@
+{
+  "checked": "2026-11-13",
+  "data_type": "synthetic",
+  "results": {
+    "baseline_profit": 140000,
+    "current_profit": 60000,
+    "decline": 80000,
+    "stable_three_options": 105000,
+    "first_month_three_options": 102000,
+    "stable_pickup_threshold": 1500,
+    "first_month_pickup_threshold": 1800
+  },
+  "status": "passed",
+  "method": "独立读取CSV重算贡献、固定费和方案；检查利润桥与阈值方程。"
+}

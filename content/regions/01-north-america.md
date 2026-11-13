@@ -1,0 +1,110 @@
+# 北美：先把工作资格与招聘资格分开
+
+核验日期：2026-11-13。适用人群：中国留学生；具体国籍、居留和学历条件以个人情况为准。美国、加拿大、墨西哥分别核实，不能相互套用。
+
+你需要同时通过三道门：政府允许你在何时、为何种雇主工作；雇主是否接受你的当前及未来身份；你是否满足这个职能的能力要求。学校允许毕业，不代表雇主允许入职；获得面试，也不代表工作许可已经完成。
+
+## 地区研究的五步操作
+
+| 步骤 | 输入 | 操作 | 输出 | 验收 | 错误处理 |
+| --- | --- | --- | --- | --- | --- |
+| 1. 定身份 | 护照、签证/许可、学校和课程、预计完成日 | 在政府官方页匹配自己的类别，记录生效日期 | 身份卡 | 类别与本人一致 | 不清楚时问学校国际处或主管机构，不靠同学经历推断 |
+| 2. 找原岗位 | 职能关键词、目标城市 | 学校平台发现线索，进入雇主原 JD | 每地至少3条岗位 | 有岗位ID、地点、毕业范围 | 聚合站无原页则标待核，不作为投递依据 |
+| 3. 定窗口 | 原JD、项目FAQ | 区分申请截止、测评截止、开工日、许可到期日 | 四日期日历 | 写清当地时区 | 已关闭改备选；滚动岗位提前提交 |
+| 4. 备材料 | 真实经历、作业/项目、原成绩单 | 只按该雇主上传要求制作材料 | 职能版申请包 | 项目与就业经历标签准确 | 无真实业绩就写方法、样本和局限，不补造收益 |
+| 5. 双重确认 | 身份卡、岗位卡 | 对未明确的赞助、毕业日期、语言分别问招聘方 | 可投/待确认/不符合 | 未确认项不得写成符合 | 资格不符立即换岗位，能力不足进入训练计划 |
+
+下文材料建议是申请准备办法。只有明确写“雇主要求”的内容，才是该样本的事实；它不代表全国统一惯例。
+
+## 美国
+
+覆盖状态：规则与雇主样本已核实。
+
+### 工作资格
+
+先区分 F-1 在读实习 CPT、毕业前后 OPT 和以后可能需要的雇主担保。DHS 将常规 OPT 与主修专业直接关联；STEM 延长取决于合资格学位及其他条件。Business Analytics 的课程名称本身不能证明 STEM 资格。[RG01](https://studyinthestates.dhs.gov/assets/SEVP_PracticalTrainingOverview_1-pager.pdf)
+
+CPT 不是拿到实习Offer即拥有的许可：须由DSO按当前联邦与本校课程要求事前授权，并按I-20列明的雇主及日期工作。一般完整学年条件、要求立即参加实践训练的研究生课程例外及已用时长都要核对；同一学历层次累计至少12个月全职CPT会失去相应OPT资格。[RG69](https://ois.usc.edu/employment/curricular-practical-training-cpt/)
+
+USC于2026-08-25说明新的SEVP课程关联指引：选修实习课程不能自动证明CPT资格，须先让本校DSO确认。OPT另须获得USCIS就业授权、收到EAD并到可开工日期，不能仅凭DSO推荐或申请回执开工。[RG70](https://ois.usc.edu/important-update-regarding-curricular-practical-training/) [RG71](https://ois.usc.edu/employment/post-completion-opt/)
+
+### 招聘渠道与毕业生入口
+
+学校 career portal 用于发现校招、宣讲和校友资源；正式申请进入雇主网站，分别搜索 internship、summer analyst、full-time analyst、associate、new graduate。把 sponsor now / in the future 的两个问题分开处理。
+
+PwC US 的初级招聘是一个反例：公司当前对需要 H-1B 抽签担保者有明显限制并列出例外。即使短期 OPT 可工作，也要核对未来担保这一栏。[RG38](https://www.pwc.com/us/en/careers/entry-level/recruiting.html)
+
+### 时间窗口
+
+德银纽约 2027 IBCM Coverage 项目原页列 2026-07-31 至 08-28；核验日已截止。同一银行其他城市、业务线日期不同。把这个例子用来理解提前招聘，不把它当作仍可投的岗位。[RG42](https://karriere.db.com/students-graduates/your-application/)
+
+### 申请材料与下一步
+
+以具体表单为准。PwC US 要求上传 PDF 简历、不要求求职信，且会按路线安排评估。准备英文简历、成绩信息、真实授权状态与可入职日期；学校作业放 Academic Project，不放 Employment。[RG38](https://www.pwc.com/us/en/careers/entry-level/recruiting.html)
+
+输入 I-20、毕业计划、三条原始 JD；请 DSO 确认课程与工作关系和授权时间，再向招聘方确认未来担保政策。输出一张“当前工作权/未来担保/开始日期/证据”卡。验收是三项都有来源，不能把未确认填成 Yes。
+
+**本地区的边界：** 本版没有给出 H-1B 中签率、签证获批率或所有雇主的赞助名单；加拿大、欧洲就读者不能自动套用美国 F-1 毕业路径。
+
+## 加拿大
+
+覆盖状态：规则与雇主样本已核实。
+
+### 工作资格
+
+PGWP要看具体院校、课程、学习状态及两个不同的申请日期。对2024-11-01或之后提交的PGWP申请，学士、硕士、博士通常须达到英语CLB 7或法语NCLC 7，听说读写四项均满足，且没有专业领域限制；其他大学课程语言要求也是7，college、polytechnic及其他非大学课程通常为5。后两类若学签申请在2024-11-01或之后，还须满足合资格专业领域要求。[RG02](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html)
+
+语言规则看PGWP申请日，专业领域条件看学签申请日，不能混用。2024-11-01前提交PGWP的语言例外不是对后来毕业生的通用豁免。一般申请窗口为确认完成学业后的180天内，但这段申请窗口本身不等于已拥有工作权。[RG02](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html)
+
+### 招聘渠道与毕业生入口
+
+学校 co-op/career portal 和雇主 campus 页面并行。搜索 co-op、internship、new grad、campus、analyst；在魁北克增加法语查询词 analyste、stagiaire。
+
+PwC Canada 校招可从审计、税务、咨询等具体入口选择；每轮只能投一个 campus role，并有再次申请间隔。该限制说明“同公司多职能海投”可能直接违背规则。[RG39](https://www.pwc.com/ca/en/careers/campus/applying-to-pwc.html)
+
+### 时间窗口
+
+PwC 加拿大官网列春季等招聘周期；每个岗位另有截止。不要把春招月份当统一录取季，也不要假设 co-op 只在暑假进行。核验岗位列表、预计毕业日和可全职工作学期。[RG40](https://www.pwc.com/ca/en/careers/campus.html)
+
+### 申请材料与下一步
+
+PwC 示例为 resume 或 CACEE 表、最新非正式成绩单，无须求职信；魁北克岗位有法语要求。不要擅自重算 GPA，先保留原始评分尺度并按雇主指引转换。[RG39](https://www.pwc.com/ca/en/careers/campus/applying-to-pwc.html)
+
+输入课程名称与类型、学签申请日、PGWP申请日、语言四项成绩及目标城市。先用IRCC规则确认具体课程的PGWP资格和日期条件，再核岗位语言与轮次。输出主方向一个、备用方向一个及co-op/毕业岗位日历。验收：清楚区分“无专业限制”与“无需任何条件”；日期或课程不明确时先向学校与IRCC核对。
+
+**本地区的边界：** 未逐省核实CPA等职业资格，也未将全部商科证书列入PGWP合资格名单。雇主赞助政策及岗位语言要求看原JD和招聘方答复；魁北克等地适用的法律或移民语言条件看相应主管机构，不能由JD替代。
+
+## 墨西哥
+
+覆盖状态：资格与实习入口核实，毕业生路径覆盖有限。
+
+### 工作资格
+
+INM 为临时居民与临时学生提供工作许可办理事项，涉及雇主聘书、职责、工作地点和雇主登记。不能把学生居留或毕业直接当作可工作的证明。[RG65](https://www.gob.mx/public/tramites/detalleTramite.xhtml?homoclave=INM-03-005-A)
+
+### 招聘渠道与毕业生入口
+
+从学校 bolsa de trabajo、雇主墨西哥 careers 页面检索 becario、practicante、analista、recién egresado；先确认是学生实习还是正式初级岗。西班牙语申请材料按 JD 准备。
+
+联合利华 ULIP 的 2025 官方项目样本分别列 Sales、Finance、Marketing、Supply Chain。它要求在校进度、至少一年后毕业和每天可投入时间，适合训练如何识别“仍须在读”的实习入口。[RG41](https://www.unilever.com.mx/news/press-releases/2025/unilever-leadership-interns-program-aplica-ya/)
+
+### 时间窗口
+
+上述是历史项目样本，未把它认定为 2027 当前开放。找到新职位后记录发布、截止、实习起止及所需学生身份。
+
+### 申请材料与下一步
+
+本册建议先备西班牙语或岗位指定语言 CV、在读与预计毕业证明、每日可实习时间、相关课程项目证据。学校同意文件及移民材料依 INM 和招聘方清单处理。
+
+输入个人学生状态和一条当前原 JD；先问是否接受非墨西哥公民以及是否协助许可，再制作当地市场/供应链案例。验收：得到岗位级答复后才把该岗位列入有效申请。
+
+**本地区的边界：** 未充分核实面向中国毕业生的全国性毕业后求职许可和各企业赞助意愿；加勒比与中美洲其他国家尚未逐国研究。
+
+
+---
+
+作者：AI 酋长 Andy · 微信：AIPMAndy · 公众号：AI酋长Andy
+
+个人官网：<https://metaver.vip/> · 公司官网：<https://www.a6no1.cn/>
+
+免费内容完整开放。咨询可用于职业方向判断、申请材料诊断与面试陪跑，不承诺录用或薪资。

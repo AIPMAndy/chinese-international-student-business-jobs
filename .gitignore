@@ -1,0 +1,9 @@
+node_modules/
+__pycache__/
+.venv/
+tmp/
+*.pyc
+.DS_Store
+audit/rendered/
+audit/screenshots/
+.openai/local/

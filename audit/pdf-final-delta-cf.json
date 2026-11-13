@@ -1,0 +1,267 @@
+{
+  "revision": "186-page-final-delta",
+  "checked": "2026-11-13",
+  "pdf": "downloads/business-careers-guide.pdf",
+  "pdf_sha256": "31652098090efc3659eb7bce7828d95bcda156fd515cfb1d39d69c969d119464",
+  "pdf_pages": 186,
+  "method": "对指派7个变化页逐张打开全页图，并查看186封底；其他对应正文按像素映射沿用已阅记录。",
+  "previous_review": "audit/pdf-review-final-146-185.json",
+  "page_map": "audit/pdf-final-page-map.json",
+  "viewed_pages": [
+    {
+      "page": 149,
+      "image": "audit/rendered/page-149.png",
+      "sha256": "a0fbbef91252b182d176f359cfaa04f6002526c0a854713b6f8e92d0355e844c",
+      "viewed": "full-page image opened",
+      "observation": "标题与漏斗/D30 原始输入表完整，字典字体清楚。"
+    },
+    {
+      "page": 150,
+      "image": "audit/rendered/page-150.png",
+      "sha256": "45cd84f87cca577d8e907fd8174b673cd9b0edef1d701b6ab465ee75c6e930a0",
+      "viewed": "full-page image opened",
+      "observation": "D60 表及空值说明完整，无裁切。"
+    },
+    {
+      "page": 156,
+      "image": "audit/rendered/page-156.png",
+      "sha256": "5a96f54a512e437f8aca31480e8e71130823242eabc4160cc5a619e5854eff57",
+      "viewed": "full-page image opened",
+      "observation": "适配与两张管线小表完整，无拆行。"
+    },
+    {
+      "page": 157,
+      "image": "audit/rendered/page-157.png",
+      "sha256": "c75c955f106ad6facc7e260291d0d769b22e144f9b276e180894ddd74bd91e5d",
+      "viewed": "full-page image opened",
+      "observation": "参数表和字段字典完整，同页结束。"
+    },
+    {
+      "page": 160,
+      "image": "audit/rendered/page-160.png",
+      "sha256": "bb449dd86ac99ac769631f32af7fb8909aa6727c751de816f4b689fbae01747a",
+      "viewed": "full-page image opened",
+      "observation": "上一版评分标题已移出本页，邮件中英文完整。"
+    },
+    {
+      "page": 161,
+      "image": "audit/rendered/page-161.png",
+      "sha256": "36f2af5638a259b1b612ed54d3afe2d55d817f035905f7da9d498cad84656b76",
+      "viewed": "full-page image opened",
+      "observation": "评分标题与表同页，表格与后续申请样例可读；末尾英文段落仍续下一页。"
+    },
+    {
+      "page": 162,
+      "image": "audit/rendered/page-162.png",
+      "sha256": "54fe4972cfbd0c7ac427535ab048c7041e69f2f8422fb9ed0260eb72861cbbff",
+      "viewed": "full-page image opened",
+      "observation": "仅英文申请段落最后两行，形成明显孤页。"
+    },
+    {
+      "page": 186,
+      "image": "audit/rendered/page-186.png",
+      "sha256": "40e49475994e1e90f35039ff1f60989a0b2d6abe0f54a12b2488509e57dff795",
+      "viewed": "full-page image opened",
+      "observation": "封底文字、网址、作者品牌完整，页脚显示186。"
+    }
+  ],
+  "inherited_body_reviews": [
+    {
+      "new_page": 146,
+      "previous_page": 146,
+      "body_hash": "0f01c270075f0d5707d119b33b85c42e869a841b9936d2a5d64bee170730783c"
+    },
+    {
+      "new_page": 147,
+      "previous_page": 147,
+      "body_hash": "adb8d05dadd364df9c358086fb13dfc967e43f94bbe448cadf851e208b6698f1"
+    },
+    {
+      "new_page": 148,
+      "previous_page": 148,
+      "body_hash": "155513ce781ba9bf9679649dc2316d35824fbee97133f727a9d02651d50d886b"
+    },
+    {
+      "new_page": 151,
+      "previous_page": 151,
+      "body_hash": "f895895ed96eaf72b58b0b708bdb5e33b5100b08e602cd80694dbf84b2756bfb"
+    },
+    {
+      "new_page": 152,
+      "previous_page": 152,
+      "body_hash": "1df48f1d107b35b06424d6ab3b501405fb7542a4b64221f7f0a24066212da458"
+    },
+    {
+      "new_page": 153,
+      "previous_page": 153,
+      "body_hash": "90ad3b12f77a699cc0b22197f64ea5aa71ffee7e67d778a5a43d7b68ade6d30a"
+    },
+    {
+      "new_page": 154,
+      "previous_page": 154,
+      "body_hash": "6234fe498b5a46cb9e7cc90e956f8fb0f6557b481b3231232cbd5b57a78b9a32"
+    },
+    {
+      "new_page": 155,
+      "previous_page": 155,
+      "body_hash": "12ca5a1ead47a60165503e86d1a02ad2247259af1b04691a57f2c7335594c0f2"
+    },
+    {
+      "new_page": 158,
+      "previous_page": 158,
+      "body_hash": "b70f1d5cf02f8ef4f1e60a08cfd1db799dfdf405ed031fb56aaecb2137a9fec4"
+    },
+    {
+      "new_page": 159,
+      "previous_page": 159,
+      "body_hash": "70f92c66da1ae236de8ce0299e2cf4557d8c7a10a1d22a51fca619c7336f0d21"
+    },
+    {
+      "new_page": 163,
+      "previous_page": 162,
+      "body_hash": "70eea187a70aa19b66dbda40540460ffce86290f7f22c8ff0bb2bded7ba367b9"
+    },
+    {
+      "new_page": 164,
+      "previous_page": 163,
+      "body_hash": "32f08c7218fd9f9a13a2a51b0963fc978cf35208078639b6b2d99d6b7e7f6ea9"
+    },
+    {
+      "new_page": 165,
+      "previous_page": 164,
+      "body_hash": "484c489dfc834d7602e64eb9372bd6657d871dc58379c560b298eb958093b1cc"
+    },
+    {
+      "new_page": 166,
+      "previous_page": 165,
+      "body_hash": "b3ecc3c5d61a1c4e7eecc1a08eb381afbf2781f83616557881cca235567ab874"
+    },
+    {
+      "new_page": 167,
+      "previous_page": 166,
+      "body_hash": "bfafbf80ce5d50e71c2156a1fb3b192d809861dac8e8897987087513621aa9aa"
+    },
+    {
+      "new_page": 168,
+      "previous_page": 167,
+      "body_hash": "5dd08255839be3589e2140d5d38095cb9121dd0ec63f634d6de4d0d7a86b8bf8"
+    },
+    {
+      "new_page": 169,
+      "previous_page": 168,
+      "body_hash": "f7201fd145b814f885f455a843f09dc1dfb2546d53ae23f49464eaea0eaada8a"
+    },
+    {
+      "new_page": 170,
+      "previous_page": 169,
+      "body_hash": "bf03c23d1acfc8ba655a8f79d3cae6621bd1697ff5e02d2e0f5c9083a9d7a64a"
+    },
+    {
+      "new_page": 171,
+      "previous_page": 170,
+      "body_hash": "605ccf388a2ce472b5a66bc1cc8c5842f9428e6f834b44be07626ff47c199c60"
+    },
+    {
+      "new_page": 172,
+      "previous_page": 171,
+      "body_hash": "dc70792075c342db53d5ed4680765f4e9d433d423c28f96aa50f0e747cc45547"
+    },
+    {
+      "new_page": 173,
+      "previous_page": 172,
+      "body_hash": "733235ed83d6a931d43a897f795863b20bd267bef64ed3eefc348e4262dbbac8"
+    },
+    {
+      "new_page": 174,
+      "previous_page": 173,
+      "body_hash": "3e393e9ff0f293734a04551832ba208c5995d14f1225368e7bac0d89794073d1"
+    },
+    {
+      "new_page": 175,
+      "previous_page": 174,
+      "body_hash": "34c94faac13c7c96e90c0913c4fd5518df62be1746ebcbb97936165b3620dbce"
+    },
+    {
+      "new_page": 176,
+      "previous_page": 175,
+      "body_hash": "5b2d7642d19752017aad687b9687cc8b6266c5bce8f87b9162bd39d249ee45cf"
+    },
+    {
+      "new_page": 177,
+      "previous_page": 176,
+      "body_hash": "53b9190a6179fa5141e3e5cd2aa3e46927eef1d446d9aba05c6433ca3be9da67"
+    },
+    {
+      "new_page": 178,
+      "previous_page": 177,
+      "body_hash": "cbb62bf9181a4d8d7a4e3f0cd9148ac339d8aca986ab6aa3067199e229ba48c9"
+    },
+    {
+      "new_page": 179,
+      "previous_page": 178,
+      "body_hash": "dd6050bedab9c65b28b7ed19bf3f07c0fee47d3fd27dcc9ef5a181b09fe4d104"
+    },
+    {
+      "new_page": 180,
+      "previous_page": 179,
+      "body_hash": "4e7678bd9c76f9f01695cf23d4ff050ed8985b9d5ec02a76d06be4cee0fca2eb"
+    },
+    {
+      "new_page": 181,
+      "previous_page": 180,
+      "body_hash": "09c9c63e3f6beaf8f34179d6301e07cb9661637ec8c4b9a0f6cab43f2bb3de4a"
+    },
+    {
+      "new_page": 182,
+      "previous_page": 181,
+      "body_hash": "413f2cd7c0603a2a01148c196d89bb3f0624931e09e91c6814031e92d1825fa1"
+    },
+    {
+      "new_page": 183,
+      "previous_page": 182,
+      "body_hash": "e9090b59397816b01f208556c0471250cb1f0e9502c75d6f27ef527d60c9ca74"
+    },
+    {
+      "new_page": 184,
+      "previous_page": 183,
+      "body_hash": "5495bd37d66f6c067f2cb4cc2bd9496b481d89f7f1b10d57b4f5ad2678c05886"
+    },
+    {
+      "new_page": 185,
+      "previous_page": 184,
+      "body_hash": "22dca2721ac5212d14963686941258eb134fbaf5a47e7f1ddd7479c1534e234a"
+    }
+  ],
+  "resolved": [
+    {
+      "id": "V146-01",
+      "pages": [
+        160,
+        161
+      ],
+      "result": "评分标题与完整评分表已绑定在161页。"
+    }
+  ],
+  "findings": [
+    {
+      "id": "VDELTA-CF-01",
+      "severity": "major",
+      "page": 162,
+      "description": "英文申请段落仅最后两行落在新162页，构成明显孤页。",
+      "recommendation": "局部压缩销售评分表内边距或本页段间距，回收两行高度并回161页；避免重新调整全书。"
+    }
+  ],
+  "acceptance": {
+    "status": "requires_revision",
+    "assigned_changed_pages_viewed": 7,
+    "closing_page_viewed": 186,
+    "table_heading_binding_fixed": true,
+    "clipping_or_overlap_observed": false,
+    "unreadable_glyphs_observed": false,
+    "long_link_overflow_observed": false,
+    "obvious_orphan_pages": [
+      162
+    ],
+    "closing_page_number_correct": true
+  }
+}

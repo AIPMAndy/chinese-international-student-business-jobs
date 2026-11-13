@@ -1,0 +1,49 @@
+[
+  {
+    "repo": "how-to-get-offer",
+    "commit": "250e8fd427e98352eab64ff265de15431355a6a9",
+    "read_paths": [
+      "README.md",
+      "guides/07-positioning-lab.md",
+      "guides/12-role-playbooks.md",
+      "guides/13-real-world-journey.md"
+    ],
+    "markdown_files": 53
+  },
+  {
+    "repo": "teach-rd-product-handbook",
+    "commit": "b459caca3a17125b5d294efdb746b51ae56cb416",
+    "read_paths": [
+      "README.md",
+      "docs/curriculum.md"
+    ],
+    "markdown_files": 12
+  },
+  {
+    "repo": "how-to-become-an-executive",
+    "commit": "dd5525cffc40392c73d4bd40f505321d4804cfc7",
+    "read_paths": [
+      "README.md",
+      "playbooks/02-business-onepager.md",
+      "tracks/finance-hr-technology.md"
+    ],
+    "markdown_files": 64
+  },
+  {
+    "repo": "ai-knowledge-paid-acquisition-handbook",
+    "commit": "5620f2b02e6458b8c76ad3b525c2b4fe9725d334",
+    "read_paths": [
+      "README.md",
+      "examples/01-career-consulting.md"
+    ],
+    "markdown_files": 89
+  },
+  {
+    "repo": "local-business-ai-growth-handbook",
+    "commit": "24d1bf43facad9a999280630322ba5fd712d4d26",
+    "read_paths": [
+      "README.md"
+    ],
+    "markdown_files": 10
+  }
+]

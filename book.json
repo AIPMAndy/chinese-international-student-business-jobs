@@ -1,0 +1,210 @@
+{
+  "title": "中国留学生商科岗位求职保姆级攻略",
+  "version": "1.0",
+  "date": "2026-11-13",
+  "author": "AI 酋长 Andy",
+  "chapters": [
+    {
+      "section": "从这里开始",
+      "path": "content/00-start.md",
+      "title": "先找到职能，再证明你能做"
+    },
+    {
+      "section": "从这里开始",
+      "path": "content/01-function-choice.md",
+      "title": "用真实岗位选职能"
+    },
+    {
+      "section": "从这里开始",
+      "path": "content/02-evidence-plan.md",
+      "title": "把经历变成能力证据"
+    },
+    {
+      "section": "六条职能路线",
+      "path": "content/routes/01-consulting.md",
+      "title": "咨询与专业服务：把商业问题变成可检查的判断"
+    },
+    {
+      "section": "六条职能路线",
+      "path": "content/routes/02-finance-accounting.md",
+      "title": "金融、会计与企业财务：先选工作对象，再选证书"
+    },
+    {
+      "section": "六条职能路线",
+      "path": "content/routes/03-marketing-brand.md",
+      "title": "市场与品牌：证明你能理解消费者，并把预算变成可检验的业务选择"
+    },
+    {
+      "section": "六条职能路线",
+      "path": "content/routes/04-operations-supply-chain.md",
+      "title": "运营与供应链：证明你能让流程在成本、服务和约束之间运行"
+    },
+    {
+      "section": "六条职能路线",
+      "path": "content/routes/05-business-analytics.md",
+      "title": "商业分析与经营分析：把数字变成可审查的业务判断"
+    },
+    {
+      "section": "六条职能路线",
+      "path": "content/routes/06-sales-bd.md",
+      "title": "销售与商务拓展：证明你能发现合适客户，推进下一步，并诚实管理机会"
+    },
+    {
+      "section": "地区与申请入口",
+      "path": "content/regions/01-north-america.md",
+      "title": "北美：先把工作资格与招聘资格分开"
+    },
+    {
+      "section": "地区与申请入口",
+      "path": "content/regions/02-europe.md",
+      "title": "欧洲：国家、语言和项目要分开研究"
+    },
+    {
+      "section": "地区与申请入口",
+      "path": "content/regions/03-asia.md",
+      "title": "亚洲与中东：先核身份，再核语言和职能"
+    },
+    {
+      "section": "地区与申请入口",
+      "path": "content/regions/04-oceania.md",
+      "title": "大洋洲：毕业工作权与企业开放范围要同时核对"
+    },
+    {
+      "section": "地区与申请入口",
+      "path": "content/regions/05-china-return.md",
+      "title": "回国求职：把留学经历变成岗位证据"
+    },
+    {
+      "section": "申请、面试与复盘",
+      "path": "content/03-applications.md",
+      "title": "分路线组织申请材料"
+    },
+    {
+      "section": "申请、面试与复盘",
+      "path": "content/04-assessments.md",
+      "title": "面试、案例与展示怎么练"
+    },
+    {
+      "section": "申请、面试与复盘",
+      "path": "content/05-special-situations.md",
+      "title": "常见障碍：把问题拆到可以行动"
+    },
+    {
+      "section": "申请、面试与复盘",
+      "path": "content/06-tracking-review.md",
+      "title": "用申请记录调整目标"
+    },
+    {
+      "section": "案例一 · 咨询决策",
+      "path": "cases/01-consulting/brief.md",
+      "title": "咨询案例题面"
+    },
+    {
+      "section": "案例一 · 咨询决策",
+      "path": "cases/01-consulting/printable-data.md",
+      "title": "咨询案例｜输入数据"
+    },
+    {
+      "section": "案例一 · 咨询决策",
+      "path": "cases/01-consulting/answer.md",
+      "title": "咨询案例参考答案"
+    },
+    {
+      "section": "案例一 · 咨询决策",
+      "path": "cases/01-consulting/rubric.md",
+      "title": "咨询案例评分与复盘"
+    },
+    {
+      "section": "案例二 · 金融与会计",
+      "path": "cases/02-finance-accounting/brief.md",
+      "title": "A｜FP&A 完整案例题面"
+    },
+    {
+      "section": "案例二 · 金融与会计",
+      "path": "cases/02-finance-accounting/printable-data.md",
+      "title": "金融会计案例｜输入数据"
+    },
+    {
+      "section": "案例二 · 金融与会计",
+      "path": "cases/02-finance-accounting/answer.md",
+      "title": "A｜FP&A 参考答案"
+    },
+    {
+      "section": "案例二 · 金融与会计",
+      "path": "cases/02-finance-accounting/rubric.md",
+      "title": "A｜FP&A 评分与复盘"
+    },
+    {
+      "section": "案例二 · 金融与会计",
+      "path": "cases/02-finance-accounting/audit-exercise.md",
+      "title": "B｜核算与审计：六条发票记录"
+    },
+    {
+      "section": "案例二 · 金融与会计",
+      "path": "cases/02-finance-accounting/credit-exercise.md",
+      "title": "C｜信贷：利润为正，是否就能借款？"
+    },
+    {
+      "section": "案例二 · 金融与会计",
+      "path": "cases/02-finance-accounting/valuation-exercise.md",
+      "title": "D｜公司研究：企业价值与股权价值"
+    },
+    {
+      "section": "案例练习 · 市场与品牌",
+      "path": "cases/03-marketing/printable-data.md",
+      "title": "市场品牌案例｜输入数据"
+    },
+    {
+      "section": "案例练习 · 市场与品牌",
+      "path": "cases/03-marketing/README.md",
+      "title": "案例 03：归因成绩很好，要不要继续加预算？"
+    },
+    {
+      "section": "案例练习 · 运营与供应链",
+      "path": "cases/04-operations/printable-data.md",
+      "title": "运营供应链案例｜输入数据"
+    },
+    {
+      "section": "案例练习 · 运营与供应链",
+      "path": "cases/04-operations/README.md",
+      "title": "案例 04：仓库放不下，又不能断货，怎么补货？"
+    },
+    {
+      "section": "案例练习 · 商业与经营分析",
+      "path": "cases/05-analytics/printable-data.md",
+      "title": "商业分析案例｜输入数据"
+    },
+    {
+      "section": "案例练习 · 商业与经营分析",
+      "path": "cases/05-analytics/README.md",
+      "title": "案例 05：每组转化率都提高，总转化率为什么下降？"
+    },
+    {
+      "section": "案例练习 · 销售与商务拓展",
+      "path": "cases/06-sales/printable-data.md",
+      "title": "销售商务案例｜输入数据"
+    },
+    {
+      "section": "案例练习 · 销售与商务拓展",
+      "path": "cases/06-sales/README.md",
+      "title": "案例 06：哪些商机值得推进，价值该怎样算？"
+    },
+    {
+      "section": "模板与来源",
+      "path": "templates/README.md",
+      "title": "可编辑模板：先复制，再填真实信息"
+    },
+    {
+      "section": "模板与来源",
+      "path": "SOURCES.md",
+      "title": "来源、日期与适用边界"
+    }
+  ],
+  "stats": {
+    "mainDocCount": 18,
+    "regions": 31,
+    "sources": 98,
+    "sourceRecords": 101,
+    "cases": 6
+  }
+}

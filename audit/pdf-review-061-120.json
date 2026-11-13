@@ -1,0 +1,1288 @@
+{
+  "reviewer": "/root/regions",
+  "revision": "201-page-initial",
+  "checked_at": "2026-11-13T07:59:36.383345+00:00",
+  "pdf": "downloads/business-careers-guide.pdf",
+  "pdf_total_pages": 201,
+  "page_range": [
+    61,
+    120
+  ],
+  "pages_reviewed": 60,
+  "method": "逐页联系表视觉审阅全部61—120页，并对16页单页放大；结合页码、中文/韩文/英文、表格、短引用、边界与分页判断。未用文本提取代替视觉检查。",
+  "final_approval": false,
+  "overall_status": "requires_pagination_revision",
+  "summary": {
+    "content_clipping": 0,
+    "overlap": 0,
+    "unreadable_glyphs": 0,
+    "orphan_pages": [
+      97,
+      107,
+      118
+    ],
+    "heading_table_split": [
+      111,
+      112
+    ],
+    "single_page_zoom_count": 16,
+    "issue_count": 15
+  },
+  "issues": [
+    {
+      "id": "REG-H61",
+      "pages": [
+        61,
+        62
+      ],
+      "severity": "minor",
+      "kind": "heading_group_split",
+      "description": "德国的国名和覆盖状态留在页底，工作资格正文在下一页。",
+      "recommendation": "将国名、覆盖状态、首个子标题与至少一个正文段绑定。",
+      "status": "open_in_201_page_initial"
+    },
+    {
+      "id": "REG-H62",
+      "pages": [
+        62,
+        63
+      ],
+      "severity": "minor",
+      "kind": "heading_group_split",
+      "description": "法国的国名和覆盖状态留在页底，工作资格正文在下一页。",
+      "recommendation": "将国名、覆盖状态、首个子标题与至少一个正文段绑定。",
+      "status": "open_in_201_page_initial"
+    },
+    {
+      "id": "REG-H63",
+      "pages": [
+        63,
+        64
+      ],
+      "severity": "minor",
+      "kind": "heading_group_split",
+      "description": "荷兰的国名和覆盖状态留在页底，工作资格正文在下一页。",
+      "recommendation": "将国名、覆盖状态、首个子标题与至少一个正文段绑定。",
+      "status": "open_in_201_page_initial"
+    },
+    {
+      "id": "REG-H64",
+      "pages": [
+        64,
+        65
+      ],
+      "severity": "minor",
+      "kind": "heading_group_split",
+      "description": "瑞士的国名和覆盖状态留在页底，工作资格正文在下一页。",
+      "recommendation": "将国名、覆盖状态、首个子标题与至少一个正文段绑定。",
+      "status": "open_in_201_page_initial"
+    },
+    {
+      "id": "REG-H77",
+      "pages": [
+        77,
+        78
+      ],
+      "severity": "minor",
+      "kind": "heading_group_split",
+      "description": "新加坡的国名和覆盖状态留在页底，工作资格正文在下一页。",
+      "recommendation": "将国名、覆盖状态、首个子标题与至少一个正文段绑定。",
+      "status": "open_in_201_page_initial"
+    },
+    {
+      "id": "REG-H78",
+      "pages": [
+        78,
+        79
+      ],
+      "severity": "minor",
+      "kind": "heading_group_split",
+      "description": "马来西亚的国名和覆盖状态留在页底，工作资格正文在下一页。",
+      "recommendation": "将国名、覆盖状态、首个子标题与至少一个正文段绑定。",
+      "status": "open_in_201_page_initial"
+    },
+    {
+      "id": "REG-S72",
+      "pages": [
+        72,
+        73
+      ],
+      "severity": "minor",
+      "kind": "instruction_step_split",
+      "description": "亚洲地区筛选在输入/操作/输出之后跨页，验收或后续行动留到下一页。",
+      "recommendation": "同一操作步骤宜整体分页；无法整页容纳的大框可在步骤之间分页。",
+      "status": "open_in_201_page_initial"
+    },
+    {
+      "id": "REG-S85",
+      "pages": [
+        85,
+        86
+      ],
+      "severity": "minor",
+      "kind": "instruction_step_split",
+      "description": "大洋洲真实项目步骤在输入/操作/输出之后跨页，验收或后续行动留到下一页。",
+      "recommendation": "同一操作步骤宜整体分页；无法整页容纳的大框可在步骤之间分页。",
+      "status": "open_in_201_page_initial"
+    },
+    {
+      "id": "REG-S93",
+      "pages": [
+        93,
+        94
+      ],
+      "severity": "minor",
+      "kind": "instruction_step_split",
+      "description": "回国行为追问步骤在输入/操作/输出之后跨页，验收或后续行动留到下一页。",
+      "recommendation": "同一操作步骤宜整体分页；无法整页容纳的大框可在步骤之间分页。",
+      "status": "open_in_201_page_initial"
+    },
+    {
+      "id": "REG-S95",
+      "pages": [
+        95,
+        96
+      ],
+      "severity": "minor",
+      "kind": "instruction_step_split",
+      "description": "回国第4—10天计划在输入/操作/输出之后跨页，验收或后续行动留到下一页。",
+      "recommendation": "同一操作步骤宜整体分页；无法整页容纳的大框可在步骤之间分页。",
+      "status": "open_in_201_page_initial"
+    },
+    {
+      "id": "REG-S116",
+      "pages": [
+        116,
+        117
+      ],
+      "severity": "minor",
+      "kind": "instruction_step_split",
+      "description": "咨询案例澄清利润变化在输入/操作/输出之后跨页，验收或后续行动留到下一页。",
+      "recommendation": "同一操作步骤宜整体分页；无法整页容纳的大框可在步骤之间分页。",
+      "status": "open_in_201_page_initial"
+    },
+    {
+      "id": "REG-O97",
+      "pages": [
+        97
+      ],
+      "severity": "major",
+      "kind": "orphan_page",
+      "description": "整页只剩回国章的作者、官网和咨询尾注；正文不足页高五分之一。",
+      "recommendation": "PDF删除重复章节作者尾注，品牌保留于封面、页脚及作者页。",
+      "status": "open_in_201_page_initial"
+    },
+    {
+      "id": "REG-O107",
+      "pages": [
+        106,
+        107
+      ],
+      "severity": "major",
+      "kind": "orphan_page",
+      "description": "第107页只剩前一章评分复盘的一个短段落。",
+      "recommendation": "调整前页行距/段距或将评分复盘整个短节放到同页。",
+      "status": "open_in_201_page_initial"
+    },
+    {
+      "id": "REG-O118",
+      "pages": [
+        117,
+        118
+      ],
+      "severity": "major",
+      "kind": "orphan_page",
+      "description": "第118页只剩咨询题面末尾一句。",
+      "recommendation": "让末句与前面的五页交付结构同页，避免单句独页。",
+      "status": "open_in_201_page_initial"
+    },
+    {
+      "id": "REG-H111",
+      "pages": [
+        111,
+        112
+      ],
+      "severity": "major",
+      "kind": "heading_table_split",
+      "description": "“哪种现象值得查什么”标题留在第111页底，整张对应表在第112页。",
+      "recommendation": "标题与后续小表整体绑定。",
+      "status": "open_in_201_page_initial"
+    }
+  ],
+  "pages": [
+    {
+      "page": 61,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-055-063.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "render_sha256": "b77bf2f1364a5f7978cd007deef6b962ba0f257669b10420c1c0ba35f7e4b86e",
+      "status": "pass_with_pagination_note",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-H61"
+      ]
+    },
+    {
+      "page": 62,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-055-063.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "eb539175f642bf772062611e8d41d779486b8d4883df4bd59b943d37d6b48b9f",
+      "status": "pass_with_pagination_note",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-H61",
+        "REG-H62"
+      ]
+    },
+    {
+      "page": 63,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-055-063.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "33f585847a65fe785080eeecb9ca093efc2e6ecd405cda0199d6b512bf343c93",
+      "status": "pass_with_pagination_note",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-H62",
+        "REG-H63"
+      ]
+    },
+    {
+      "page": 64,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-064-072.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "a6383bf0540a7d90bcc94646d064559cf9882ac50b1f3fcb1a565e7296dd10b3",
+      "status": "pass_with_pagination_note",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-H63",
+        "REG-H64"
+      ]
+    },
+    {
+      "page": 65,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-064-072.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "3535518cf6480861af8445c795e7ce200e1842288e8580ef9a13db71cb6d6293",
+      "status": "pass_with_pagination_note",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-H64"
+      ]
+    },
+    {
+      "page": 66,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-064-072.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "a62708bbb6271ef7e0c3677655359d1262fd3d103366358455e69eae9b792e2c",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 67,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-064-072.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "943236d41393f28f99a21f6d26fdef0287852f7c98ee47d0d4df215e2a01b5ea",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 68,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-064-072.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "dc0db212c3f6df4127c826f7f85e363dd8da9527ab1039b7e6826b5a54c1b7b2",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 69,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-064-072.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "a0b7e2a0ca45f8ba919d26a2d9165658f4e71ac8cc82b8c4f94ab1b658b378e0",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 70,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-064-072.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "c5b2197e2b2c1acf12f10ee7389da06b67a83944214803a6e1ac68c3e06d0fdc",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 71,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-064-072.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "fcac9fdbbee7e9a543ac09b7c5413f6184cff2f237d7954da6e1f6fd690031a1",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 72,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-064-072.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "7db39b449805fb42cd89de871d302e1183ff71d57a329620b24f7b3a25815a3f",
+      "status": "pass_with_pagination_note",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-S72"
+      ]
+    },
+    {
+      "page": 73,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-073-081.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "36ba3fe237d7fa5d15fb5d3b5292b9bd3e45284a84ca42e8f05caa361106df17",
+      "status": "pass_with_pagination_note",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-S72"
+      ]
+    },
+    {
+      "page": 74,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-073-081.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "6b7236a3077f37cedffd4109a722a6332c50d98d445a8f9f5854fda50b4916b1",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 75,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-073-081.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "9ef50706122245344b0d68c10f82b6e823307bc42d0a3f8d6e5daf70e338df13",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 76,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-073-081.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "3ae22c4eda22d5d27a86661495efc49f3f41e7df4eb2e738b47e37e8eced74da",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 77,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-073-081.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "render_sha256": "eb1328c0e07181a7660f64270aa2c14cc7086198ab7b6a55d116f9c40e6f62e3",
+      "status": "pass_with_pagination_note",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-H77"
+      ]
+    },
+    {
+      "page": 78,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-073-081.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "55113f529b2c7a8db2e19534312a7999a72e336ac626d00f995dff8547c5ab14",
+      "status": "pass_with_pagination_note",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-H77",
+        "REG-H78"
+      ]
+    },
+    {
+      "page": 79,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-073-081.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "1fef43e7de43d2f2e22a1852a893edbf8e6b50004afba2813e839fd30a7129b3",
+      "status": "pass_with_pagination_note",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-H78"
+      ]
+    },
+    {
+      "page": 80,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-073-081.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "67e94e2c8f5f7cbada36a2f4d7047a1f5ebca3ad3dd31ce82afe754e1fd2fcdd",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 81,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-073-081.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "63905a055467c5e3ea4af73bc347493eee9d3bdf425760c4eacb4fb8f4a4c703",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 82,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-082-090.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "7be72e416f7baac539305111703cc6bb15eeb8c5f74b7325f6f66d2beab4f0f4",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 83,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-082-090.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "d67a253e968c40887758e4a2188d015d0fe9203c2d918d0e5e6ccf88167d0c14",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 84,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-082-090.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "19f8a44d8dbeab25fb7e21ecddac54d026bf748b6a320e2f910a6c746fa819c5",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 85,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-082-090.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "render_sha256": "474cf6111e860a15277cf810e81d19cbaf008142aacd27b950cf578b01f530aa",
+      "status": "pass_with_pagination_note",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-S85"
+      ]
+    },
+    {
+      "page": 86,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-082-090.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "6163692ba9879e982beb976075244d352039722f0fafff3fc07f847d732bfab6",
+      "status": "pass_with_pagination_note",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-S85"
+      ]
+    },
+    {
+      "page": 87,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-082-090.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "531fa587e651e2588a302cc10debd8ff8ec43b974712bb5554a9ccc6ba3560eb",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 88,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-082-090.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "df3a7ad39021f5aaa6220046196a8913ffa942987f45fd7be8c9728e350b6cac",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 89,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-082-090.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "render_sha256": "6b1f69461d66a766dbd9489cb7d07a473a1b395d34030331c06129e9d86f0edd",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 90,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-082-090.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "b3936da5443378d4f2acd5275ca5d546621165db205600fd8e020a84b5b5b651",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 91,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-091-099.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "feef5cd95fd7040939de6382d890ca07fa008e7aaef46968e61b8f6dc6b92ed9",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 92,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-091-099.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "render_sha256": "1b27c50250e484a3f8df8769b7153f202cfa3db8a442cc8b0bebba4d65a87b7e",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 93,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-091-099.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "render_sha256": "50db8ad904f2b8f9f24995d596f66e754e7f95eafb76d5f117e56ed3da23aad1",
+      "status": "pass_with_pagination_note",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-S93"
+      ]
+    },
+    {
+      "page": 94,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-091-099.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "81050946e683b742dda6cd2091b5fd07c7aa46d0d4e0ee1a156fc772191ae01c",
+      "status": "pass_with_pagination_note",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-S93"
+      ]
+    },
+    {
+      "page": 95,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-091-099.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "e999f6e01ee4a6a84958a1235089cbcccd2d4a1f5fa71fa62352a178014a2838",
+      "status": "pass_with_pagination_note",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-S95"
+      ]
+    },
+    {
+      "page": 96,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-091-099.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "2205cb5a7db7514dc53ad07edafe1ab7e0d350945388266402a8f0d19d9f5302",
+      "status": "pass_with_pagination_note",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-S95"
+      ]
+    },
+    {
+      "page": 97,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-091-099.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "render_sha256": "8ad9c6f1cca5d3718fa2dfeb3379d30e9746d0b542fb713ac780400d9686c0b9",
+      "status": "needs_reflow",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-O97"
+      ]
+    },
+    {
+      "page": 98,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-091-099.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "7cc4464038d7ce5c48a97bd042416016605696010fd4e370daaa8cee558443b6",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 99,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-091-099.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "418f7462d661680436cc2bbcd88b744f72cd37c7591a2bb0d9352e0bc52c2a15",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 100,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-100-108.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "render_sha256": "0a6f846d380e7fd6f8f69e466ac317a80946b4674a1be4e9f9176831adc1e8b7",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 101,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-100-108.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "a6ee6989fb7447fe6ad3f10b30290e13c184600723c3367ef6fc9b40cd97be05",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 102,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-100-108.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "3304cde42ac28c6ae301ed734da83a0d9b03d30aa2a10c0c9ea727a180f323d6",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 103,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-100-108.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "485209c4dc726d3d2d3f2568aaa75d81721d87ef607c44d93d9219709e9e94c5",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 104,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-100-108.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "df335c491651b988b63c46d2098df327c400597bd9235f7ddc1a40d9d15ed0c0",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 105,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-100-108.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "228f74ab5d47c14b50330f0fb36002c9bce7265827660f436113deb96ccc3927",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 106,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-100-108.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "render_sha256": "4142be35ce822f7795c094d3639a1ce2cd5857c80d1a9d4131afc4607a5bd041",
+      "status": "needs_reflow",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-O107"
+      ]
+    },
+    {
+      "page": 107,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-100-108.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "render_sha256": "39732d63f7874ce2eeb0c49c6975a54f8830d57cee27f262abb8e6ba5f67e1db",
+      "status": "needs_reflow",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-O107"
+      ]
+    },
+    {
+      "page": 108,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-100-108.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "e845e722a8413bc828e26ddcc5276aabf998fcaa75f1ef41e76a63c4002633c3",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 109,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-109-117.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "291f002d6e7801f7729f0939bc08924b68c3da9520a687e56b00d467f66bd401",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 110,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-109-117.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "818f58d1b9a47481c94328bd863f72ae119b961a8b4fedd7c8f820f6a663ef84",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 111,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-109-117.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "render_sha256": "1c4208c29394578cd5f4998892c5cf9216bbdf1f88f215a1aef22d113b9395d2",
+      "status": "needs_reflow",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-H111"
+      ]
+    },
+    {
+      "page": 112,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-109-117.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "render_sha256": "2a81ef90e10d0fffd0bfa7c13b28b9c7bf83514f14c91304a0276b07871a1d1c",
+      "status": "needs_reflow",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-H111"
+      ]
+    },
+    {
+      "page": 113,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-109-117.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "b0f0eb78dbe2ef08967d6c65913da2cfd3979c2e4f95fb6ae39805c3cbd1c1ae",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 114,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-109-117.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "d2243c2008844fb005453572216916f27a92f6575d2254040ec80d4151b919c2",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 115,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-109-117.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "render_sha256": "6718f9a7cc7a2fd5330fada48194b3827d2a2acd1596b9be3c49b16613784296",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 116,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-109-117.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "03130e79d731a6d8f041029ad0afa81bb759449ac7ffb458d7a7e35a5e6a4640",
+      "status": "pass_with_pagination_note",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-S116"
+      ]
+    },
+    {
+      "page": 117,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-109-117.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "render_sha256": "6dd7db64516bbf4bff8c5233c0d4aac95751077ff2c8a10f3f0366c9ef3f1b15",
+      "status": "needs_reflow",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-S116",
+        "REG-O118"
+      ]
+    },
+    {
+      "page": 118,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-118-126.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "render_sha256": "ec2faa3c64d00821277777ac69a2dae86d47e4c69f952ce2bc9900af8a81b95d",
+      "status": "needs_reflow",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "issue"
+      },
+      "issue_ids": [
+        "REG-O118"
+      ]
+    },
+    {
+      "page": 119,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-118-126.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "render_sha256": "040006917966566b04c39b78f41a87b55c23ea8ba677e1783ffab030c77c8773",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 120,
+      "revision": "201-page-initial",
+      "contact_sheet": "audit/rendered/contact-118-126.jpg",
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "render_sha256": "716b1959c7f7eeb3b321217354461c4924a956d33672b379a5e2aac6504934a6",
+      "status": "pass",
+      "checks": {
+        "chinese_glyphs": "pass",
+        "page_number_header_footer": "pass",
+        "no_clipping_or_overlap": "pass",
+        "tables_and_inline_source_ids": "pass",
+        "pagination": "pass"
+      },
+      "issue_ids": []
+    }
+  ],
+  "next_action": "根代理已确认统一修复孤页及标题/表格绑定；新版重新渲染后应按重新分配的页范围复核，不能将本记录当作最终通过。"
+}

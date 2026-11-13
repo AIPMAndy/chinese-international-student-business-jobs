@@ -1,0 +1,57 @@
+{
+  "case": "04-operations",
+  "status": "passed",
+  "baseline": {
+    "sold": 170.0,
+    "lost": 250.0,
+    "ending": [
+      40.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "purchase_cost_cu": 0,
+    "holding_cost_cu": 40.0,
+    "comparison_contribution_cu": 5060.0
+  },
+  "plan_a": {
+    "sold": 420.0,
+    "lost": 0.0,
+    "ending": [
+      40.0,
+      15.0,
+      75.0,
+      0.0
+    ],
+    "purchase_cost_cu": 3250.0,
+    "holding_cost_cu": 130.0,
+    "comparison_contribution_cu": 9220.0
+  },
+  "plan_b": {
+    "sold": 420.0,
+    "lost": 0.0,
+    "ending": [
+      40.0,
+      65.0,
+      75.0,
+      0.0
+    ],
+    "purchase_cost_cu": 3500.0,
+    "holding_cost_cu": 180.0,
+    "comparison_contribution_cu": 8920.0
+  },
+  "max_over_feasible_combinations": 9220.0,
+  "high_demand_adapted": {
+    "sold": 480,
+    "lost": 0,
+    "ending": [
+      40.0,
+      15.0,
+      35.0,
+      15.0
+    ],
+    "purchase_cost_cu": 4525.0,
+    "holding_cost_cu": 105.0,
+    "comparison_contribution_cu": 9770.0
+  }
+}

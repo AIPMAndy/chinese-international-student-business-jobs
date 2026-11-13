@@ -1,0 +1,5 @@
+parameter,value,unit
+initial_inventory,120,units
+warehouse_capacity_before_demand,220,units
+sale_price,30,CU_per_unit
+weekly_holding_cost,1,CU_per_endweek_unit

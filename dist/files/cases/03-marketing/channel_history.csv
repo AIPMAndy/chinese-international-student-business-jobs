@@ -1,0 +1,5 @@
+period,channel,spend_cu,attributed_orders,unit_revenue_cu,unit_variable_cost_cu
+2026-10,prospecting,6000,300,50,30
+2026-10,retargeting,2000,200,50,30
+2026-10,creator,4000,160,50,30
+2026-10,event,3000,75,50,30

@@ -1,0 +1,513 @@
+[
+  {
+    "country": "美国",
+    "coverage": "规则与雇主样本已核实",
+    "work_route": "先区分 F-1 在读实习 CPT、毕业前后 OPT 和以后可能需要的雇主担保。DHS 将常规 OPT 与主修专业直接关联；STEM 延长取决于合资格学位及其他条件。Business Analytics 的课程名称本身不能证明 STEM 资格。[RG01](https://studyinthestates.dhs.gov/assets/SEVP_PracticalTrainingOverview_1-pager.pdf)\n\nCPT 不是拿到实习Offer即拥有的许可：须由DSO按当前联邦与本校课程要求事前授权，并按I-20列明的雇主及日期工作。一般完整学年条件、要求立即参加实践训练的研究生课程例外及已用时长都要核对；同一学历层次累计至少12个月全职CPT会失去相应OPT资格。[RG69](https://ois.usc.edu/employment/curricular-practical-training-cpt/)\n\nUSC于2026-08-25说明新的SEVP课程关联指引：选修实习课程不能自动证明CPT资格，须先让本校DSO确认。OPT另须获得USCIS就业授权、收到EAD并到可开工日期，不能仅凭DSO推荐或申请回执开工。[RG70](https://ois.usc.edu/important-update-regarding-curricular-practical-training/) [RG71](https://ois.usc.edu/employment/post-completion-opt/)",
+    "job_channel": "学校 career portal 用于发现校招、宣讲和校友资源；正式申请进入雇主网站，分别搜索 internship、summer analyst、full-time analyst、associate、new graduate。把 sponsor now / in the future 的两个问题分开处理。",
+    "graduate_program": "PwC US 的初级招聘是一个反例：公司当前对需要 H-1B 抽签担保者有明显限制并列出例外。即使短期 OPT 可工作，也要核对未来担保这一栏。[RG38](https://www.pwc.com/us/en/careers/entry-level/recruiting.html)",
+    "timing": "德银纽约 2027 IBCM Coverage 项目原页列 2026-07-31 至 08-28；核验日已截止。同一银行其他城市、业务线日期不同。把这个例子用来理解提前招聘，不把它当作仍可投的岗位。[RG42](https://karriere.db.com/students-graduates/your-application/)",
+    "materials": "以具体表单为准。PwC US 要求上传 PDF 简历、不要求求职信，且会按路线安排评估。准备英文简历、成绩信息、真实授权状态与可入职日期；学校作业放 Academic Project，不放 Employment。[RG38](https://www.pwc.com/us/en/careers/entry-level/recruiting.html)",
+    "next_action": "输入 I-20、毕业计划、三条原始 JD；请 DSO 确认课程与工作关系和授权时间，再向招聘方确认未来担保政策。输出一张“当前工作权/未来担保/开始日期/证据”卡。验收是三项都有来源，不能把未确认填成 Yes。",
+    "source_ids": [
+      "RG01",
+      "RG38",
+      "RG42",
+      "RG69",
+      "RG70",
+      "RG71"
+    ],
+    "gaps": "本版没有给出 H-1B 中签率、签证获批率或所有雇主的赞助名单；加拿大、欧洲就读者不能自动套用美国 F-1 毕业路径。",
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "加拿大",
+    "coverage": "规则与雇主样本已核实",
+    "work_route": "PGWP要看具体院校、课程、学习状态及两个不同的申请日期。对2024-11-01或之后提交的PGWP申请，学士、硕士、博士通常须达到英语CLB 7或法语NCLC 7，听说读写四项均满足，且没有专业领域限制；其他大学课程语言要求也是7，college、polytechnic及其他非大学课程通常为5。后两类若学签申请在2024-11-01或之后，还须满足合资格专业领域要求。[RG02](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html)\n\n语言规则看PGWP申请日，专业领域条件看学签申请日，不能混用。2024-11-01前提交PGWP的语言例外不是对后来毕业生的通用豁免。一般申请窗口为确认完成学业后的180天内，但这段申请窗口本身不等于已拥有工作权。[RG02](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html)",
+    "job_channel": "学校 co-op/career portal 和雇主 campus 页面并行。搜索 co-op、internship、new grad、campus、analyst；在魁北克增加法语查询词 analyste、stagiaire。",
+    "graduate_program": "PwC Canada 校招可从审计、税务、咨询等具体入口选择；每轮只能投一个 campus role，并有再次申请间隔。该限制说明“同公司多职能海投”可能直接违背规则。[RG39](https://www.pwc.com/ca/en/careers/campus/applying-to-pwc.html)",
+    "timing": "PwC 加拿大官网列春季等招聘周期；每个岗位另有截止。不要把春招月份当统一录取季，也不要假设 co-op 只在暑假进行。核验岗位列表、预计毕业日和可全职工作学期。[RG40](https://www.pwc.com/ca/en/careers/campus.html)",
+    "materials": "PwC 示例为 resume 或 CACEE 表、最新非正式成绩单，无须求职信；魁北克岗位有法语要求。不要擅自重算 GPA，先保留原始评分尺度并按雇主指引转换。[RG39](https://www.pwc.com/ca/en/careers/campus/applying-to-pwc.html)",
+    "next_action": "输入课程名称与类型、学签申请日、PGWP申请日、语言四项成绩及目标城市。先用IRCC规则确认具体课程的PGWP资格和日期条件，再核岗位语言与轮次。输出主方向一个、备用方向一个及co-op/毕业岗位日历。验收：清楚区分“无专业限制”与“无需任何条件”；日期或课程不明确时先向学校与IRCC核对。",
+    "source_ids": [
+      "RG02",
+      "RG39",
+      "RG40"
+    ],
+    "gaps": "未逐省核实CPA等职业资格，也未将全部商科证书列入PGWP合资格名单。雇主赞助政策及岗位语言要求看原JD和招聘方答复；魁北克等地适用的法律或移民语言条件看相应主管机构，不能由JD替代。",
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "墨西哥",
+    "coverage": "资格与实习入口核实，毕业生路径覆盖有限",
+    "work_route": "INM 为临时居民与临时学生提供工作许可办理事项，涉及雇主聘书、职责、工作地点和雇主登记。不能把学生居留或毕业直接当作可工作的证明。[RG65](https://www.gob.mx/public/tramites/detalleTramite.xhtml?homoclave=INM-03-005-A)",
+    "job_channel": "从学校 bolsa de trabajo、雇主墨西哥 careers 页面检索 becario、practicante、analista、recién egresado；先确认是学生实习还是正式初级岗。西班牙语申请材料按 JD 准备。",
+    "graduate_program": "联合利华 ULIP 的 2025 官方项目样本分别列 Sales、Finance、Marketing、Supply Chain。它要求在校进度、至少一年后毕业和每天可投入时间，适合训练如何识别“仍须在读”的实习入口。[RG41](https://www.unilever.com.mx/news/press-releases/2025/unilever-leadership-interns-program-aplica-ya/)",
+    "timing": "上述是历史项目样本，未把它认定为 2027 当前开放。找到新职位后记录发布、截止、实习起止及所需学生身份。",
+    "materials": "本册建议先备西班牙语或岗位指定语言 CV、在读与预计毕业证明、每日可实习时间、相关课程项目证据。学校同意文件及移民材料依 INM 和招聘方清单处理。",
+    "next_action": "输入个人学生状态和一条当前原 JD；先问是否接受非墨西哥公民以及是否协助许可，再制作当地市场/供应链案例。验收：得到岗位级答复后才把该岗位列入有效申请。",
+    "source_ids": [
+      "RG41",
+      "RG65"
+    ],
+    "gaps": "未充分核实面向中国毕业生的全国性毕业后求职许可和各企业赞助意愿；加勒比与中美洲其他国家尚未逐国研究。",
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "英国",
+    "coverage": "规则与雇主样本已核实",
+    "work_route": "Graduate visa 要求合资格英国课程、有效 Student/Tier 4 身份、学校向主管部门报告完成学业，并在英国境内、学生许可到期前申请。2026-12-31 或之前申请通常为 2 年；2027-01-01 起为 18 个月，博士另为 3 年。[RG03](https://www.gov.uk/graduate-visa)",
+    "job_channel": "从学校 careers service 与雇主 graduate、summer internship、industrial placement 页面进入。先区别 Insight、实习、毕业生项目和有经验招聘，不能把 insight 当实际工作经历。",
+    "graduate_program": "汇丰按地区与职能列 graduate 和 insight 项目；瑞银的 UK/EMEA 项目有自己的毕业范围、申请数量限制及滚动审阅办法。[RG44](https://www.hsbc.com/careers/students-and-graduates/find-a-programme) [RG47](https://www.ubs.com/global/en/careers/early-careers/graduate-talent-program.html)",
+    "timing": "项目名写 2027 往往表示入职年。瑞银说明英国项目通常从8月陆续开放，不能由此推断所有企业均在8月招聘。汇丰具体项目同时列开窗、截止和开始日期；若列表出现截止晚于开工等异常，以原 vacancy 和招聘团队确认为准。[RG47](https://www.ubs.com/global/en/careers/early-careers/graduate-talent-program.html) [RG44](https://www.hsbc.com/careers/students-and-graduates/find-a-programme)",
+    "materials": "本册建议备英文 CV、按题作答的 motivation 文本、原成绩及评分尺度、到岗日与当前/未来工作权说明。申请表问 work sponsorship 时按真实状态答，Graduate visa 的短期工作权不能代替长期安排。",
+    "next_action": "输入预计完成日、学校报告时间及雇主开工日。输出三条时间线：可申请签证日、求职批次、可实际开工日。验收：2026/2027期限切换已标明；不为争取旧期限谎报完成日。",
+    "gaps": "本版未逐岗核实 Skilled Worker 职业代码与薪资门槛；也不承诺任何 Graduate visa 持有人会获得担保。",
+    "source_ids": [
+      "RG03",
+      "RG44",
+      "RG47"
+    ],
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "爱尔兰",
+    "coverage": "规则与雇主样本已核实",
+    "work_route": "本地合资格非EEA毕业生可看 Third Level Graduate Programme。NFQ 8级通常12个月；9级及以上先给12个月，符合求职等条件再续12个月。当前 Stamp 2、毕业通知后申请窗口及累计居留上限也要满足。[RG06](https://www.irishimmigration.ie/my-situation-has-changed-since-i-arrived-in-ireland/third-level-graduate-programme/)",
+    "job_channel": "学校 career portal、雇主 Ireland graduate/placement 页面；搜索 audit、tax、business consulting、commercial analyst，并把课程内 placement 与毕业全职区分。",
+    "graduate_program": "EY Ireland 2027 Graduate Programme 提供多个专业服务方向。只选择与你证据最贴合的路线；雇主本轮限制不能用其他国家 EY 的规则替代。[RG45](https://www.ey.com/en_ie/careers/what-you-can-do-here/student-programmes)",
+    "timing": "本批官方截止为2026-10-21 17:00，核验日已过。下一步查看官网是否有剩余岗位或下一轮，并为2027/2028项目建日历，不能对读者说“现在都能投”。[RG45](https://www.ey.com/en_ie/careers/what-you-can-do-here/student-programmes)",
+    "materials": "准备英文申请表、学位与课程/成绩说明、行为案例、具体 service line 动机及 Stamp 状态。将 Stamp 1G 等个人证明按招聘方要求提供；没有工作许可的结论不能凭“硕士毕业”代替。",
+    "next_action": "输入NFQ等级、毕业通知日和身份有效期；先确认毕业生许可，再读取雇主邀请中的测评期限。输出资格检查和剩余机会表。验收：24个月没有被写成自动一次授予。",
+    "gaps": "后续就业许可及受限制职业清单未逐岗覆盖；咨询、一般运营和财务岗位不能一概视作 Critical Skills。",
+    "source_ids": [
+      "RG06",
+      "RG45"
+    ],
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "德国",
+    "coverage": "规则与雇主样本已核实",
+    "work_route": "在德国完成学业的第三国学生可按条件申请最长18个月求职居留，须有毕业、保险和生活保障证明，并在学生许可到期前办理。找到合资格工作后再核长期就业居留。[RG04](https://www.make-it-in-germany.com/en/study-vocational-training/studying-in-germany/prospects-after)",
+    "job_channel": "学校 Career Center、雇主 Karriere 网站和官方岗位库；检索 Praktikum、Werkstudent、Trainee、Junior、Controller、Einkauf。不要把要求保持注册学籍的 Werkstudent 岗位当毕业后的替代入口。",
+    "graduate_program": "德银 Graduate Programme 将银行业务、基础职能等分开；2027总体页面列毕业区间和相关全职经验上限，具体德国语言与职能要求需要回到岗位。[RG43](https://karriere.db.com/students-graduates/graduate-programme/index)",
+    "timing": "按具体雇主/办公室核窗口。本版不设“德国统一秋招”；毕业生项目与日常初级岗位分表，避免等一场全国性招聘季。",
+    "materials": "本册建议备岗位指定语言的 Lebenslauf/CV、按需动机信、成绩单、实习/就业证明及在读/毕业证明。学校项目证据可展示，但不能把课程评分译成雇主绩效评价。",
+    "next_action": "输入德语/英语的真实表达能力和三条目标JD；用各做一次3分钟客户汇报自测；输出“客户沟通语言/内部工作语言/材料语言”三栏。验收：英文招聘网页不被当作不需要德语的证据。",
+    "gaps": "未逐州核受监管职业、全部雇主支持或机会卡路径；其他国家毕业不能直接套用本地18个月求职居留。",
+    "source_ids": [
+      "RG04",
+      "RG43"
+    ],
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "法国",
+    "coverage": "规则与雇主样本已核实",
+    "work_route": "RECE求职/创业居留通常为1年，须核对法国学历原名：licence professionnelle、Mastère Spécialisé、获CGE标记的Master of Science，或至少等同master的其他学历。普通本科或名称含MSc不能自动认定符合。留在法国申请者还须核当前学生/学生流动居留及近12个月取得的学历；毕业后已离境者的相应路径可在获此法国学历后最多4年内申请。[RG07](https://www.service-public.gouv.fr/particuliers/vosdroits/F17319)\n\n把diplôme原名、层级/标记与获证日写入资格表。该身份下就业仍涉及专业相关和薪酬条件，须按申请时的官方值确认，不能视为任何工作都无限制。[RG07](https://www.service-public.gouv.fr/particuliers/vosdroits/F17319)",
+    "job_channel": "学校 service carrières、雇主 stage、alternance、graduate、CDI junior入口。把stage与正式雇佣分开，先问学校是否可出对应实习协议。",
+    "graduate_program": "欧莱雅巴黎2027年1月 Trade Marketing实习是具体样本：6个月、M1/M2等在读要求。其核心是渠道和营销执行，不能因部分品牌岗位名称带Product就归入互联网产品经理。[RG66](https://careers.loreal.com/en/job/paris/6-month-internship-starting-january-2027-trade-marketing-master-s-1700-month/3456/43617797504)",
+    "timing": "以每条stage的开始月份、持续时间、学生身份和申请状态为准；不要只筛graduate。已经毕业且无法满足在读条件时，改找CDI junior或明确接受毕业生的项目。",
+    "materials": "准备法语/英语的岗位版CV、可实习起止日和学校协议确认；展示一份用当地渠道和消费者资料完成的营销案例。本册不把英语能沟通推断成法国市场品牌岗位不需要法语。",
+    "next_action": "输入毕业日期、学历准确名称和雇主实习条款；输出身份路线与协议确认记录。验收：实习合法性、学校可签署性、雇主接受性分别确认。",
+    "gaps": "未逐一覆盖alternance合同、职业准入及所有国际项目国籍条件；不要将VIE等海外项目自动推荐给中国国籍读者。",
+    "source_ids": [
+      "RG07",
+      "RG66"
+    ],
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "荷兰",
+    "coverage": "规则与雇主样本已核实",
+    "work_route": "Orientation year有效1年。荷兰合资格毕业路径与指定海外院校路径不同；后者限master、doctoral或post-master，任意海外本科本身不属于此路径。通常须在申请前3年内完成合资格课程或研究。海外院校在毕业时须符合THE、QS、Shanghai三家发布者中至少两家的前200规则；若使用学科排名，学科须匹配，并另核语言与学历评估。[RG05](https://ind.nl/en/residence-permits/work/residence-permit-for-orientation-year)\n\n先核学历层级，再查毕业时排名与三年期限，不用当前单一QS排名代替。获批后的工作权与申请中的条件不同；递交申请不自动代表可以开工，申请中须核IND要求的文件及工作许可标注。[RG05](https://ind.nl/en/residence-permits/work/residence-permit-for-orientation-year)",
+    "job_channel": "学校career service与雇主traineeship、graduate、internship页面；用marketing、supply chain、finance、customer development分别检索。",
+    "graduate_program": "联合利华荷兰UFLP独立列多条职能；2026版官网核验时各路线均Applications Closed。数字评估和数字面试后还有Discovery Centre，不能只准备一页简历。[RG46](https://careers.unilever.com/en/netherlands-early-careers-unilever-future-leaders-programme)",
+    "timing": "旧批次关闭后加入人才通知或查询下一批原JD；官网明确有些在线阶段须在申请期结束前完成。记录“提交截止”和“测评/视频截止”两个时间。[RG46](https://careers.unilever.com/en/netherlands-early-careers-unilever-future-leaders-programme)",
+    "materials": "按具体岗位准备英文或荷兰语申请。先写职能动机，再准备消费者/库存/财务中的对应案例。CV、问答与数字面试要讲同一组真实经历。",
+    "next_action": "输入学校、学位、毕业日、工作权证件及目标track；输出一份轨道选择说明和在线评估计划。验收：只有一个可解释的主职能，且未使用过期申请链接宣称成功提交。",
+    "gaps": "未核实每一专业的荷兰语要求，也不推断每个雇主都愿意支持orientation year之后的身份转换。",
+    "source_ids": [
+      "RG05",
+      "RG46"
+    ],
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "瑞士",
+    "coverage": "规则与雇主样本已核实",
+    "work_route": "对瑞士高校毕业的第三国公民，SEM列明6个月寻找匹配工作的可能性；后续录用许可仍涉及重大科学或经济利益等条件。瑞士不等同欧盟，更不能用德国毕业求职居留。[RG08](https://www.sem.admin.ch/en/faq-working)",
+    "job_channel": "学校就业平台和雇主瑞士early careers；按Zurich、Geneva等地点、业务线和语言查岗位。企业门户英文版本不代表客户岗位语言相同。",
+    "graduate_program": "UBS瑞士GTP官方说明全年收件和滚动审阅，并列毕业后年限、成绩尺度及同学年申请数量。[RG47](https://www.ubs.com/global/en/careers/early-careers/graduate-talent-program.html)",
+    "timing": "该雇主初始公示期与满员后关闭是不同概念；“全年招”不代表任意时点有你要的职能。按每条岗位的start date和状态安排。",
+    "materials": "本册建议准备清楚注明原始评分尺度的成绩单、CV、语言能力及工作权说明。公司研究与金融/运营案例按岗位选，不用同一份市场推广作品投风险岗。",
+    "next_action": "输入本人是否瑞士高校毕业和三条原JD；输出可投、须赞助、资格不符分类。验收：只有政府路径与雇主接受条件都明确的岗位才进入重点投递。",
+    "gaps": "未逐州核配额与审批，也不承诺非瑞士毕业中国学生容易获批；具体语言和许可要问雇主及州主管机关。",
+    "source_ids": [
+      "RG08",
+      "RG47"
+    ],
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "西班牙",
+    "coverage": "规则与雇主样本已核实",
+    "work_route": "西班牙官方Hoja20给出当地完成合资格高等教育后求职居留条件。求职居留本身不授权工作；找到岗位后要满足对应就业手续。[RG09](https://inclusion.gob.es/web/migraciones/w/20.-autorizacion-de-residencia-para-busqueda-de-empleo-o-inicio-de-proyecto-empresarial)",
+    "job_channel": "学校bolsa de empleo和雇主人才门户；检索prácticas、becario、analista、graduados、junior。先区分实习协议、劳务合同及项目类别。",
+    "graduate_program": "Santander HQ Graduate Program在马德里，覆盖财务、风险、内审等，网页面向近3年取得相关学历者。它与同银行偏数字产品的Retail项目职责不同。[RG54](https://www.santander.com/en/careers/where-you-want-to-create-an-impact/santander-future-talent/graduate-program-hq)",
+    "timing": "该HQ页面明确2027年3月开窗、9月开始。核验日2026-11-13尚未到开窗，不制作“马上申请”的失实按钮。[RG54](https://www.santander.com/en/careers/where-you-want-to-create-an-impact/santander-future-talent/graduate-program-hq)",
+    "materials": "准备岗位指定的西班牙语或英文CV、毕业时间及工作身份；金融路线训练公司/信用分析，内审路线训练风险与控制，不把品牌策划当共同证据。",
+    "next_action": "输入许可类别、毕业日与目标职能；输出开窗提醒计划和1份对应案例。验收：合法停留与可开始工作的条件分别写明；未开放时先补证据。",
+    "gaps": "不对尚未发布的具体JD语言、赞助与材料要求作推断；地方办理和特殊身份需另查。",
+    "source_ids": [
+      "RG09",
+      "RG54"
+    ],
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "意大利",
+    "coverage": "规则与招聘入口核实，批次覆盖有限",
+    "work_route": "意大利外交部FAQ说明持有效学生居留并获得工作可核对转工作居留流程；托斯卡纳官方另列毕业后attesa occupazione及就业中心登记。以实际居住省的主管机关要求为准。[RG10](https://www.esteri.it/en/ministero/sportello_info/domandefrequenti/studiare-in-italia/) [RG68](https://www2.immigrazione.regione.toscana.it/?q=node%2F4157)",
+    "job_channel": "学校career service和雇主lavoro、stage、tirocinio、graduate、junior入口；辨认curriculare（课程内）与其他实习安排。",
+    "graduate_program": "UniCredit官方职业页保留graduate和internship入口；旧Graduate Program链接在核验时已跳转总页，所以不能保留旧批次条款当作新岗位要求。[RG53](https://www.unicreditgroup.eu/en/careers.html)",
+    "timing": "本版未核到统一2027截止。使用新JD中的起止日期；没有日期就记录“开放状态/招聘方答复”，不填自猜月份。",
+    "materials": "本册建议备意大利语或岗位要求语言的CV、学历/成绩、可实习时间与学校协议信息。银行职位需展示具体金融或业务分析能力。",
+    "next_action": "输入本地毕业与许可状态；输出主管机关办事页、有效JD和对应证据。验收：链接到实际职位而不是只到企业宣传页。",
+    "gaps": "本版对意大利具体毕业项目和雇主赞助的覆盖有限，无法据此断言某个中国申请者可被聘用。",
+    "source_ids": [
+      "RG10",
+      "RG53",
+      "RG68"
+    ],
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "瑞典",
+    "coverage": "规则与雇主样本已核实",
+    "work_route": "瑞典高校本/硕毕业后寻找工作许可通常最长1年；需完成相应学业、在既有许可到期前申请，并满足资金与保险条件。博士及其他路径不要混用。[RG11](https://www.migrationsverket.se/en/you-want-to-extend/study/look-for-work-after-completing-your-studies-in-sweden.html)",
+    "job_channel": "学校career portal和雇主graduate、trainee、junior岗位。先筛工作所在国；北欧集团不同国家项目不共享资格。",
+    "graduate_program": "SEB国际管培官方描述为具体岗位入职，评估包含心理测验、面试、案例和展示；英语是列明要求。[RG49](https://sebgroup.com/career/graduates-and-students/international-trainee-programme)",
+    "timing": "直接打开原页后，瑞典下一届写2028-29、2027年秋开窗。旧搜索摘要仍可能显示2026-27届。本版采用原页，并将旧摘要视为过期线索。[RG49](https://sebgroup.com/career/graduates-and-students/international-trainee-programme)",
+    "materials": "准备CV、原成绩与毕业日、英文案例展示；客户岗位是否需瑞典语按JD判断。一个可讲清取舍和风险的5页案例，比把通用毕业项目都申请一遍更有用。",
+    "next_action": "输入实际毕业年与期望到岗日；输出当前可投普通初级岗和下一届管培两张清单。验收：不因有管培入口就空等一年以上。",
+    "gaps": "未覆盖全部瑞典雇主、博士例外和海外学历求职许可；长期工作条件需再核。",
+    "source_ids": [
+      "RG11",
+      "RG49"
+    ],
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "丹麦",
+    "coverage": "规则与雇主样本已核实，日期冲突已标注",
+    "work_route": "SIRI新版专页以学生居留申请是否早于2026-10-01区分部分课程毕业后的通常3年或1年求职期，博士等有例外。页面部分旧文仍写3年，因此必须查看自己的许可与新专页。求职居留配套工作权有工时限制，超过限制须核对另行工作许可。[RG12](https://nyidanmark.dk/en-GB/You-want-to-apply/Study/Study---job-seeking/Study---3-years-job-seeking)",
+    "job_channel": "学校career centre和企业graduate programme页面；公司英语环境不能外推到全部当地销售岗位。",
+    "graduate_program": "Novo Nordisk项目要求近期硕士、国际经历和英语等；申请资料包括CV、成绩与按track问题写的cover letter，并有商业案例评估。[RG48](https://www.novonordisk.com/careers/early-career-programmes/graduate/application-process.html)",
+    "timing": "核验的申请流程页上方写2027入职项目于2026-12-06开放，下方仍留2025旧周期。这里明确记录冲突，待2027原JD开放后确认，不把旧日期复制到日历。[RG48](https://www.novonordisk.com/careers/early-career-programmes/graduate/application-process.html)",
+    "materials": "按职能选财务、采购或商业等track；本册建议准备一份讲得清数据、决策和国际协作的案例，且只将确实发生的海外经历写入。",
+    "next_action": "输入学生许可申请日、具体track和网页截图日期；输出“已确认/冲突待确认”日历。验收：12月6日暂作复核时间而非不可变承诺；不沿用旧3年口径。",
+    "gaps": "尚未对2027全部track的国家、申请数量与赞助逐岗核验；原页内部冲突已保留。",
+    "source_ids": [
+      "RG12",
+      "RG48"
+    ],
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "芬兰",
+    "coverage": "规则与雇主样本已核实",
+    "work_route": "Migri对芬兰毕业等合资格申请者提供最长2年求职许可，含不受学习领域限制的工作权；申请窗口、资金、境外首次与境内延长程序仍须符合。[RG13](https://migri.fi/residence-permit-to-look-for-work)",
+    "job_channel": "学校career service和雇主trainee、summer trainee、analyst入口；用职位职责区分银行业务分析、控制财务与软件/数据工程。",
+    "graduate_program": "Nordea芬兰FFP列Assistant Sales Manager、Controller、Analyst等岗位，强调英语、分析及沟通。项目5至9月运行，具体角色另读说明。[RG50](https://www.nordea.com/en/careers/future-finance-professional-programme)",
+    "timing": "运行月份不等于申请月份。查岗位开放与截止，结合硕士课程安排；已毕业者不要投明确要求active student status的实习。",
+    "materials": "本册建议准备英文CV、硕士课程与成绩、金融市场或财务分析证据、可全职参加时间。是否需芬兰语按具体岗位，不以集团官网语言推断。",
+    "next_action": "输入本地毕业及许可时间；输出一个业务方向和对应工作样本。验收：案例能区分Controller的预算解释与Sales的客户需求判断。",
+    "gaps": "未对每个岗位的芬兰语、担保和2027截止作统一保证；非芬兰毕业者需另查适用就业许可。",
+    "source_ids": [
+      "RG13",
+      "RG50"
+    ],
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "挪威",
+    "coverage": "规则与招聘入口核实，开放岗位覆盖有限",
+    "work_route": "UDI列出本地合资格毕业/研究者最长1年求职许可的条件，需资金证明、及时申请；期间可工作，但不能据此自营。并非所有海外商科学位可直接用该路径。[RG14](https://www.udi.no/en/want-to-apply/work-immigration/job-seekers)",
+    "job_channel": "学校career portal与DNB等雇主trainee/graduate入口；核对挪威语版。DNB说明技术原因可能导致某些岗位只在挪威语版显示。[RG51](https://jobb.dnb.no/go/Graduates/4223901/)",
+    "graduate_program": "DNB是可核实的毕业项目入口；核验时该类别页面显示暂无开放岗位，不把过期学生转发当在招证明。[RG51](https://jobb.dnb.no/go/Graduates/4223901/)",
+    "timing": "无统一日期承诺。检查雇主当期职位和本地许可到期日；若管培关闭，改找真正接受毕业生的junior岗。",
+    "materials": "本册建议准备岗位要求语言的CV、学位/成绩和工作资格说明；对本地客户沟通岗位单独做语言演练。",
+    "next_action": "输入学校毕业文件和目标JD；输出官网有效链接、语言要求及许可核对记录。验收：不存在“挪威语页面没看却说没有岗位”的盲区。",
+    "gaps": "本版未充分核实具体2027商科岗位的赞助与截止；不能把Nordic其他国家机会替代挪威规则。",
+    "source_ids": [
+      "RG14",
+      "RG51"
+    ],
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "波兰",
+    "coverage": "规则与雇主样本已核实",
+    "work_route": "波兰官方区分“免工作许可”和“有合法居留”：当地全日制高校毕业生可能免工作许可，但仍须合法居留；毕业求职居留可一次性9个月，需满足申请条件。[RG15](https://www.gov.pl/web/udsc-en/permit-for-temporary-residence--graduate)",
+    "job_channel": "学校biuro karier、雇主internship/graduate、młodszy specjalista和analyst入口；区分服务交付中心、客户咨询和财务共享岗位。",
+    "graduate_program": "PwC服务交付中心有学生毕业生入口；UBS波兰GTP说明春季招聘、同年夏季入职，按岗位和地区检查资格。[RG52](https://www.pwc.pl/en/career/service-delivery-center/student-and-graduate-zone.html) [RG47](https://www.ubs.com/global/en/careers/early-careers/graduate-talent-program.html)",
+    "timing": "瑞银周期仅属该雇主，其他实习/初级岗可按空缺招聘。不要将所有欧洲职位统一排到秋季。[RG47](https://www.ubs.com/global/en/careers/early-careers/graduate-talent-program.html)",
+    "materials": "本册建议备原成绩、英文或波兰语CV及学校/许可证明；按JD要求处理数据使用同意文本，不随意复制不相关的旧条款。多语种服务岗位要准确写语言熟练程度。",
+    "next_action": "输入全日制毕业证明、居留基础和目标业务线；输出身份双核表与一份业务数据/流程案例。验收：work permit exempt 没有被写成无需办理任何居留。",
+    "gaps": "未逐岗核波兰语、其他欧洲语言与赞助条件；其他中东欧国家不共享此规则。",
+    "source_ids": [
+      "RG15",
+      "RG47",
+      "RG52"
+    ],
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "中国香港",
+    "coverage": "规则与雇主样本已核实",
+    "work_route": "IANG 针对合资格的非本地毕业生等指定对象，不是所有海外毕业生的通用路线。合资格近期毕业生一般指毕业日期起6个月内申请者，可在没有聘用要约时申请；非近期毕业生须有符合要求的聘用。首次获准逗留通常为24个月，仍须按个人类别核条件。[RG20](https://www.immd.gov.hk/eng/services/visas/IANG.html)",
+    "job_channel": "从大学 career service、银行及专业服务公司的 Hong Kong graduate 页面进入。搜索 Graduate Programme、Management Trainee、Analyst，以及客户关系、issuer services、commercial banking 等实际业务词。把跨境业务的普通话要求与客户服务的粤语要求分别摘录，不能把“中文”视为同一种岗位语言。",
+    "graduate_program": "汇丰官方列表列香港 Issuer Services、Investment Specialist 等不同入口；恒生的 Management Trainee 也分业务。名称都带金融，不代表财务建模、客户覆盖和交易运营可以用同一份证据。[RG44](https://www.hsbc.com/careers/students-and-graduates/find-a-programme)",
+    "timing": "样本：HSBC Issuer Services 2027 项目列2026-09-29至12-04；Investment Specialist Business 列2026-10-12至11-13。后者核验日即名义截止日，截止时区、是否提前关闭及具体 vacancy 必须即时确认，不能视为持续可投。[RG44](https://www.hsbc.com/careers/students-and-graduates/find-a-programme)",
+    "materials": "本册建议准备英文简历、原始成绩信息、毕业及可到岗日期，并在表单中准确说明 IANG 状态。粤语、普通话、英语分别写可完成的工作任务；不要用“母语级”覆盖不能完成的客户沟通。具体是否需要中文材料、成绩单和录像面试由岗位页决定。",
+    "next_action": "输入毕业证书日期、学校/课程类别、IANG 记录和3条原JD。输出近期/非近期身份分流、许可日历及一份面向目标客户语言的案例。验收：身份类别与原页一致，案例可以用岗位工作语言讲清。错误处理：不属IANG对象就另核普通就业安排，不沿用香港校友条件。",
+    "source_ids": [
+      "RG20",
+      "RG44"
+    ],
+    "gaps": "未逐项核实证券、保险等受规管活动牌照；持有IANG不代替岗位专业资格。未覆盖所有大湾区校园的具体资格名单。",
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "中国澳门",
+    "coverage": "资格核实，毕业生项目覆盖有限",
+    "work_route": "非本地雇员通常先有雇主的劳工聘用许可，再办理相关逗留许可；工作受批准雇主及职务范围约束。香港 IANG 不能移用澳门，内地居民须核对应的出入境及工作安排。[RG30](https://www.ipim.gov.mo/en/invest-here/operating-instructions)",
+    "job_channel": "使用澳门高校就业部门、雇主澳门 career 页面和当地职位页发现机会，搜索财务、审计、市场、采购、酒店收益管理等具体职能。正式申请回到雇主原页，先找 non-resident 或工作资格条款。",
+    "graduate_program": "PwC 中国学生入口包含澳门，但其 China Sourcing Initiative 明确要求中国内地及澳门职位申请人可在无工作签证赞助条件下工作；不能因为中文招生或海归项目就认定内地学生可直接入职澳门。[RG37](https://www.pwccn.com/en/careers/students.html)",
+    "timing": "该项目的海外毕业年份范围与工作地点资格是两项条件。澳门其他企业的2027毕业生统一日历本版未核实；不要把香港截止日移植到澳门。",
+    "materials": "按JD准备中文或英文简历；对面向本地客户的岗位记录粤语要求，对国际业务记录英语要求。填表时分别列国籍、当前居留及是否需要雇主办理非本地雇员许可。",
+    "next_action": "输出一张雇主许可核查单：公司是否招非本地初级人员、该职务是否获准、预计办理时间、到岗前置条件。招聘方不明确时标待确认；不能以旅游或探亲身份开始工作。",
+    "source_ids": [
+      "RG30",
+      "RG37"
+    ],
+    "gaps": "尚无已核实、面向需雇主许可的中国内地应届生开放的商科毕业生项目清单；本地职业准入另查。",
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "中国台湾",
+    "coverage": "大陆学生身份限制已核实，不建立不适用的求职路线",
+    "work_route": "对于赴台就读的大陆地区学生，陆委会2025-11-11说明仍不得在台兼职或全职工作，毕业后不得以该学生身份留台工作。外国毕业生的新工作优惠不自动适用于大陆学生。判断依据是法律身份，不是是否都使用中文。[RG31](https://www.mac.gov.tw/News_Content.aspx?Create=1&n=F9057F9640B28033&s=AC317A803EE4C30F) [RG67](https://ezworktaiwan.wda.gov.tw/en/cp.aspx?n=8CE17C2739F9AB35&s=FB0D2CF1485F6E9E)",
+    "job_channel": "先向学校大陆学生事务窗口及主管机构核对本人身份。其他国籍或不同居留资格的读者，再进入对应的外籍、侨生或其他合法类别；本册不把其求职通道写成大陆学生通道。",
+    "graduate_program": "本版不为不具工作资格的大陆学生推荐台湾本地毕业生就业项目。可把在校课程和研究转化为回内地、香港或其他具合法资格地区的职能证据；课程仍标为教学或学术项目。",
+    "timing": "外国毕业生工作规则有2026年更新，但对象不符时不能以新日期覆盖身份限制。出发点是核对毕业、离境与下一地区申请窗口。[RG67](https://ezworktaiwan.wda.gov.tw/en/cp.aspx?n=8CE17C2739F9AB35&s=FB0D2CF1485F6E9E) [RG31](https://www.mac.gov.tw/News_Content.aspx?Create=1&n=F9057F9640B28033&s=AC317A803EE4C30F)",
+    "materials": "回国材料保留学历、课程、论文或项目的真实名称；大陆学生参加技能检定与取得可执业资格、可以就业是不同问题。不要在简历中将课堂校企作业写成当地受雇实习。[RG31](https://www.mac.gov.tw/News_Content.aspx?Create=1&n=F9057F9640B28033&s=AC317A803EE4C30F)",
+    "next_action": "输入本人国籍/户籍及在台许可类别，输出可行地区列表和回国申请日历。验收是每条目标路径都有适用于本人的官方依据。错误处理：若身份不适用，停止投入本地就业申请成本，转向已核实的目的地；身份有变化时重新核规则。",
+    "source_ids": [
+      "RG31",
+      "RG67"
+    ],
+    "gaps": "不覆盖所有跨境家庭、其他居留及国籍情形；不能据本章判断此类个案资格。",
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "日本",
+    "coverage": "规则、官方求职指南与雇主入口已核实",
+    "work_route": "合资格日本高校毕业生可按条件将“留学”转换为继续求职的“特定活动”，常见安排为6个月并可再延长6个月；学校推荐等材料要按本人类别核实。语言学校、旁听生等不能自动套用大学毕业生规定。就业后的在留资格另办。[RG16](https://www.studyinjapan.go.jp/en/work-in-japan/employment/)",
+    "job_channel": "从学校就职课与企业採用页并行查找 新卒採用、第二新卒、インターンシップ、営業、マーケティング、経営企画。新卒的毕业届别、既卒可否、日语水平和全国调动条件逐项记录。JASSO 的留学生求职指南可用于理解流程。[RG17](https://www.jasso.go.jp/en/ryugaku/after_study_j/job/__icsFiles/afieldfile/2026/01/27/guide_2027_mihiraki_all_e.pdf)",
+    "graduate_program": "Accenture 日本官方初级入口在核验时已展示2028届新卒预报名。它说明“2028届”可以在更早年份启动；申请后仍须按咨询、业务、技术等主要职责分流，技术研发不纳入本册。[RG55](https://www.accenture.com/jp-ja/careers/life-at-accenture/entry-level)",
+    "timing": "用JASSO 2027求职指南识别说明会、ES提交、笔试、面试与内定的先后；时间表是相应届别的指南，并非每家企业同步。企业可能有早期、国际生或不同职种的独立安排。[RG17](https://www.jasso.go.jp/en/ryugaku/after_study_j/job/__icsFiles/afieldfile/2026/01/27/guide_2027_mihiraki_all_e.pdf)",
+    "materials": "本册建议建立日文履歴書/エントリーシート信息底稿，分别写自己PR、学生时代投入事项和志望動機；以雇主表单为准。先准备能够用日语解释的商业案例，再检查日语书面及口头表达，不只列语言考试分数。[RG17](https://www.jasso.go.jp/en/ryugaku/after_study_j/job/__icsFiles/afieldfile/2026/01/27/guide_2027_mihiraki_all_e.pdf)",
+    "next_action": "输入毕业届别、实际日语任务能力与目标职种；输出3家企业原页时间轴、一份ES和两分钟案例说明。验收：能说明为何是该业务、自己的具体行动及证据边界。错误处理：错过新卒批次就核第二新卒/既卒条件，不伪造毕业日。",
+    "source_ids": [
+      "RG16",
+      "RG17",
+      "RG55"
+    ],
+    "gaps": "未逐职种核实“技术・人文知识・国际业务”等在留资格细项；日本语能力考试等级不等于岗位语言合格。",
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "韩国",
+    "coverage": "官方政策冲突已记录，商科雇主样本覆盖有限",
+    "work_route": "政府 Study in Korea 页面仍显示求职 D-10 旧的最长2年说明；韩国法务部2025-12-02公告将符合条件的韩国大学外国毕业生求职停留延至最长3年。应以更新公告及主管部门对本人适用情况的确认为准；不能把韩国本地毕业生政策扩展到所有海外毕业生。[RG18](https://studyinkorea.go.kr/en/life/residenceAndStayInfo.do) [RG19](https://www.moj.go.kr/bbs/moj/189/601114/artclView.do)",
+    "job_channel": "从本校就业中心、企业 채용 页面查 신입、인턴、마케팅、해외영업、재무、경영기획。逐条分离韩语客户沟通、英语跨境业务与技术研发。招聘网站的职位存在不等于企业愿意雇用需工作许可的外国新毕业生。",
+    "graduate_program": "本版尚未核实一个明确接受中国留学生、2027届、商科职能的企业原始毕业生项目，因此不列“可直接申请”的项目名称。应先用学校国际处和企业招聘方核国籍、毕业届别与签证转换。",
+    "timing": "不写全国统一上下半年窗口。为每条原JD记录 공고、마감、入职日和D-10到期日；官网旧政策与新公告冲突时保留两个链接及发布日期，申请前请出入境机关确认。",
+    "materials": "按职位表单准备韩文/英文简历与 자기소개서；用实际任务证明语言能力。把是否需要转为适用就业资格列为待雇主确认项，不能先填“无限制工作权”。",
+    "next_action": "输出一张政策冲突处理记录及3条经核实的商科JD。验收：明确适用公告、本人学历和雇主办理意愿。错误处理：仅有旧网页或中介口头答复时不视为资格已核验；尚未解决则调整地区优先级。",
+    "source_ids": [
+      "RG18",
+      "RG19"
+    ],
+    "gaps": "雇主毕业生项目、具体就业在留类别及受限行业仍待补充；本章不能作为完整韩国求职清单。",
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "新加坡",
+    "coverage": "规则与雇主样本已核实",
+    "work_route": "指定高等教育机构毕业生可按条件申请求职长期探访准证；该逗留路径不等于已获就业准证。Employment Pass 的工资门槛与 COMPASS 等规则另行适用，金融业与年龄因素会影响要求，2027新申请门槛也有变化。雇主应按拟申请时间使用MOM评估工具核资格。[RG22](https://www.ica.gov.sg/information-and-e-services/long-term-visit-and-study/long-term-visit-pass/long-term-visit-pass-application-renewal/graduate-from-an-institute-of-higher-learning-seeking-employment-in-singapore) [RG21](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility)",
+    "job_channel": "从学校 career portal 与企业 Singapore early careers 页面进入，搜索 Graduate Programme、Management Associate、Commercial、Finance、Operations、Sales。检查部门的实际客户及业务地区，不把区域总部所有岗位都视为初级商科岗位。",
+    "graduate_program": "德银新加坡2027 Graduate Programme 官方页列自己的毕业范围、相关全职经验限制及开工日期。英语项目页面并不承诺为所有候选人办理EP。[RG42](https://karriere.db.com/students-graduates/your-application/) [RG43](https://karriere.db.com/students-graduates/graduate-programme/index)",
+    "timing": "样本申请窗为2026-09-01至10-11，核验日已截止。2027入职的岗位要同时考虑2027工作准证条件，不沿用申请时较早门槛。[RG42](https://karriere.db.com/students-graduates/your-application/) [RG21](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility)",
+    "materials": "本册建议准备英文简历、原始成绩尺度、毕业日期、当前准证及是否需雇主办理工作准证。当地院校毕业身份与外国院校毕业身份分开填；不把可短期停留写成可工作。",
+    "next_action": "输入学校是否在ICA适用名单、预计雇佣日期和3条JD。输出本人逗留路径、雇主许可核查、岗位证据三栏表。验收：招聘方的国际生政策与MOM规则均有依据。错误处理：EP条件无法满足时换已核实的合法招聘路径，不以无薪全职代替许可。",
+    "source_ids": [
+      "RG21",
+      "RG22",
+      "RG42",
+      "RG43"
+    ],
+    "gaps": "未核实所有企业的赞助政策，也未覆盖所有S Pass或其他准证情形。",
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "马来西亚",
+    "coverage": "毕业停留规则与雇主渠道核实，正式就业覆盖有限",
+    "work_route": "Graduate Social Visit Pass 面向符合条件的马来西亚本科及以上毕业生，官方名单包括中国，通常为12个月，但有学生准证、担保、保险等条件。它允许的只是指定行业兼职，并非无条件全职工作许可。中国申请者还要查看相应补充条件。[RG23](https://www.imi.gov.my/index.php/en/contact-us/frequently-ask-question/faq-graduate-social-visit-pass/)",
+    "job_channel": "从学校 career centre 与企业 Malaysia 页面检索 graduate trainee、management trainee、finance、customer development、supply chain。先确认马来西亚本地毕业要求、英语/马来语及雇主是否接受外国新毕业生。",
+    "graduate_program": "联合利华马来西亚官方职业入口可用于寻找职能岗位；本版未核实一个明确接受中国新毕业生的2027全职项目，因此不会把官网入口写成可投保证。[RG59](https://careers.unilever.com/en/malaysia)",
+    "timing": "以每条岗位截止与入职日为准，不把Graduate Pass的12个月误当固定招聘季。兼职可做范围与毕业项目全职要求不相同。",
+    "materials": "按JD准备英文简历和课程/项目证据；在工作资格栏分别写当前Student Pass、拟申请Graduate Pass及正式雇佣是否另需许可。学校项目和兼职应分别标注。",
+    "next_action": "输出3条岗位的“项目资格/全职许可/雇主办理”三道门。验收：每一项有明确依据。错误处理：仅能证实兼职许可时，不以此承诺全职入职；先向雇主及移民部门核对适用就业准证。",
+    "source_ids": [
+      "RG23",
+      "RG59"
+    ],
+    "gaps": "正式就业准证、行业限制和雇主2027毕业生项目仍需逐项补齐。",
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "泰国",
+    "coverage": "工作许可入口核实，毕业生项目覆盖有限",
+    "work_route": "非移民B类签证与工作许可不是同一文件。泰国外交部说明工作须满足相关工作许可要求；不要将持签证或当地毕业当作立即工作权。[RG24](https://mfa.go.th/en/publicservice/non-immigrant-visa-b-for-business-and-work?cate=5d5bcb4e15e39c30600068d3)",
+    "job_channel": "从学校就业部门及企业 Thailand career 页搜索 graduate、management trainee、marketing、finance、supply chain，以及泰文对应岗位词。面对本地客户的业务要单独评估泰语任务能力。",
+    "graduate_program": "联合利华泰国官方招聘入口是发现渠道；本版未核实面向中国应届毕业生开放的具体2027项目，也未确认每一职能是否可为外籍办理许可。[RG60](https://careers.unilever.com/en/thailand)",
+    "timing": "没有足够原始证据支持统一校招季。本版要求使用具体vacancy的提交、面试和入职日期；在入职前倒排雇主文件、签证和工作许可。",
+    "materials": "按雇主要求提供英文/泰文材料，不自行虚构当地语言能力。准备学历、在校或毕业证明，先核雇主是否接受外国候选人，再投入完整案例作业。",
+    "next_action": "输出雇主担保及岗位可从事性确认表。验收：聘用主体、岗位、许可流程与开始工作日期均明确。错误处理：只有签证邀请或中介承诺、没有雇主及许可依据时，保留为未核实线索。",
+    "source_ids": [
+      "RG24",
+      "RG60"
+    ],
+    "gaps": "未逐项核实保留职业名单、雇主条件及2027商科毕业生项目，不能据此推断普通初级岗均开放。",
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "印度尼西亚",
+    "coverage": "工作类别入口与历史雇主样本核实，覆盖有限",
+    "work_route": "移民部门列有E23等工作居留类别，示例中区分营销、财务等职能；类别存在并不能证明外国新毕业生符合劳工审批条件。雇主担保、劳动许可与具体资格仍要分开确认。[RG25](https://jakartapusat.imigrasi.go.id/layanan/warga-negara-asing-wna/izin-tinggal-keimigrasian/perpanjangan-itas)",
+    "job_channel": "使用高校就业中心、雇主Indonesia页面和原始ATS，搜索 fresh graduate、management trainee、finance、marketing、customer development。印尼语客户沟通要求及当地资格不得省略。",
+    "graduate_program": "联合利华存在 UFLP Marketing 2026 官方招聘样本，可用于识别营销培训生职责。本版把它标为历史样本，未确认2027开放状态及中国国籍应届生资格。[RG61](https://unilever.wd3.myworkdayjobs.com/Unilever_Early_Careers/job/Indonesia/UFLP-Marketing-2026---Indonesia_R-1180867)",
+    "timing": "用实际年份区分存档项目与正在申请项目；不将2026样本链接视为可投空缺。外国雇员审批的开始日期另向雇主核对。",
+    "materials": "按JD提交英文/印尼文材料；在项目中展示市场研究、渠道与品牌分析，不用旅游体验充当当地商业经验。明确需要雇主办理工作手续。",
+    "next_action": "输出一份历史JD拆解和一条当前可确认的正式申请路径。验收：当前岗位ID、适用学历/经验、外国候选人政策全部可追溯。错误处理：找不到当前原页时停留在训练样本，不统计为已投机会。",
+    "source_ids": [
+      "RG25",
+      "RG61"
+    ],
+    "gaps": "未完成劳工审批、外国雇员经验要求和各行业限制的逐条核验。",
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "越南",
+    "coverage": "官方工作许可新规及高校招聘线索核实，覆盖有限",
+    "work_route": "越南2025年工作许可规则有更新。政府对第219/2025号法令的说明涉及雇主提交需求与许可流程；它不能单独证明无经验的外国商科毕业生满足具体资格。先核岗位类别及主管机关要求。[RG26](https://en.baochinhphu.vn/fresh-regulations-on-work-permit-issuance-to-foreign-workers-111250808104813884.htm)",
+    "job_channel": "从本校职业服务和雇主Vietnam官网查 Management Trainee、Finance、Customer Development、Supply Chain 等职能。中文能力只有在原JD确有业务需求时才转化为优势。",
+    "graduate_program": "UEH高校招聘平台出现 UFLP 2027 线索，发布时间为2026-11-07；这是高校转发，不是本版已核验的雇主原JD。读者须进入雇主官网确认职责、截止与国籍/工作资格，不能凭转发页认定中国留学生可投。[RG62](https://vieclam.ueh.edu.vn/cong-viec/unilever-s-future-leader-program-uflp-2027_187667)",
+    "timing": "记录转发日期、原JD发布日期、申请截止和入职日四项。若高校页与雇主页不同，以当前雇主页为申请依据；原页未找到就标待核。",
+    "materials": "按实际岗位准备英文或越南文材料，说明毕业时间与工作许可需求。不要把普通语言考试证书当成越南客户沟通或外国专家资格的替代品。",
+    "next_action": "输出一条从高校线索到雇主原页的可追溯链及工作许可适用性判断。验收：未验证的转发信息不进入“可申请”列表。错误处理：岗位对经验、专家身份或本地候选人有限制时，移出初级目标池。",
+    "source_ids": [
+      "RG26",
+      "RG62"
+    ],
+    "gaps": "缺少已核实的中国应届生开放商科项目；法令原文的细分资格与各地执行仍待补充。",
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "阿联酋",
+    "coverage": "求职访问与就业许可边界核实，毕业生项目覆盖有限",
+    "work_route": "官方求职访问签证可按条件选择60、90或120天，涉及技能等级或指定大学排名及毕业年限、学历等要求；并非任何海外本科都符合。访问签证不授权工作，正式入职还须合法就业手续。[RG27](https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/jobseeker-visit-visa) [RG28](https://u.ae/en/information-and-services/visa-and-emirates-id/tips-to-avoid-labour-and-visa-fraud)",
+    "job_channel": "从企业UAE/ Dubai/ Abu Dhabi官方career页进入，先查 Graduate、Analyst、Commercial、Finance 等；对 UAE Nationals、Emiratisation 等限定做硬筛。学校校招或英文岗位不自动对中国公民开放。",
+    "graduate_program": "EY MENA学生入口覆盖不同地点，部分地点显示即将开放；这不是一条已确认的中国毕业生入职路径。必须进入对应城市及职能的具体vacancy，核国籍与雇主办理工作许可条件。[RG63](https://www.ey.com/en_sa/careers/students-apply-here)",
+    "timing": "未核实统一2027毕业生截止。求职访问停留期、招聘截止和合法开工日分别建日历；不要把访问停留期等同于可试工期。",
+    "materials": "本册建议先准备英文简历、学位及成绩资料，并对每个实际雇佣主体核许可办理和文件认证要求。当地联系方式、照片等信息只按雇主明确要求提交，不编造当地居住经历。",
+    "next_action": "输出3个岗位的国籍限制与聘用主体卡，并向招聘方确认适用许可。验收：拿到真实雇主信息、明确劳动合同及工作许可流程。错误处理：只有访问签证或付费换Offer承诺时，不认定已经可以工作。[RG28](https://u.ae/en/information-and-services/visa-and-emirates-id/tips-to-avoid-labour-and-visa-fraud)",
+    "source_ids": [
+      "RG27",
+      "RG28",
+      "RG63"
+    ],
+    "gaps": "自由区和内地雇佣规则、各酋长国文件细节及中国应届生开放项目尚未逐一核验。",
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "沙特阿拉伯",
+    "coverage": "外籍雇佣规则与国籍限制反例已核实，覆盖有限",
+    "work_route": "非沙特雇员需要符合工作许可、雇主合同等条件，还要核本地化及保留岗位规定。职位页为英文不说明岗位对外国应届生开放。[RG29](https://www.hrsd.gov.sa/en/%D8%AA%D9%88%D8%B8%D9%8A%D9%81-%D8%BA%D9%8A%D8%B1-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D9%8A%D9%86)",
+    "job_channel": "从雇主Saudi Arabia/Riyadh/Jeddah页查具体商科职能；先筛 Saudi Nationals、localisation 和所需经验，再研究能力要求。只把明确接受外国候选人的原JD列为目标。",
+    "graduate_program": "EY Riyadh Consulting毕业生项目原页明确是 Nationals only，属于中国公民应立即排除的示例。它可以用于理解岗位职责，但不能列为面向本用户群的可投项目。[RG64](https://eyglobal.yello.co/jobs/915xd_FT7bW-OZtDRSXBbw?locale=en)",
+    "timing": "没有已核实的普遍面向中国商科应届生的2027招聘窗。按具体雇主日期和许可办理安排研究，不将本地国民Graduate Programme日历移用外国申请者。",
+    "materials": "按确实开放的岗位准备英语及必要的阿拉伯语能力证据；将学历、经验与工作许可问题分别作答。中文能力不能替代原JD所需经验或国籍条件。",
+    "next_action": "输出“可投/国籍排除/经验排除/待确认”四类清单。验收：国籍限制在投入案例和面试准备前处理。错误处理：尚无可投样本则降低此地区优先级，不为了覆盖国家而虚构申请路径。",
+    "source_ids": [
+      "RG29",
+      "RG64"
+    ],
+    "gaps": "没有已核实、接受中国新毕业生的完整商科项目；本地化比例、受限职务及专业注册还需逐岗核实。",
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "澳大利亚",
+    "coverage": "工作资格与雇主国际生政策已核实",
+    "work_route": "Temporary Graduate visa（subclass 485）有年龄、近期学生身份、合资格课程与不同stream等条件。不能仅凭澳洲毕业或课程名中有Business就认定获批或期限相同；应按自身学位、课程注册、毕业及申请日期核实。[RG32](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485)",
+    "job_channel": "学校 career service 与雇主 student/graduate 页面并行，分别搜索 vacationer、internship、graduate、analyst、commercial、audit、supply chain。实习是否要求持续在读、毕业项目接受多久以前毕业，须分别检查。",
+    "graduate_program": "Deloitte Australia 有不同业务线的毕业生项目，同时设国际生政策页：国际生只可申请明确列出的合资格业务和岗位。核验时该页显示国际生申请已关闭；不能从一般Graduate页仍有空缺推断国际生仍可投。[RG56](https://www.deloitte.com/au/en/careers/students/graduate-program-careers.html) [RG57](https://www.deloitte.com/au/en/careers/students/international-students.html)",
+    "timing": "Deloitte 对2027入职项目列2026毕业或此前24个月内毕业等条件，并说明主要2/3月及7月等开窗安排，具体剩余空缺另列。这里的月份是企业项目说明，不是澳大利亚全国统一申请季，也不保证每轮都有全部职能。[RG56](https://www.deloitte.com/au/en/careers/students/graduate-program-careers.html)",
+    "materials": "本册建议准备英文简历、原始成绩单、毕业时间、工作许可状态及到期日，按雇主要求上传。对需要公民身份、安全许可或特定客户资格的岗位单独核对；Deloitte官网不同段落对Canberra身份表述存在差异，应以具体JD及招聘方确认记录处理，不用一条简化规则覆盖所有职位。[RG57](https://www.deloitte.com/au/en/careers/students/international-students.html)",
+    "next_action": "输入许可、课程及预计完成日期，先选一条确实接受国际生的原JD，再做该职能案例。输出“毕业窗口/国际生政策/工作许可持续期/职责证据”四栏表。验收：四栏均有证据。错误处理：申请关闭就监测下一批或核其他雇主，不将网站上的普通招聘入口当作国际生开放证明。",
+    "source_ids": [
+      "RG32",
+      "RG56",
+      "RG57"
+    ],
+    "gaps": "未逐项核实CPA/CA等职业资格、州级要求或全部雇主的长期赞助政策；澳洲学生路线不适用于仅在其他国家毕业的读者。",
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "新西兰",
+    "coverage": "工作资格与雇主限制样本已核实",
+    "work_route": "Post Study Work Visa的期限与可工作范围取决于学历等条件，最长可达3年，不能将所有课程均视为3年无岗位限制。官方预告2026-11-23扩展对象须同时满足：在新西兰全日制完成NZQCF level 7 Graduate Diploma，并且此前已完成新西兰或海外本科学位；不是任意名称含diploma的课程。[RG33](https://www.immigration.govt.nz/visas/post-study-work-visa/)\n\n本版核验日为2026-11-13，该变化尚未生效。生效后仍须按正式规则核本人本科学位、Graduate Diploma的层级与学习情况，不把预告当作当前工作资格。[RG33](https://www.immigration.govt.nz/visas/post-study-work-visa/)",
+    "job_channel": "从学校 career hub 与企业New Zealand graduate页面检索 graduate、intern、analyst、audit、commercial、operations。把学校安排的实习、毕业生批次和普通初级职位分开。",
+    "graduate_program": "PwC NZ 的国际生条件比“合法工作”更窄：其学生页面对非新西兰/澳大利亚公民或居民设工作签证期限、未来不需赞助、指定Green List岗位等限制。不能把可以取得毕业工签等同于可投该公司所有商科职能。[RG58](https://www.pwc.co.nz/careers/studentcareers/graduate-programme.html)",
+    "timing": "项目页面同时可能保留旧届别FAQ；核验时应记录当前职位的入职批次、毕业范围和截止日期。新西兰11月政策更新日与企业招聘日不同，不能互相替代。[RG33](https://www.immigration.govt.nz/visas/post-study-work-visa/) [RG58](https://www.pwc.co.nz/careers/studentcareers/graduate-programme.html)",
+    "materials": "PwC 示例会要求身份及签证信息，并涉及成绩转换说明；按公司指引处理原始成绩。一般准备英文简历、学历与课程证明以及明确的许可到期日，不擅自把百分制改成自算GPA。[RG58](https://www.pwc.co.nz/careers/studentcareers/graduate-programme.html)",
+    "next_action": "输入学位层级、课程、当前许可及雇主国际生条件；输出个人资格判断及一个符合条件的职能短名单。验收：毕业工签工作范围与岗位职能一致，雇主额外条件也满足。错误处理：只有一般签证资格而不满足雇主条件时换雇主或职能，不在表单中隐瞒未来赞助需求。",
+    "source_ids": [
+      "RG33",
+      "RG58"
+    ],
+    "gaps": "未逐项核对所有Green List职业、注册机构及其他雇主政策；2026-11-23预告变更须到生效时再次核验。",
+    "checked": "2026-11-13"
+  },
+  {
+    "country": "中国内地（回国）",
+    "coverage": "回国操作完整，金融与专业服务雇主样本已核实",
+    "work_route": "中国内地居民国境外学历与本人身份分别核验；留服认证材料按官方目录准备，不能据此推定所有校招应届资格。[RG34](https://www.cscse.edu.cn/zwfw/lxfwzxwsfwdt2020/xlxwrz32/sqcl/ndjm/2026042823583912537/index.html)",
+    "job_channel": "雇主校园/全球招聘原页、海外专项项目、学校职业服务发现线索；正式申请回到原JD。",
+    "graduate_program": "中国银行2027全球校招与PwC中国学生入口；CSI只适用于指定美国/加拿大高校毕业人群，不能泛化到所有留学地区。[RG35](https://www.boc.cn/aboutboc/bi4/202609/t20260903_25689311.html) [RG37](https://www.pwccn.com/en/careers/students.html)",
+    "timing": "中行2027批次2026-10-09已截止；原资格附件对境外毕业日期、初次就业、学位与入职前认证分别设条件。具体企业逐项核。[RG35](https://www.boc.cn/aboutboc/bi4/202609/t20260903_25689311.html) [RG36](https://pic.bankofchina.com/bocappd/appform/202609/P020260903517985334320.pdf)",
+    "materials": "真实中英事实底稿、原学历及成绩、可到岗时间、按职能准备的案例与个人贡献说明；教学项目不改成工作经历。",
+    "next_action": "资格卡→同职能原JD→证据与差距→中文/英文申请包→分阶段反馈记录；每步有输入、操作、输出、验收和错误处理。",
+    "source_ids": [
+      "RG34",
+      "RG35",
+      "RG36",
+      "RG37"
+    ],
+    "gaps": "城市落户补贴、公职、档案社保、受规管职业及消费工业物流科技雇主校招未逐项覆盖。",
+    "checked": "2026-11-13"
+  }
+]

@@ -1,0 +1,7 @@
+plan,option,order_week,arrive_week,quantity_units
+A,regular,1,3,200
+A,expedite_early,1,2,25
+A,expedite_late,3,4,25
+B,regular,1,3,150
+B,expedite_early,1,2,75
+B,expedite_late,3,4,25

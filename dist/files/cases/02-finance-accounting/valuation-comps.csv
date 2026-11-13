@@ -1,0 +1,5 @@
+﻿company,revenue_cny_million,enterprise_value_cny_million,net_debt_cny_million,shares_million,data_type
+Peer_A,100,300,,,synthetic
+Peer_B,120,480,,,synthetic
+Peer_C,80,400,,,synthetic
+Target,50,,8,10,synthetic

@@ -1,0 +1,29 @@
+{
+  "checked": "2026-11-13",
+  "data_type": "synthetic",
+  "status": "passed",
+  "method": "直接读取全部CSV；独立复算利润、差异桥、两条现金路径、发票期间、信用情景和估值。",
+  "results": {
+    "pnl": {
+      "budget": {
+        "revenue": 1000000,
+        "ebit": 200000,
+        "pretax": 190000
+      },
+      "actual": {
+        "revenue": 1056000,
+        "ebit": 154000,
+        "pretax": 142000
+      }
+    },
+    "operating_cash_flow": 48000,
+    "ending_cash": 108000,
+    "september_invoices": 77000,
+    "adjusted_september_expense": 56000,
+    "credit": {
+      "base_cny": 56000,
+      "downside_cny": -24000
+    },
+    "valuation_per_share": 19.2
+  }
+}

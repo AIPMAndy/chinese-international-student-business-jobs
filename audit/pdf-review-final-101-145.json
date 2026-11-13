@@ -1,0 +1,800 @@
+{
+  "revision": "185-page-final",
+  "pdf": "downloads/business-careers-guide.pdf",
+  "pdf_sha256": "70ec71f8c647e1a034e47665a8b22d381688b6acbe6a47e336970f2acaba8c48",
+  "pdf_page_count": 185,
+  "review_date": "2026-11-13",
+  "reviewer": "routes_business",
+  "scope": {
+    "from": 101,
+    "to": 145,
+    "pages_assigned": 45,
+    "pages_actually_viewed": 45
+  },
+  "overall_result": "needs_layout_revision",
+  "final_acceptance": false,
+  "method": "逐页联系表实际视觉检查覆盖 45 页；关键表格、章节尾页与分页处单页放大复核。程序文字扫描仅为辅助，不代替图像检查。",
+  "evidence_note": "本记录绑定上述 185 页 PDF 的 SHA。完成联系表审阅后根代理开始再次重渲染，图像目录为可变路径；本记录不把随后同名图像视为本轮证据，也不声称未成功输出的全页图已放大检查。",
+  "observed_improvements": [
+    "旧 201 页版本的短表拆行已消除，所阅范围未见表格数据行截断。",
+    "旧 142 页的 FP&A 孤立收尾已整合至新版 129 页。",
+    "正文无可见重叠、越界、缺字方框或破损页码。",
+    "营销计算 139 页的双表、公式、假设与不确定性段落完整可读。"
+  ],
+  "issues": [
+    {
+      "id": "F185-01",
+      "severity": "medium",
+      "pages": [
+        109,
+        133
+      ],
+      "finding": "存在明显低密度章节尾页：109 页仅数据字典与一句作答说明，133 页仅评分与追问，正文占页很少。",
+      "evidence": [
+        "audit/rendered/page-109.png",
+        "audit/rendered/page-133.png"
+      ],
+      "recommendation": "数据字典使用注释字号，或将邻接块整体重排；金融案例评分尾页可在足够空间时接排下一金融分支。不得删练习要素。",
+      "status": "reported_to_root_pending_revision"
+    },
+    {
+      "id": "F185-02",
+      "severity": "medium",
+      "pages": [
+        130,
+        131
+      ],
+      "finding": "130 页底部“参考答案”单独成标题，答案表整体推至 131 页。",
+      "evidence": [
+        "audit/rendered/page-130.png",
+        "audit/rendered/page-131.png"
+      ],
+      "recommendation": "将标题、相邻说明段与短表整体绑定。",
+      "status": "reported_to_root_pending_revision"
+    },
+    {
+      "id": "F185-03",
+      "severity": "minor",
+      "pages": [
+        119,
+        120,
+        122,
+        123,
+        136,
+        137,
+        142,
+        143
+      ],
+      "finding": "短表完整保留，但前置标题与来源说明在上一页：119→120 的余额表、122→123 的信贷预测表、136→137 的随机试验表、142→143 的逐周需求表。",
+      "evidence": [
+        "audit/rendered/page-119.png",
+        "audit/rendered/page-120.png",
+        "audit/rendered/page-122.png",
+        "audit/rendered/page-123.png",
+        "audit/rendered/page-136.png",
+        "audit/rendered/page-137.png",
+        "audit/rendered/page-142.png",
+        "audit/rendered/page-143.png"
+      ],
+      "recommendation": "短表与前 1–2 个说明段及对应标题作为一组排版。",
+      "status": "reported_to_root_pending_revision"
+    }
+  ],
+  "pages": [
+    {
+      "page": 101,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-100-108.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 102,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-100-108.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 103,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-100-108.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 104,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-100-108.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 105,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-100-108.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 106,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-100-108.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 107,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-100-108.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 108,
+      "actually_viewed": true,
+      "method": "contact_sheet_and_full_page",
+      "images_viewed": [
+        "audit/rendered/contact-100-108.jpg",
+        "audit/rendered/page-108.png"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 109,
+      "actually_viewed": true,
+      "method": "contact_sheet_and_full_page",
+      "images_viewed": [
+        "audit/rendered/contact-109-117.jpg",
+        "audit/rendered/page-109.png"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "revision_requested",
+      "issue_ids": [
+        "F185-01"
+      ]
+    },
+    {
+      "page": 110,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-109-117.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 111,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-109-117.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 112,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-109-117.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 113,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-109-117.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 114,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-109-117.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 115,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-109-117.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 116,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-109-117.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 117,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-109-117.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 118,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-118-126.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 119,
+      "actually_viewed": true,
+      "method": "contact_sheet_and_full_page",
+      "images_viewed": [
+        "audit/rendered/contact-118-126.jpg",
+        "audit/rendered/page-119.png"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "revision_requested",
+      "issue_ids": [
+        "F185-03"
+      ]
+    },
+    {
+      "page": 120,
+      "actually_viewed": true,
+      "method": "contact_sheet_and_full_page",
+      "images_viewed": [
+        "audit/rendered/contact-118-126.jpg",
+        "audit/rendered/page-120.png"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "revision_requested",
+      "issue_ids": [
+        "F185-03"
+      ]
+    },
+    {
+      "page": 121,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-118-126.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 122,
+      "actually_viewed": true,
+      "method": "contact_sheet_and_full_page",
+      "images_viewed": [
+        "audit/rendered/contact-118-126.jpg",
+        "audit/rendered/page-122.png"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "revision_requested",
+      "issue_ids": [
+        "F185-03"
+      ]
+    },
+    {
+      "page": 123,
+      "actually_viewed": true,
+      "method": "contact_sheet_and_full_page",
+      "images_viewed": [
+        "audit/rendered/contact-118-126.jpg",
+        "audit/rendered/page-123.png"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "revision_requested",
+      "issue_ids": [
+        "F185-03"
+      ]
+    },
+    {
+      "page": 124,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-118-126.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 125,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-118-126.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 126,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-118-126.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 127,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-127-135.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 128,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-127-135.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 129,
+      "actually_viewed": true,
+      "method": "contact_sheet_and_full_page",
+      "images_viewed": [
+        "audit/rendered/contact-127-135.jpg",
+        "audit/rendered/page-129.png"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 130,
+      "actually_viewed": true,
+      "method": "contact_sheet_and_full_page",
+      "images_viewed": [
+        "audit/rendered/contact-127-135.jpg",
+        "audit/rendered/page-130.png"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "revision_requested",
+      "issue_ids": [
+        "F185-02"
+      ]
+    },
+    {
+      "page": 131,
+      "actually_viewed": true,
+      "method": "contact_sheet_and_full_page",
+      "images_viewed": [
+        "audit/rendered/contact-127-135.jpg",
+        "audit/rendered/page-131.png"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "revision_requested",
+      "issue_ids": [
+        "F185-02"
+      ]
+    },
+    {
+      "page": 132,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-127-135.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 133,
+      "actually_viewed": true,
+      "method": "contact_sheet_and_full_page",
+      "images_viewed": [
+        "audit/rendered/contact-127-135.jpg",
+        "audit/rendered/page-133.png"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "revision_requested",
+      "issue_ids": [
+        "F185-01"
+      ]
+    },
+    {
+      "page": 134,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-127-135.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 135,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-127-135.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 136,
+      "actually_viewed": true,
+      "method": "contact_sheet_and_full_page",
+      "images_viewed": [
+        "audit/rendered/contact-136-144.jpg",
+        "audit/rendered/page-136.png"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "revision_requested",
+      "issue_ids": [
+        "F185-03"
+      ]
+    },
+    {
+      "page": 137,
+      "actually_viewed": true,
+      "method": "contact_sheet_and_full_page",
+      "images_viewed": [
+        "audit/rendered/contact-136-144.jpg",
+        "audit/rendered/page-137.png"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "revision_requested",
+      "issue_ids": [
+        "F185-03"
+      ]
+    },
+    {
+      "page": 138,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-136-144.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 139,
+      "actually_viewed": true,
+      "method": "contact_sheet_and_full_page",
+      "images_viewed": [
+        "audit/rendered/contact-136-144.jpg",
+        "audit/rendered/page-139.png"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 140,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-136-144.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 141,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-136-144.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 142,
+      "actually_viewed": true,
+      "method": "contact_sheet_and_full_page",
+      "images_viewed": [
+        "audit/rendered/contact-136-144.jpg",
+        "audit/rendered/page-142.png"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "revision_requested",
+      "issue_ids": [
+        "F185-03"
+      ]
+    },
+    {
+      "page": 143,
+      "actually_viewed": true,
+      "method": "contact_sheet_and_full_page",
+      "images_viewed": [
+        "audit/rendered/contact-136-144.jpg",
+        "audit/rendered/page-143.png"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "revision_requested",
+      "issue_ids": [
+        "F185-03"
+      ]
+    },
+    {
+      "page": 144,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-136-144.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    },
+    {
+      "page": 145,
+      "actually_viewed": true,
+      "method": "contact_sheet",
+      "images_viewed": [
+        "audit/rendered/contact-145-153.jpg"
+      ],
+      "text_clipping": "not_observed",
+      "text_overlap": "not_observed",
+      "table_row_truncation": "not_observed",
+      "data_readability": "pass",
+      "header_footer_page_number": "pass",
+      "layout_result": "pass",
+      "issue_ids": []
+    }
+  ],
+  "handoff": "已向根代理发送精确页码与修正建议；根代理表示将局部修复并按图像差异与页面内容对应再次复核。"
+}

@@ -1,0 +1,5 @@
+experiment,arm,eligible_people,converted_people,spend_cu,unit_revenue_cu,unit_variable_cost_cu
+retargeting,treatment,5000,200,1500,50,30
+retargeting,control,5000,170,0,50,30
+prospecting,treatment,5000,170,1200,50,30
+prospecting,control,5000,90,0,50,30

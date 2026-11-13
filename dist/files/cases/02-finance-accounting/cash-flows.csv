@@ -1,0 +1,10 @@
+﻿item,amount_cny,direction,data_type
+opening_cash,100000,opening_balance,synthetic
+customer_collections,900000,inflow,synthetic
+supplier_payments,660000,outflow,synthetic
+operating_payments,180000,outflow,synthetic
+interest_paid,12000,outflow,synthetic
+capital_expenditure,40000,outflow,synthetic
+new_borrowing,0,inflow,synthetic
+principal_repayment,0,outflow,synthetic
+dividends,0,outflow,synthetic

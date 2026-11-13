@@ -1,0 +1,5 @@
+﻿period,channel,orders,revenue_per_order_cny,food_cost_per_order_cny,packaging_per_order_cny,commission_rate,data_type
+baseline,dine_in,12000,40,14,0,0,synthetic
+baseline,delivery,8000,40,14,2,0.2,synthetic
+current,dine_in,10000,40,15,0,0,synthetic
+current,delivery,10000,40,15,2,0.25,synthetic

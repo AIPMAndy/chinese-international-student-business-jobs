@@ -1,0 +1,4 @@
+9229f78f11ef2e0e4ce3150d38c7c91959bc747efe8af08a45962bdfaf0578a1  business-careers-guide.pdf
+f1f7239ec135ea72ff7aab42b16177ea4d011c5a7dcc3aeb11850acb25a02507  business-job-workbook.xlsx
+17e01f52e3e20036b4e94c75f647cbf30d67084e43d2f9235640989911c6296a  templates-and-cases.zip
+6932ca4c39cae9aa6a5610b0a80f5a94ca7a5ff453c785c2e96135e299ad5b53  repository-source.zip

@@ -1,0 +1,503 @@
+{
+  "revision": "201-page-initial",
+  "checked": "2026-11-13",
+  "scope": {
+    "start_page": 161,
+    "end_page": 201,
+    "page_count": 41
+  },
+  "pdf": "downloads/business-careers-guide.pdf",
+  "pdf_sha256": "9cf8081010efa77ba51e9ecc23509cd33bae3b0c588960f3fec30d75e1bafce5",
+  "method": "实际打开 6 张联系表查看范围内全部 41 页，再打开 18 张重点单页图放大复查；非仅基于文本提取。",
+  "contact_sheets": [
+    {
+      "path": "audit/rendered/contact-154-162.jpg",
+      "reviewed_pages": [
+        161,
+        162
+      ],
+      "sha256": "cb12d138bd672fdea9fd82954dc2ca7511e3fe7f5873a602e998d4c7b8b1f462"
+    },
+    {
+      "path": "audit/rendered/contact-163-171.jpg",
+      "reviewed_pages": [
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171
+      ],
+      "sha256": "67a6e041e0071902bcffc4abb49aba5ceedaf13c022a9cfd3ad085ba64806e23"
+    },
+    {
+      "path": "audit/rendered/contact-172-180.jpg",
+      "reviewed_pages": [
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180
+      ],
+      "sha256": "da294c513a7e4455010335e4712d4c00f437c27f3c0581d60303ef1c1cee89d7"
+    },
+    {
+      "path": "audit/rendered/contact-181-189.jpg",
+      "reviewed_pages": [
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189
+      ],
+      "sha256": "d95f4bef2b235807649c61f7a6a8ba63680d763fa838964e294220f832bbb0ed"
+    },
+    {
+      "path": "audit/rendered/contact-190-198.jpg",
+      "reviewed_pages": [
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198
+      ],
+      "sha256": "2132215cc636d1a59ee559315d9b5d1ac63ceaf73151c1a20c0608df8cdf1c5b"
+    },
+    {
+      "path": "audit/rendered/contact-199-201.jpg",
+      "reviewed_pages": [
+        199,
+        200,
+        201
+      ],
+      "sha256": "296b98d1830a13ea6250b5a872797a51c9666b238f55bb87a6ff0bdaeecffefc"
+    }
+  ],
+  "single_page_zoom_pages": [
+    161,
+    162,
+    163,
+    167,
+    168,
+    169,
+    171,
+    172,
+    175,
+    177,
+    178,
+    181,
+    185,
+    189,
+    193,
+    198,
+    200,
+    201
+  ],
+  "reviewed_pages": [
+    {
+      "page": 161,
+      "contact_sheet": "audit/rendered/contact-154-162.jpg",
+      "single_page_zoom": true,
+      "page_image": "audit/rendered/page-161.png",
+      "page_image_sha256": "2abbe19747961174bec3f086b517ec1dbfe6046e44f45c1120cbee5aff207ee7",
+      "observation": "中英文申请样例、品牌与页码清晰。"
+    },
+    {
+      "page": 162,
+      "contact_sheet": "audit/rendered/contact-154-162.jpg",
+      "single_page_zoom": true,
+      "page_image": "audit/rendered/page-162.png",
+      "page_image_sha256": "1cc69155632bac2d99351d52aee28ee46653a0a5b1ad68a47d6bbdbb1d027960",
+      "observation": "四列表格清晰；一级标题单字尾行。"
+    },
+    {
+      "page": 163,
+      "contact_sheet": "audit/rendered/contact-163-171.jpg",
+      "single_page_zoom": true,
+      "page_image": "audit/rendered/page-163.png",
+      "page_image_sha256": "b9a5af83a841f96c9de634d253f50df52a8896173478c121f916c32f16ff461c",
+      "observation": "两组留存表清晰，空值符号及说明可辨。"
+    },
+    {
+      "page": 164,
+      "contact_sheet": "audit/rendered/contact-163-171.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-164.png",
+      "page_image_sha256": "851fde7cd46b1918e9b036c2354f39893dfaa05cda97ad094db090a9df7081d7",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 165,
+      "contact_sheet": "audit/rendered/contact-163-171.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-165.png",
+      "page_image_sha256": "7dace6d7c2d4db45c985c88ab61f41e8c7348d26d65cc1a0e0a3dc4bc9a42b7e",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 166,
+      "contact_sheet": "audit/rendered/contact-163-171.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-166.png",
+      "page_image_sha256": "b155a832120c3c557752cfaa5a43f6b8c3a041111536b44a2e92a166db543070",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 167,
+      "contact_sheet": "audit/rendered/contact-163-171.jpg",
+      "single_page_zoom": true,
+      "page_image": "audit/rendered/page-167.png",
+      "page_image_sha256": "523752924aa13d4c4741523677b8d59c81742b5f6c8e025994059e3d3dae4f43",
+      "observation": "评分表续表及中英文样例无裁切。"
+    },
+    {
+      "page": 168,
+      "contact_sheet": "audit/rendered/contact-163-171.jpg",
+      "single_page_zoom": true,
+      "page_image": "audit/rendered/page-168.png",
+      "page_image_sha256": "d5bdba6f87eab68cd180c41e7dc51fc278f276c40f4297eb0b373c4dde8c4482",
+      "observation": "作者尾段形成孤页。"
+    },
+    {
+      "page": 169,
+      "contact_sheet": "audit/rendered/contact-163-171.jpg",
+      "single_page_zoom": true,
+      "page_image": "audit/rendered/page-169.png",
+      "page_image_sha256": "a817214ace2bd8a08d7dbfdfa2108adf4297de30ef52b88e4f4f9d4e10ac7a4a",
+      "observation": "四列表格清晰；一级标题单字尾行。"
+    },
+    {
+      "page": 170,
+      "contact_sheet": "audit/rendered/contact-163-171.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-170.png",
+      "page_image_sha256": "e2c5980c8238e2a785b059b32f85d93fd517c737e1123fed1038162b442cb89d",
+      "observation": "管线两表可读，末表跨页。"
+    },
+    {
+      "page": 171,
+      "contact_sheet": "audit/rendered/contact-163-171.jpg",
+      "single_page_zoom": true,
+      "page_image": "audit/rendered/page-171.png",
+      "page_image_sha256": "c78067512474550e43f444992627b29eb43f163fb8d1c38fa93294fb3670f0d5",
+      "observation": "末表单行续表可读；参数表完整。"
+    },
+    {
+      "page": 172,
+      "contact_sheet": "audit/rendered/contact-172-180.jpg",
+      "single_page_zoom": true,
+      "page_image": "audit/rendered/page-172.png",
+      "page_image_sha256": "fd831eb39cc70ad902ee63224d54a9fb596e3da70c3b86f12f030b4b111e1892",
+      "observation": "参数字典续尾形成孤页。"
+    },
+    {
+      "page": 173,
+      "contact_sheet": "audit/rendered/contact-172-180.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-173.png",
+      "page_image_sha256": "23e4152b685751f8e4ab24ae781ea96d995882917ee51039adc180eb4446ae75",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 174,
+      "contact_sheet": "audit/rendered/contact-172-180.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-174.png",
+      "page_image_sha256": "1a377b0567c73f7a1e29e6e70c26ecf69539cea3953e541f8106e99468960425",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 175,
+      "contact_sheet": "audit/rendered/contact-172-180.jpg",
+      "single_page_zoom": true,
+      "page_image": "audit/rendered/page-175.png",
+      "page_image_sha256": "08d4d6b2aef44415d5166fc01e868590419461ddd78e46a2c78be367ed158717",
+      "observation": "数值、公式、价值表与邮件正文清晰。"
+    },
+    {
+      "page": 176,
+      "contact_sheet": "audit/rendered/contact-172-180.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-176.png",
+      "page_image_sha256": "a15638c9b0fbbb106d9cea5aca88c6734e329887cf0e97f770093309957d65a2",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 177,
+      "contact_sheet": "audit/rendered/contact-172-180.jpg",
+      "single_page_zoom": true,
+      "page_image": "audit/rendered/page-177.png",
+      "page_image_sha256": "821ba78903f8cce0ffd99da94e03ec93049d365b20faed2ff7edafc082165614",
+      "observation": "完整中英文申请段落结束页，留白较多但无孤立单行。"
+    },
+    {
+      "page": 178,
+      "contact_sheet": "audit/rendered/contact-172-180.jpg",
+      "single_page_zoom": true,
+      "page_image": "audit/rendered/page-178.png",
+      "page_image_sha256": "8417e87e449977ccdb71e3a618ad5d4d6a4b79fd6deec987ed782458b59c3fec",
+      "observation": "模板、路径与列表清晰。"
+    },
+    {
+      "page": 179,
+      "contact_sheet": "audit/rendered/contact-172-180.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-179.png",
+      "page_image_sha256": "c5c14ee8d62e31dca10954637b7d43de5cbcdf132ab9f98511e966a2d60f50ad",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 180,
+      "contact_sheet": "audit/rendered/contact-172-180.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-180.png",
+      "page_image_sha256": "44e9231a1334efc3b7be36026274d7742551114f272dd6327ed7d24efd6e0518",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 181,
+      "contact_sheet": "audit/rendered/contact-181-189.jpg",
+      "single_page_zoom": true,
+      "page_image": "audit/rendered/page-181.png",
+      "page_image_sha256": "5af6048773dccea7be393bf19f7f6619d7b4eff5cee1eddfb5d0c30f46ef8ed0",
+      "observation": "来源方法与前三条记录清晰。"
+    },
+    {
+      "page": 182,
+      "contact_sheet": "audit/rendered/contact-181-189.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-182.png",
+      "page_image_sha256": "ced844e0e20852c2400f79853f0df45955e245047a0a65f96a66a84b1dc87b20",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 183,
+      "contact_sheet": "audit/rendered/contact-181-189.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-183.png",
+      "page_image_sha256": "1e7576b7f9592d15d546860b7fb274940d30ddda014c89a6cb76340c62ca8834",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 184,
+      "contact_sheet": "audit/rendered/contact-181-189.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-184.png",
+      "page_image_sha256": "de945ad535d0de3183511e5f387bc223295826f37d34d3b991462b6738be7d16",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 185,
+      "contact_sheet": "audit/rendered/contact-181-189.jpg",
+      "single_page_zoom": true,
+      "page_image": "audit/rendered/page-185.png",
+      "page_image_sha256": "58228550f388a8cac0845272f55d43d10a6158c1f031d81033bf9e3f9acb3912",
+      "observation": "较长英文岗位标题和日期字段清晰；来源条目可跨页续读。"
+    },
+    {
+      "page": 186,
+      "contact_sheet": "audit/rendered/contact-181-189.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-186.png",
+      "page_image_sha256": "aa5609fda824dbad98176941867e1ff8fecdf38d98127986a0b67032d3085fc0",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 187,
+      "contact_sheet": "audit/rendered/contact-181-189.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-187.png",
+      "page_image_sha256": "fa0642925b6cf3cbc7a50370a6ffa27b3a397e0361a9919a9361a72b1aa736dc",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 188,
+      "contact_sheet": "audit/rendered/contact-181-189.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-188.png",
+      "page_image_sha256": "419495898699ee7fa72e05b6244d293139f0778e7c3114485637186466c5f014",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 189,
+      "contact_sheet": "audit/rendered/contact-181-189.jpg",
+      "single_page_zoom": true,
+      "page_image": "audit/rendered/page-189.png",
+      "page_image_sha256": "4a5f1ab8d0947182cf08b1d93e41558cac366df3509241d4ad796ade1797d45d",
+      "observation": "来源中文说明、标题与标识清晰。"
+    },
+    {
+      "page": 190,
+      "contact_sheet": "audit/rendered/contact-190-198.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-190.png",
+      "page_image_sha256": "d5f5f0aa1481f07be1a3054f18bff92ce6257b183e31b424630f1a662a60288c",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 191,
+      "contact_sheet": "audit/rendered/contact-190-198.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-191.png",
+      "page_image_sha256": "b3dbaf5013805c74b869e04d75a5187e86c6f59863a53c64aff74a707b4137f2",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 192,
+      "contact_sheet": "audit/rendered/contact-190-198.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-192.png",
+      "page_image_sha256": "4786d7b26bbfec67c2cf9670f5ff7d52400502bc41a33ccf0c2fc30661625324",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 193,
+      "contact_sheet": "audit/rendered/contact-190-198.jpg",
+      "single_page_zoom": true,
+      "page_image": "audit/rendered/page-193.png",
+      "page_image_sha256": "ac28719a2f9c095d3a8d67ffff6f688336afd54d2e72c2424cc248e1a5fef6f7",
+      "observation": "来源长英文标题换行正常，中文清晰。"
+    },
+    {
+      "page": 194,
+      "contact_sheet": "audit/rendered/contact-190-198.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-194.png",
+      "page_image_sha256": "69096a970e5fe431099a92cd9bfef2d8ddbcd2c4acb8d69ab5e3963d7ad29175",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 195,
+      "contact_sheet": "audit/rendered/contact-190-198.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-195.png",
+      "page_image_sha256": "6a969f96e193f279db240e8a1a0e7c28ba7613638e4e0d0a9413a7c0617db025",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 196,
+      "contact_sheet": "audit/rendered/contact-190-198.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-196.png",
+      "page_image_sha256": "207c3db6cd53a46e16f361ad922d615d07f518bd4a3a264a1c72a750934b951b",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 197,
+      "contact_sheet": "audit/rendered/contact-190-198.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-197.png",
+      "page_image_sha256": "12bf983d589cb8a18e85d4b400483683a4dca2c893d9f76c07fadddbf241f81f",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 198,
+      "contact_sheet": "audit/rendered/contact-190-198.jpg",
+      "single_page_zoom": true,
+      "page_image": "audit/rendered/page-198.png",
+      "page_image_sha256": "f18822412f8cbec6abf8d548f34b5bf844c60571646f1781e247dda2a0beb7e3",
+      "observation": "来源条目跨页，内容无遮挡。"
+    },
+    {
+      "page": 199,
+      "contact_sheet": "audit/rendered/contact-199-201.jpg",
+      "single_page_zoom": false,
+      "page_image": "audit/rendered/page-199.png",
+      "page_image_sha256": "b10c184637b6ad43b7c7ff0d35202e0da1d2a13eaad2e4c05d9c26cd5ffe9a9d",
+      "observation": "联系表已逐页查看：正文、表格或来源条目位于页面边界内，未见重叠、乱码或异常空白。"
+    },
+    {
+      "page": 200,
+      "contact_sheet": "audit/rendered/contact-199-201.jpg",
+      "single_page_zoom": true,
+      "page_image": "audit/rendered/page-200.png",
+      "page_image_sha256": "a33f7fd6cdcb1a505170d9d57fa71a9b1663a081ba4ede6f7fda654293ec46ff",
+      "observation": "来源收尾、长英文标题与页码清晰。"
+    },
+    {
+      "page": 201,
+      "contact_sheet": "audit/rendered/contact-199-201.jpg",
+      "single_page_zoom": true,
+      "page_image": "audit/rendered/page-201.png",
+      "page_image_sha256": "4fac1643cbb15d4d7c33ac4f8351b32e71f901338ff194cceeea4c0723c308c1",
+      "observation": "结尾行动、网站 URL、作者品牌与咨询边界清晰。"
+    }
+  ],
+  "findings": [
+    {
+      "id": "V161-01",
+      "severity": "major",
+      "pages": [
+        168
+      ],
+      "status": "requires_revision",
+      "description": "第 168 页只剩案例 05 的作者及官网两行，形成明显孤页。",
+      "recommendation": "将重复作者尾段并回前页，或在 PDF 层省略重复品牌尾段。"
+    },
+    {
+      "id": "V161-02",
+      "severity": "major",
+      "pages": [
+        172
+      ],
+      "status": "requires_revision",
+      "description": "销售可打印数据页的字段字典续尾和最后一句单独落页，正文只有约三行。",
+      "recommendation": "收紧前文间距或表格，使此短尾并回数据页。"
+    },
+    {
+      "id": "V161-03",
+      "severity": "minor",
+      "pages": [
+        162,
+        169
+      ],
+      "status": "requires_revision",
+      "description": "可打印输入数据的一级标题在下一行仅剩一个“据”字，视觉不整齐。",
+      "recommendation": "缩短标题或按完整短语换行，避免单字标题尾行。"
+    },
+    {
+      "id": "V161-04",
+      "severity": "minor",
+      "pages": [
+        170,
+        171
+      ],
+      "status": "improvement_recommended",
+      "description": "四行账户合格标记表在两页拆开，最后 Dune 一行连重复表头单独在下一页起始；无数据丢失。",
+      "recommendation": "小表整体排版，保留同组行。"
+    }
+  ],
+  "acceptance": {
+    "status": "requires_revision",
+    "all_assigned_pages_viewed": true,
+    "overlap_or_clipping_observed": false,
+    "unreadable_chinese_observed": false,
+    "long_link_overflow_observed": false,
+    "visible_page_numbering_continuous": true,
+    "obvious_orphan_pages": [
+      168,
+      172
+    ],
+    "final_pass_claimed": false
+  },
+  "notes": [
+    "本轮图像和 PDF 为 201 页初稿；修订后须按新页范围复核，不能沿用本轮页码验收。",
+    "来源条目跨页但保持标题与后文可对应；未将此认定为内容丢失。",
+    "本记录为视觉检查；链接实际访问与事实核验由项目其他验收记录覆盖。"
+  ]
+}

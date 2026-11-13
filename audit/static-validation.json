@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-13",
+  "status": "passed",
+  "results": {
+    "sources": {
+      "records": 101,
+      "unique_urls": 98
+    },
+    "chapters": {
+      "main": 18,
+      "routes": 6
+    },
+    "regions": 31,
+    "markdown_local_links": 110,
+    "website": {
+      "html_pages": 52,
+      "local_links_checked": 3523,
+      "metadata_and_brand_checked": true
+    },
+    "case_calculations": [
+      {
+        "case": "03-marketing",
+        "exit_code": 0
+      },
+      {
+        "case": "04-operations",
+        "exit_code": 0
+      },
+      {
+        "case": "05-analytics",
+        "exit_code": 0
+      },
+      {
+        "case": "06-sales",
+        "exit_code": 0
+      },
+      {
+        "case": "consulting-and-finance",
+        "exit_code": 0
+      }
+    ],
+    "workbook": {
+      "sheets": 7,
+      "tables": 7,
+      "formula_cells": 23,
+      "native_excel_tested": false
+    },
+    "pdf": {
+      "pages": 180,
+      "bookmarks": 39,
+      "links": 376,
+      "render_check": "audit/pdf-render-check.json",
+      "human_review": "audit/pdf-review-final.json"
+    },
+    "downloads": {
+      "count": 4,
+      "crc_and_local_static_identity_checked": true
+    }
+  },
+  "failure_count": 0,
+  "failures": [],
+  "limits": [
+    "External pages were researched separately; this script does not claim all external links remain live.",
+    "Native Excel desktop was not tested.",
+    "Human PDF and live browser checks are separate records."
+  ]
+}

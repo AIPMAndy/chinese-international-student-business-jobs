@@ -1,0 +1,5 @@
+﻿account,opening_cny,closing_cny,data_type
+accounts_receivable,200000,356000,synthetic
+inventory,300000,348000,synthetic
+accounts_payable,150000,220000,synthetic
+accrued_operating_expenses,40000,60000,synthetic

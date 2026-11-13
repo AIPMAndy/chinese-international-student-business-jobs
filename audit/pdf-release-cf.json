@@ -1,0 +1,280 @@
+{
+  "revision": "180-page-release",
+  "checked": "2026-11-13",
+  "pdf": "downloads/business-careers-guide.pdf",
+  "pdf_sha256": "0fed84d781a1cf4654b3e243ca1784327ccf3b00da862901e3876f96b81ad4f0",
+  "pdf_pages": 180,
+  "scope": "本审阅员负责第145–180页的变化复核及对应未变化正文的已阅记录承接；不代替全书其他分工审阅。",
+  "method": "逐张打开8个指定变化页、153–156销售完整布局及180封底，共13张全页图。未变正文使用页图正文像素映射承接186版及185版已阅记录，不声称本轮重新打开全书每页。",
+  "previous_reviews": [
+    "audit/pdf-final-delta-cf.json",
+    "audit/pdf-review-final-146-185.json"
+  ],
+  "page_map": "audit/pdf-release-page-map.json",
+  "viewed_pages": [
+    {
+      "page": 146,
+      "image": "audit/rendered/page-146.png",
+      "sha256": "b8118d608e007820ac44234844199456b3535c207ea6ce90b4dda95f5ab6d41d",
+      "viewed": "full-page image opened",
+      "observation": "D60 原始输入表和字段说明完整，随后进入商业分析案例；连续小节标题与正文层次清楚。"
+    },
+    {
+      "page": 147,
+      "image": "audit/rendered/page-147.png",
+      "sha256": "a08c1a85b6f99874b3cc9702c5c5d071802d1503961486c421a3d1ffa697e746",
+      "viewed": "full-page image opened",
+      "observation": "商业分析任务、分阶段训练与汇总表完整，未见表格裁切或中文乱码。"
+    },
+    {
+      "page": 148,
+      "image": "audit/rendered/page-148.png",
+      "sha256": "aa04b1228e96df7dcdc856d0b8cb9137dea74dc4f0d13ea44ae7b543f545835e",
+      "viewed": "full-page image opened",
+      "observation": "计算分析、分群判断和局限说明排版完整；公式与英文术语换行正常。"
+    },
+    {
+      "page": 149,
+      "image": "audit/rendered/page-149.png",
+      "sha256": "ac7ea3c3da25f337f2f6e469eeba9fe40b10c8114938b971e01a6213eefa13a0",
+      "viewed": "full-page image opened",
+      "observation": "商业分析评分与申请样例清楚，段落延续至下一页而未生成独立短尾页。"
+    },
+    {
+      "page": 150,
+      "image": "audit/rendered/page-150.png",
+      "sha256": "7472cf0c26e6b538e026d37983e02d8f5c9152e771cb009407d02fb5d5591300",
+      "viewed": "full-page image opened",
+      "observation": "顶部接续商业分析英文样例两行，随后为销售输入数据；表格标题、客户数据和分隔留白清楚，整页正常填充。"
+    },
+    {
+      "page": 153,
+      "image": "audit/rendered/page-153.png",
+      "sha256": "27c47748e9ba1c333c8e5cd62a701d79096085c9729a2f9f8b80d672a9b037df",
+      "viewed": "full-page image opened",
+      "observation": "销售案例任务与评分所需情境完整，标题、正文及列表无越界。"
+    },
+    {
+      "page": 154,
+      "image": "audit/rendered/page-154.png",
+      "sha256": "eda00796ba7955660624d224f64726c57a1267a28cd7cdb1b25affb55578fe2b",
+      "viewed": "full-page image opened",
+      "observation": "账户优先级、需求问题与价值计算表完整，表格行未拆断，中文可读。"
+    },
+    {
+      "page": 155,
+      "image": "audit/rendered/page-155.png",
+      "sha256": "137cb03d6be3b3da8ebe9ff64f1aee128038dfbde426b5363351b10eaa235c85",
+      "viewed": "full-page image opened",
+      "observation": "销售管线及中英文跟进邮件完整，长英文按词换行，未见裁切。"
+    },
+    {
+      "page": 156,
+      "image": "audit/rendered/page-156.png",
+      "sha256": "343e29defa928993b565726e20ac7ba892b44d41ab134f865fc16bf4acac63ab",
+      "viewed": "full-page image opened",
+      "observation": "评分标准标题与完整评分表同页，后续面试追问和中英文申请样例可读。"
+    },
+    {
+      "page": 157,
+      "image": "audit/rendered/page-157.png",
+      "sha256": "3e6a6876e45db64827aeea7a1b71a44ed8470bec6511aeb4331398b7c39e31ee",
+      "viewed": "full-page image opened",
+      "observation": "销售英文申请样例最后两行后紧接可编辑模板章节与充足正文，原186版第162页两行孤页已解决；章节区分明确。"
+    },
+    {
+      "page": 158,
+      "image": "audit/rendered/page-158.png",
+      "sha256": "56ed92f5969532b30474eb399f4420b7fed25157dd00574e979d7367826b989d",
+      "viewed": "full-page image opened",
+      "observation": "公司研究模板、申请材料骨架与案例提交页清楚，中英文留白和字间距正常。"
+    },
+    {
+      "page": 159,
+      "image": "audit/rendered/page-159.png",
+      "sha256": "92ffb2b2112a60a0596ad0915f81aefaad5da4e5fa41eff3937523b62454cf18",
+      "viewed": "full-page image opened",
+      "observation": "案例提交页续项与申请复盘页完整；章末合理留白，非只含一两行的孤页。"
+    },
+    {
+      "page": 180,
+      "image": "audit/rendered/page-180.png",
+      "sha256": "2119238161f78c34cc350893ca2c6ffa9e2d0b141c1bfdc139a44b55cbfda0ec",
+      "viewed": "full-page image opened",
+      "observation": "封底作者、微信、公众号、两个官网、网站与免费内容说明完整；页脚显示180，无裁切或乱码。"
+    }
+  ],
+  "inherited_body_reviews": [
+    {
+      "new_page": 145,
+      "previous_page": 149,
+      "body_hash": "7afba8e984809fc5f4912d06845c9850898944c14f7f333c8217c3daf4ff5699",
+      "basis": "Body pixels identical per release map; 186-page revision page 149 was directly viewed in audit/pdf-final-delta-cf.json."
+    },
+    {
+      "new_page": 151,
+      "previous_page": 156,
+      "body_hash": "6a28de16244a1574510a7c58a7ec287c48aa2a8f29922ef557bde304d6127c9b",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 152,
+      "previous_page": 157,
+      "body_hash": "5d44ea9652b82991ec1eb070a5206e897bedeaefc1e8da85dee68ab801ae2aa3",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 160,
+      "previous_page": 166,
+      "body_hash": "b3ecc3c5d61a1c4e7eecc1a08eb381afbf2781f83616557881cca235567ab874",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 161,
+      "previous_page": 167,
+      "body_hash": "bfafbf80ce5d50e71c2156a1fb3b192d809861dac8e8897987087513621aa9aa",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 162,
+      "previous_page": 168,
+      "body_hash": "5dd08255839be3589e2140d5d38095cb9121dd0ec63f634d6de4d0d7a86b8bf8",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 163,
+      "previous_page": 169,
+      "body_hash": "f7201fd145b814f885f455a843f09dc1dfb2546d53ae23f49464eaea0eaada8a",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 164,
+      "previous_page": 170,
+      "body_hash": "bf03c23d1acfc8ba655a8f79d3cae6621bd1697ff5e02d2e0f5c9083a9d7a64a",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 165,
+      "previous_page": 171,
+      "body_hash": "605ccf388a2ce472b5a66bc1cc8c5842f9428e6f834b44be07626ff47c199c60",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 166,
+      "previous_page": 172,
+      "body_hash": "dc70792075c342db53d5ed4680765f4e9d433d423c28f96aa50f0e747cc45547",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 167,
+      "previous_page": 173,
+      "body_hash": "733235ed83d6a931d43a897f795863b20bd267bef64ed3eefc348e4262dbbac8",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 168,
+      "previous_page": 174,
+      "body_hash": "3e393e9ff0f293734a04551832ba208c5995d14f1225368e7bac0d89794073d1",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 169,
+      "previous_page": 175,
+      "body_hash": "34c94faac13c7c96e90c0913c4fd5518df62be1746ebcbb97936165b3620dbce",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 170,
+      "previous_page": 176,
+      "body_hash": "5b2d7642d19752017aad687b9687cc8b6266c5bce8f87b9162bd39d249ee45cf",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 171,
+      "previous_page": 177,
+      "body_hash": "53b9190a6179fa5141e3e5cd2aa3e46927eef1d446d9aba05c6433ca3be9da67",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 172,
+      "previous_page": 178,
+      "body_hash": "cbb62bf9181a4d8d7a4e3f0cd9148ac339d8aca986ab6aa3067199e229ba48c9",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 173,
+      "previous_page": 179,
+      "body_hash": "dd6050bedab9c65b28b7ed19bf3f07c0fee47d3fd27dcc9ef5a181b09fe4d104",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 174,
+      "previous_page": 180,
+      "body_hash": "4e7678bd9c76f9f01695cf23d4ff050ed8985b9d5ec02a76d06be4cee0fca2eb",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 175,
+      "previous_page": 181,
+      "body_hash": "09c9c63e3f6beaf8f34179d6301e07cb9661637ec8c4b9a0f6cab43f2bb3de4a",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 176,
+      "previous_page": 182,
+      "body_hash": "413f2cd7c0603a2a01148c196d89bb3f0624931e09e91c6814031e92d1825fa1",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 177,
+      "previous_page": 183,
+      "body_hash": "e9090b59397816b01f208556c0471250cb1f0e9502c75d6f27ef527d60c9ca74",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 178,
+      "previous_page": 184,
+      "body_hash": "5495bd37d66f6c067f2cb4cc2bd9496b481d89f7f1b10d57b4f5ad2678c05886",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    },
+    {
+      "new_page": 179,
+      "previous_page": 185,
+      "body_hash": "22dca2721ac5212d14963686941258eb134fbaf5a47e7f1ddd7479c1534e234a",
+      "basis": "Body pixels identical per release map; corresponding prior visual review retained."
+    }
+  ],
+  "resolved_findings": [
+    {
+      "id": "VDELTA-CF-01",
+      "previous_revision": "186-page-final-delta",
+      "previous_page": 162,
+      "current_page": 157,
+      "resolution": "英文段落最后两行后连续排入可编辑模板章节，页中有完整模板内容，明显短尾孤页已消除。"
+    },
+    {
+      "id": "V146-01",
+      "previous_revision": "185-page-final",
+      "previous_page": 160,
+      "current_page": 156,
+      "resolution": "评分标题与完整表格仍同页，修复在发布候选中保持。"
+    }
+  ],
+  "checks": {
+    "assigned_changed_pages_reviewed": 8,
+    "additional_sales_pages_reviewed": 4,
+    "back_cover_reviewed": true,
+    "actual_full_page_images_opened": 13,
+    "inherited_unchanged_body_pages": 23,
+    "image_hashes_match_release_map": true,
+    "score_heading_bound_to_table": true,
+    "old_english_tail_orphan_resolved": true,
+    "no_visible_table_clipping": true,
+    "no_visible_garbled_chinese": true,
+    "no_visible_overflow": true,
+    "back_cover_page_number_correct": true
+  },
+  "unresolved_findings": [],
+  "status": "passed",
+  "acceptance": "第145–180页本次分工范围通过视觉复核；此前已发现的销售评分标题及英文两行孤页问题已解决。"
+}

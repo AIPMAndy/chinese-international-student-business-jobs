@@ -1,0 +1,10 @@
+parameter,value,unit
+users,20,people
+manual_hours_per_user_per_week,2,hours
+working_weeks,48,weeks
+hourly_capacity_value,25,CU_per_hour
+annual_subscription,12000,CU
+one_time_implementation,2000,CU
+base_realization_rate,0.6,fraction
+downside_realization_rate,0.2,fraction
+quarter_quota,100000,CU_annual_contract_value

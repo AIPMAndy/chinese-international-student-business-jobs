@@ -1,0 +1,839 @@
+{
+  "source_sha256": "b617d42616dfcd9ae66391d64d8c3a2281b5d96a55edf5fd71c05cf15551ef0e",
+  "latest_source_delta_sha256": "1b0c371b8c80d9339f1b8f50719248b9ecc3cb50bdc021c4e3987fc32ccc1294",
+  "pdf_pages": 180,
+  "html_pages": 53,
+  "pages_deployment": "pending; an import is not evidence of a live website",
+  "files": [
+    {
+      "path": "dist/.nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dist/404.html",
+      "bytes": 1676,
+      "sha256": "ca6e898c94700e6d549be42c620342b41b3f6ccd2288dc1b1495cd3912b1298a"
+    },
+    {
+      "path": "dist/assets/app.js",
+      "bytes": 2418,
+      "sha256": "e192e96b02a269a79dd9fad6e7552a7c5274fd0d52cfe8e37012c9a91e100e63"
+    },
+    {
+      "path": "dist/assets/favicon.svg",
+      "bytes": 200,
+      "sha256": "cab026976519c806e208eea7c2d2f1e573435e43581247da101b509cd04e45c4"
+    },
+    {
+      "path": "dist/assets/search-index.js",
+      "bytes": 366426,
+      "sha256": "e8a014c56c7f11014d4f51f3ab9d8bcc2945e31ce337b1afe6f992f7120bcb88"
+    },
+    {
+      "path": "dist/assets/style.css",
+      "bytes": 12304,
+      "sha256": "e63372a0f381dba19eebac93dbad1974a6a1895ffd5fbc258fe9e77b8d815e99"
+    },
+    {
+      "path": "dist/downloads/SHA256SUMS.txt",
+      "bytes": 364,
+      "sha256": "3211703a20a75e497746cd410076b756fc74c4fd8c970605a01b17fc67f5ae2f"
+    },
+    {
+      "path": "dist/downloads/business-careers-guide.pdf",
+      "bytes": 1017581,
+      "sha256": "9229f78f11ef2e0e4ce3150d38c7c91959bc747efe8af08a45962bdfaf0578a1"
+    },
+    {
+      "path": "dist/downloads/business-job-workbook.xlsx",
+      "bytes": 29310,
+      "sha256": "f1f7239ec135ea72ff7aab42b16177ea4d011c5a7dcc3aeb11850acb25a02507"
+    },
+    {
+      "path": "dist/downloads/repository-source.zip",
+      "bytes": 3472940,
+      "sha256": "6932ca4c39cae9aa6a5610b0a80f5a94ca7a5ff453c785c2e96135e299ad5b53"
+    },
+    {
+      "path": "dist/downloads/templates-and-cases.zip",
+      "bytes": 308618,
+      "sha256": "17e01f52e3e20036b4e94c75f647cbf30d67084e43d2f9235640989911c6296a"
+    },
+    {
+      "path": "dist/files/CONTENT_LICENSE.md",
+      "bytes": 980,
+      "sha256": "07e40caf7fc5d5bc4ec71cb9a3842b028570388133c1f50043f7b8a503f58822"
+    },
+    {
+      "path": "dist/files/CONTRIBUTING.md",
+      "bytes": 2230,
+      "sha256": "9236174682583de8155a0507eea07781cc5e379b9a49bdff3aba9bddaffcc4c7"
+    },
+    {
+      "path": "dist/files/DEPLOYMENT.md",
+      "bytes": 3494,
+      "sha256": "f522605cfbb45c51bbd4e190396ba672592df9a118e409b7921cbcef59aa1d2c"
+    },
+    {
+      "path": "dist/files/LICENSE",
+      "bytes": 1296,
+      "sha256": "a6cee70498fe78cb541e23be05de668ffc50420425ee41f1d339629a092b8def"
+    },
+    {
+      "path": "dist/files/PUBLISH.md",
+      "bytes": 6358,
+      "sha256": "0b1498b53a839532bca2eaf4e23b6aa03cf451b0e15163b753c76e7a072422f1"
+    },
+    {
+      "path": "dist/files/README.md",
+      "bytes": 9516,
+      "sha256": "8a7404c73eb0a479c0e1061e1b65fe7ce4ccfd0b416c243a8433992fbcfd693f"
+    },
+    {
+      "path": "dist/files/SOURCES.md",
+      "bytes": 51618,
+      "sha256": "766628d0baa783156686be03f4c953387c1c5a4d95b1936296571a4f65dd40db"
+    },
+    {
+      "path": "dist/files/THIRD_PARTY_NOTICES.md",
+      "bytes": 1018,
+      "sha256": "659a2097c078ecac225f1cfdcca8d796991836524654f55ca62d319ea086b77c"
+    },
+    {
+      "path": "dist/files/VERIFY.md",
+      "bytes": 5484,
+      "sha256": "5aadc2983726ac3a7cc721565f5c9498138bf36298458cc5e2ce52326f8435e4"
+    },
+    {
+      "path": "dist/files/cases/01-consulting/README.md",
+      "bytes": 1612,
+      "sha256": "9c78cdae1ecf81ad561915d4b09da42c47866f26e6be510bd32295915000f0f7"
+    },
+    {
+      "path": "dist/files/cases/01-consulting/answer.md",
+      "bytes": 6016,
+      "sha256": "317946bdb567b9505b955edeec99cc30d1ee7095b8d613341cdc48079b2e34e6"
+    },
+    {
+      "path": "dist/files/cases/01-consulting/brief.md",
+      "bytes": 4656,
+      "sha256": "ee36db0f105e7022c9bd6edc967a20d2a6615c77b3016726ec8a1c9aed629245"
+    },
+    {
+      "path": "dist/files/cases/01-consulting/channel-data.csv",
+      "bytes": 302,
+      "sha256": "d2b0c266fffcc31ce2faaee27ed71d8f4ae250b8b3ba3929e1f35db7196088e5"
+    },
+    {
+      "path": "dist/files/cases/01-consulting/fixed-costs.csv",
+      "bytes": 140,
+      "sha256": "8ed090241131b819cdab8ef3a90d2359f5228cd9ed3c69b3085fdfa19aab8fe3"
+    },
+    {
+      "path": "dist/files/cases/01-consulting/options.csv",
+      "bytes": 574,
+      "sha256": "6c6d5cd13f90d1988e319f2dd0af5cdbef7c470103d5d586773627d407fc0d94"
+    },
+    {
+      "path": "dist/files/cases/01-consulting/printable-data.md",
+      "bytes": 2881,
+      "sha256": "7dc51d6418eea45874fc3b2dfdf44828ed06bb9dde16c79466b1d4552e9ac05a"
+    },
+    {
+      "path": "dist/files/cases/01-consulting/rubric.md",
+      "bytes": 2093,
+      "sha256": "339b934864304cc8208cc0ee27a14ba8672b5f7be12c014eb5c58f3f49251313"
+    },
+    {
+      "path": "dist/files/cases/01-consulting/validation.json",
+      "bytes": 437,
+      "sha256": "c0b828458e87541526f75a9310818f0661d9448a9317eee0e5c954cc8afd3f85"
+    },
+    {
+      "path": "dist/files/cases/02-finance-accounting/README.md",
+      "bytes": 1890,
+      "sha256": "eae4bfc138d13085c49222e1d43e2da53a3798ab2e5056b9e52a525a50f9c1ca"
+    },
+    {
+      "path": "dist/files/cases/02-finance-accounting/answer.md",
+      "bytes": 4568,
+      "sha256": "e09e17ca8f52641c382272994059f5495917e50c2b02684b0fe8ca130d9cf1b3"
+    },
+    {
+      "path": "dist/files/cases/02-finance-accounting/audit-exercise.md",
+      "bytes": 3320,
+      "sha256": "ef1c43d2fd76c3f03d08ea28759a99f92558d21d5518fe0b31298110f5e5a8fa"
+    },
+    {
+      "path": "dist/files/cases/02-finance-accounting/brief.md",
+      "bytes": 3551,
+      "sha256": "a43d6712e035654f1b0a5463cae368d9da4274fcc174b0424a8091e6eab46d27"
+    },
+    {
+      "path": "dist/files/cases/02-finance-accounting/cash-flows.csv",
+      "bytes": 412,
+      "sha256": "7c83552a0faa859f3557898ecbcb0867c6fdab283b20e041870d7b511247a321"
+    },
+    {
+      "path": "dist/files/cases/02-finance-accounting/credit-exercise.md",
+      "bytes": 2382,
+      "sha256": "39a691d3cbbbbc8cc54c4c0482e1c2af774ca9c50750742606cf7c0d976396a5"
+    },
+    {
+      "path": "dist/files/cases/02-finance-accounting/credit-forecast.csv",
+      "bytes": 461,
+      "sha256": "e490dd510f97807fb2ee4b05296c66a4075e8dc96363f08e5f9f7cf85ab46352"
+    },
+    {
+      "path": "dist/files/cases/02-finance-accounting/invoice-sample.csv",
+      "bytes": 548,
+      "sha256": "a26a7aa6db4d8a61cb2ee0f9e20eb91a0ae80da220ed32a1fa3b7c1ed3effa24"
+    },
+    {
+      "path": "dist/files/cases/02-finance-accounting/pnl-inputs.csv",
+      "bytes": 201,
+      "sha256": "ee94cc825252813fbcefc727af983b4c5074c5a3fc6e07c2b11b33c20bc86ac5"
+    },
+    {
+      "path": "dist/files/cases/02-finance-accounting/printable-data.md",
+      "bytes": 5750,
+      "sha256": "96325726bb2e45a901f9309da82be64e7fa799eef3446bb46eccd71d7d41e31c"
+    },
+    {
+      "path": "dist/files/cases/02-finance-accounting/rubric.md",
+      "bytes": 1418,
+      "sha256": "f084a72f0634ba08009538436c733cb911a84e48dd31d23c1bc68730bd1b7ec9"
+    },
+    {
+      "path": "dist/files/cases/02-finance-accounting/validation.json",
+      "bytes": 704,
+      "sha256": "0bec1dfc56615cc2621072ea559f9831bc459d47e7b42b3a16c46ff88c92f6f0"
+    },
+    {
+      "path": "dist/files/cases/02-finance-accounting/valuation-comps.csv",
+      "bytes": 217,
+      "sha256": "bb7e5330f05c0679bcf3d751bbc9f853eba6bfa503e44a9753884c76f99c66ee"
+    },
+    {
+      "path": "dist/files/cases/02-finance-accounting/valuation-exercise.md",
+      "bytes": 2307,
+      "sha256": "9e6db6196c4d2a98b30fe62d09aa4191edcae822e69ca1dc1d98ded301ec80d3"
+    },
+    {
+      "path": "dist/files/cases/02-finance-accounting/working-capital.csv",
+      "bytes": 218,
+      "sha256": "02cab79a17bf4aee0d8dca1fcb2731e369d83d5d772ef07835e9f3099830c4ec"
+    },
+    {
+      "path": "dist/files/cases/03-marketing/README.md",
+      "bytes": 7586,
+      "sha256": "e21a25e1fe6206349f0b9681ae2702b0f0e4d7d4389f47ffbf8df844653c1772"
+    },
+    {
+      "path": "dist/files/cases/03-marketing/channel_history.csv",
+      "bytes": 209,
+      "sha256": "d6d1cd8649c589b5628baa01168cd7735cb18f2f2108aa144a021443c104898b"
+    },
+    {
+      "path": "dist/files/cases/03-marketing/decision_template.md",
+      "bytes": 758,
+      "sha256": "7320a41b07be636b966ab5a2b4bca0e934a1f50593d87d176c1fc3a711d01378"
+    },
+    {
+      "path": "dist/files/cases/03-marketing/printable-data.md",
+      "bytes": 1951,
+      "sha256": "c66c08e234a73278a7c453f58e1f9afa7f7bb809374d3d6b60a334f88704da41"
+    },
+    {
+      "path": "dist/files/cases/03-marketing/randomized_tests.csv",
+      "bytes": 252,
+      "sha256": "37151c8fddd4e85001f83ba5465047cdaa70831345b277f3e8b2984d467b1220"
+    },
+    {
+      "path": "dist/files/cases/03-marketing/verification.json",
+      "bytes": 633,
+      "sha256": "8b8727145aa5fd81e4355111a7c5a5f7813f742a585b8d78c7884977033ad81f"
+    },
+    {
+      "path": "dist/files/cases/03-marketing/verify.py",
+      "bytes": 2221,
+      "sha256": "dff4179d781ee5205367278c95595eefcc1d7896cc78a9ba62071714f6d5f7e6"
+    },
+    {
+      "path": "dist/files/cases/04-operations/README.md",
+      "bytes": 7229,
+      "sha256": "b44f3b564a6848e8e704ddf31ebce6f98bd3cb66d82cb48f9451c6e302c1e368"
+    },
+    {
+      "path": "dist/files/cases/04-operations/assumptions.csv",
+      "bytes": 160,
+      "sha256": "2b16faeb31c52ef7ef95c5b004b3336fca2b8ceb114b4a38ca942d8ac40531de"
+    },
+    {
+      "path": "dist/files/cases/04-operations/demand.csv",
+      "bytes": 113,
+      "sha256": "0e22255f9fa9f8d661bbd088fcd2886bc4abd375566015485b49944ddb6db405"
+    },
+    {
+      "path": "dist/files/cases/04-operations/printable-data.md",
+      "bytes": 2582,
+      "sha256": "281725f9c472530c46edb8976fb7993f2fdd656b409ce07244464183ce9794da"
+    },
+    {
+      "path": "dist/files/cases/04-operations/purchase_plan_template.csv",
+      "bytes": 107,
+      "sha256": "b435452fc11928328e95987c7a83c9155db95bcffef3748bcd27f398df449b37"
+    },
+    {
+      "path": "dist/files/cases/04-operations/scheduled_receipts.csv",
+      "bytes": 82,
+      "sha256": "7abef6ea8711a663c9b199783507fbf2d3b0460927fa615e994f5be11dfb8172"
+    },
+    {
+      "path": "dist/files/cases/04-operations/supply_options.csv",
+      "bytes": 144,
+      "sha256": "cde5548a0ff9c25055d24bf67a3e9c0db3fad7e4c1e5497ddec2d250004ecfa2"
+    },
+    {
+      "path": "dist/files/cases/04-operations/verification.json",
+      "bytes": 1010,
+      "sha256": "d1da374de8c88aee4d4cbdc43ff9eb245e7add6daa2590b6efd42b109f15cadc"
+    },
+    {
+      "path": "dist/files/cases/04-operations/verify.py",
+      "bytes": 3179,
+      "sha256": "9aede58badbda02b32214bbd13891393026d9231a3297cb2ddc9525b28587117"
+    },
+    {
+      "path": "dist/files/cases/04-operations/worked_purchase_plans.csv",
+      "bytes": 180,
+      "sha256": "a7e4a7d26712c1f20bbeb180822b46e54b2fe2d047740219c8a725fc259dfc53"
+    },
+    {
+      "path": "dist/files/cases/05-analytics/README.md",
+      "bytes": 7418,
+      "sha256": "78e334c42a90f25c4f6224c62814b6ffc0a74230785c4a8e2d715a210c300764"
+    },
+    {
+      "path": "dist/files/cases/05-analytics/analysis.sql",
+      "bytes": 988,
+      "sha256": "cd19879d3822057794fdf5e2e4d4e7dac0237a8928029e7af0e13c013d6f16a5"
+    },
+    {
+      "path": "dist/files/cases/05-analytics/cohorts.csv",
+      "bytes": 150,
+      "sha256": "a7f3174cb53875dd70f60bbbcc760a9ac771a3e1a554b65d3c2bd056a3936823"
+    },
+    {
+      "path": "dist/files/cases/05-analytics/funnel.csv",
+      "bytes": 172,
+      "sha256": "fad1e5a25eca2deecc35a3bf8afd3116fabb7dddbf833fc8e0f84d23deae05e9"
+    },
+    {
+      "path": "dist/files/cases/05-analytics/memo_template.md",
+      "bytes": 474,
+      "sha256": "d80aadca772f5af620f30c9cf5ce3c1375ff602ce2ab88aa54d438a30945b95c"
+    },
+    {
+      "path": "dist/files/cases/05-analytics/printable-data.md",
+      "bytes": 2326,
+      "sha256": "188362d89a67c68279733c4baceef7b28ee836b34d88e0fe184322088acc2cff"
+    },
+    {
+      "path": "dist/files/cases/05-analytics/verification.json",
+      "bytes": 794,
+      "sha256": "d651bc09d586dee78c2133b86601955f3a1e74e704aab4b15a70f6fa77b824bd"
+    },
+    {
+      "path": "dist/files/cases/05-analytics/verify.py",
+      "bytes": 2226,
+      "sha256": "4b98e3996a12f97c35babe3a636da3aaea61ee80d0922068aa38a279e22303f8"
+    },
+    {
+      "path": "dist/files/cases/06-sales/README.md",
+      "bytes": 8327,
+      "sha256": "9864f11824a417c93cfbff9a750a0a25d239be0f3400b414b5a0e6f84121d8a9"
+    },
+    {
+      "path": "dist/files/cases/06-sales/accounts.csv",
+      "bytes": 609,
+      "sha256": "58da8288eadb50c2237b834c1048131b63b8df82a28585d65628ab54f2e97081"
+    },
+    {
+      "path": "dist/files/cases/06-sales/discovery_template.md",
+      "bytes": 695,
+      "sha256": "578b211a03a728873005de3066fdd7ed01ba3ba4984d4297b147dfbad4ba9bc3"
+    },
+    {
+      "path": "dist/files/cases/06-sales/pipeline.csv",
+      "bytes": 224,
+      "sha256": "d9fbd51d0f7a08ac1f432daa8d840a59482b581206288aed54229588a7daa968"
+    },
+    {
+      "path": "dist/files/cases/06-sales/printable-data.md",
+      "bytes": 3596,
+      "sha256": "2a58d4d4d22350e7257f3e459387dcad468933602660a8bca8cb84a719e1b7e0"
+    },
+    {
+      "path": "dist/files/cases/06-sales/value_assumptions.csv",
+      "bytes": 317,
+      "sha256": "a3cf261a78d0a01378dab8021e270f3dfcb75a0fb1da1938bd3ee5561847b18f"
+    },
+    {
+      "path": "dist/files/cases/06-sales/verification.json",
+      "bytes": 378,
+      "sha256": "5a9be0bf213bcda9b04a914a14b8c7f64f63a728dcacbfe53334c22a34f8df8c"
+    },
+    {
+      "path": "dist/files/cases/06-sales/verify.py",
+      "bytes": 1975,
+      "sha256": "5d35d35628c4e51782ca48462e102a23a097d84d2fff4cc9a4b7ade8bf07b42c"
+    },
+    {
+      "path": "dist/files/content/00-start.md",
+      "bytes": 6011,
+      "sha256": "396a7fdd91104612bbe77b781c11bc70b6fede947f881315f131db90e2f4812a"
+    },
+    {
+      "path": "dist/files/content/01-function-choice.md",
+      "bytes": 8732,
+      "sha256": "319ae3e23e7e8dba86f2e6b7671680ebab65675f0843470dd3572c893db11304"
+    },
+    {
+      "path": "dist/files/content/02-evidence-plan.md",
+      "bytes": 6934,
+      "sha256": "11bdc972edcc4613414cc1fdb32db7706511450793bda3d76d9f70c94d4efed2"
+    },
+    {
+      "path": "dist/files/content/03-applications.md",
+      "bytes": 10438,
+      "sha256": "8d5d389d828b41bf8c32bd083878e7744d6079ecc6fb225e0ebb9b6ebf95da5c"
+    },
+    {
+      "path": "dist/files/content/04-assessments.md",
+      "bytes": 6903,
+      "sha256": "85d974f58a4e567afe830a8a3734360f71e480520bfac758a1d9db2ffe9f5501"
+    },
+    {
+      "path": "dist/files/content/05-special-situations.md",
+      "bytes": 6650,
+      "sha256": "1f61e2f03e94fb31518388f751d032bde4f397611efe2b7e56131dbd462598a4"
+    },
+    {
+      "path": "dist/files/content/06-tracking-review.md",
+      "bytes": 7165,
+      "sha256": "0696010e1f5e89c31fe9af978348abaec4d2927d09ea901a862f61e241d5dd57"
+    },
+    {
+      "path": "dist/files/content/regions/01-north-america.md",
+      "bytes": 9688,
+      "sha256": "e88193fe682c5acd6e5bf8f57d8b90fc50c8aedd018c0346a7686ae6e26cba6c"
+    },
+    {
+      "path": "dist/files/content/regions/02-europe.md",
+      "bytes": 25234,
+      "sha256": "10e38db58ecf25ba01d3d77653187cae58e790a507706a82c59b25926752d58b"
+    },
+    {
+      "path": "dist/files/content/regions/03-asia.md",
+      "bytes": 27163,
+      "sha256": "385e3c4d8838f27e8430af9c6507384e30b54dbc4d4adaa80dbf680a3d02bcf2"
+    },
+    {
+      "path": "dist/files/content/regions/04-oceania.md",
+      "bytes": 8043,
+      "sha256": "fb0e817d349145a620cf921c9697a422436d117209b7921eddf65b17b9c08074"
+    },
+    {
+      "path": "dist/files/content/regions/05-china-return.md",
+      "bytes": 16371,
+      "sha256": "42be444641069aeb56a30a07c1d077568b2779b3702430c2cba2fb645c2f6b11"
+    },
+    {
+      "path": "dist/files/content/routes/01-consulting.md",
+      "bytes": 13151,
+      "sha256": "f97cc8f66ad05ed956d749feb5c0de0237a4876c4cb80d99d75764cc5a38916b"
+    },
+    {
+      "path": "dist/files/content/routes/02-finance-accounting.md",
+      "bytes": 14153,
+      "sha256": "2581edbbb793a20e52475b38a86f4075e13b5fee21040093d2ab09271f3f60d6"
+    },
+    {
+      "path": "dist/files/content/routes/03-marketing-brand.md",
+      "bytes": 11949,
+      "sha256": "58334ec4773679ebb43c7272f8f246cc29b7834600cfed55c7b3b50a437c6b6a"
+    },
+    {
+      "path": "dist/files/content/routes/04-operations-supply-chain.md",
+      "bytes": 11239,
+      "sha256": "af57a472aaeaf0ba5313082bf00eee6254e3573fc998411b510c6a3cdeb048d5"
+    },
+    {
+      "path": "dist/files/content/routes/05-business-analytics.md",
+      "bytes": 11604,
+      "sha256": "97407d6bc25fc1618bb4c04af570bc97b128d37f2a46cef552af0585ba7061fb"
+    },
+    {
+      "path": "dist/files/content/routes/06-sales-bd.md",
+      "bytes": 11566,
+      "sha256": "7728314f9137da097b25f8a7a0b20f90159aa5971fbeead63a4f70af1fa0b56c"
+    },
+    {
+      "path": "dist/files/research/DEDUP.md",
+      "bytes": 3112,
+      "sha256": "3fb92222305f0aba5433a9ccfb2360064df4ed4ba99fac803b1b816ec692d2d5"
+    },
+    {
+      "path": "dist/files/research/FACT-CHECK.md",
+      "bytes": 20601,
+      "sha256": "6753582c272b4ea028acc49806f926237cc6ee0ff8d8908cf20bf5eddbe08235"
+    },
+    {
+      "path": "dist/files/research/dedup-inputs.json",
+      "bytes": 1175,
+      "sha256": "54a597b6b0dd9d99ab917e63c06d657579b5c5d879c6029abd34d6fc80106a28"
+    },
+    {
+      "path": "dist/files/research/region-matrix.json",
+      "bytes": 65231,
+      "sha256": "af82fbbbcaa9e535dc76a62cc6b99adf707f8c427c6444271e9b9fc292da7448"
+    },
+    {
+      "path": "dist/files/research/sources-business.json",
+      "bytes": 8080,
+      "sha256": "aadda1d29d79999c54b1b6f8ed5f5854aa9eea75d42aae959d791d2755e8afc5"
+    },
+    {
+      "path": "dist/files/research/sources-cf.json",
+      "bytes": 5938,
+      "sha256": "1c8b7a65bf2933b5c0fd0bddcf79ba9647368df041627e7bfad45d3ad0e02cf8"
+    },
+    {
+      "path": "dist/files/research/sources-regions.json",
+      "bytes": 50605,
+      "sha256": "c5e0d15a21b4a9a2c19168ecaa662aca277add93b0707507c51f2413668a7c7c"
+    },
+    {
+      "path": "dist/files/research/sources-root.json",
+      "bytes": 1627,
+      "sha256": "66e8881c3ceddaff2e3cf09d9602d0ed3f58c7612dba823444b0b4601efa50c9"
+    },
+    {
+      "path": "dist/files/research/sources.json",
+      "bytes": 66445,
+      "sha256": "c1fcd428932e9fa609f0fe34e804c3f026aba1b83615ecc54f6a8a5a115215d9"
+    },
+    {
+      "path": "dist/files/templates/README.md",
+      "bytes": 3535,
+      "sha256": "470ed7f1e364dfa0239724c6797a9e69fb8281ad5fcb52e0077a0878cc4edda5"
+    },
+    {
+      "path": "dist/files/templates/csv/01-CareerChoice.csv",
+      "bytes": 1020,
+      "sha256": "bd3889a45c703a5eb6686e8c75ae5fd72cdc8162a9e7362a9cf52bd2411bd302"
+    },
+    {
+      "path": "dist/files/templates/csv/02-JobResearch.csv",
+      "bytes": 1634,
+      "sha256": "25027f0bff8f08d01f6b8265f39b2f47bc116fe6207b3e846e5b515875ca9054"
+    },
+    {
+      "path": "dist/files/templates/csv/03-AbilityEvidence.csv",
+      "bytes": 1241,
+      "sha256": "7fddffc155579c0c36c3bb280831abf18779fbd0476e5964eb9d8c12dfb3aeaf"
+    },
+    {
+      "path": "dist/files/templates/csv/04-ActionPlan.csv",
+      "bytes": 1145,
+      "sha256": "8eb98a31e2852679a2f49d95259f77dd0a9233228b41cffcbb6def0e86865a25"
+    },
+    {
+      "path": "dist/files/templates/csv/05-ApplicationLog.csv",
+      "bytes": 1817,
+      "sha256": "28ca456b031ed16490bd10219a4343ad207eafeb76c4079401e6e58efd68963e"
+    },
+    {
+      "path": "dist/files/templates/csv/06-InterviewReview.csv",
+      "bytes": 1170,
+      "sha256": "56b3bcafb750e182fde9765bec2e83c909430249547d72a1f6238615abbc9fa6"
+    },
+    {
+      "path": "dist/files/templates/csv/07-EligibilityReview.csv",
+      "bytes": 1134,
+      "sha256": "85ab36486303c7521e811b341f4bad5f25e1cffc8f8f4e049e30906d90ed9108"
+    },
+    {
+      "path": "dist/files/templates/csv/README.md",
+      "bytes": 1387,
+      "sha256": "1dfa2f9093e66c1c6f5e14c172684e91f93e1a6c3f13367c0ffbbb5d4615b056"
+    },
+    {
+      "path": "dist/files/templates/workbook-spec.json",
+      "bytes": 5553,
+      "sha256": "966ee216860272fb4b4598c1df804382e8e633c454d640ae611f038b02a025a9"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 15398,
+      "sha256": "fce502cbc77cb6eb0bc286cc914bcd73ab2ea44ee40fabedfecd3cddf04a19d3"
+    },
+    {
+      "path": "dist/read/cases--01-consulting--answer.html",
+      "bytes": 16239,
+      "sha256": "d1f3ddb4a4a9098cf84375519b325ee66750eeb7be7af28239b2f6b255167f8c"
+    },
+    {
+      "path": "dist/read/cases--01-consulting--brief.html",
+      "bytes": 13773,
+      "sha256": "3f011da993aa10332453279ec45f1a61f8bd16a98342d39fad56c7b8e86aca03"
+    },
+    {
+      "path": "dist/read/cases--01-consulting--printable-data.html",
+      "bytes": 13091,
+      "sha256": "ee537a22ebb9c1877f2f697339064157b6ef3a64ea37be3a91cb43b01f4e7b74"
+    },
+    {
+      "path": "dist/read/cases--01-consulting--readme.html",
+      "bytes": 10461,
+      "sha256": "968c5e112ccdd9432e612e2d55190f5e980c9fb274d25bc1a4f5861c48a2c49b"
+    },
+    {
+      "path": "dist/read/cases--01-consulting--rubric.html",
+      "bytes": 11048,
+      "sha256": "db2fd73b19d631e6c41115768189c6091d24044b922ad21e775abe1cc6dbbef2"
+    },
+    {
+      "path": "dist/read/cases--02-finance-accounting--answer.html",
+      "bytes": 15218,
+      "sha256": "f1cee89c19640791acc0accc374da1be7daf23966dd2f6895872b98fd4431945"
+    },
+    {
+      "path": "dist/read/cases--02-finance-accounting--audit-exercise.html",
+      "bytes": 12326,
+      "sha256": "4fac83af42bc82f3cf7cce1d8a886b892e2621cc244fd6c452681baceb751961"
+    },
+    {
+      "path": "dist/read/cases--02-finance-accounting--brief.html",
+      "bytes": 12571,
+      "sha256": "e360437daa8d4e54221f1cfb6f7f8dc6dd1636084340219d4b928fbd15b95272"
+    },
+    {
+      "path": "dist/read/cases--02-finance-accounting--credit-exercise.html",
+      "bytes": 10987,
+      "sha256": "d65b8f2c3b613c321ffc480dd8e110a927fc75ddf7c5a27c86aea0888898e456"
+    },
+    {
+      "path": "dist/read/cases--02-finance-accounting--printable-data.html",
+      "bytes": 18380,
+      "sha256": "b06fd7d5f81b0be4b34d0acc03aa37c198e1c69a7b7fb57361c274dacc14d7e1"
+    },
+    {
+      "path": "dist/read/cases--02-finance-accounting--readme.html",
+      "bytes": 11134,
+      "sha256": "8ed34f5066381f406ab4c7b9a0a068f182ea5cdfb225cc454616f089f6041876"
+    },
+    {
+      "path": "dist/read/cases--02-finance-accounting--rubric.html",
+      "bytes": 10214,
+      "sha256": "d7a36e0f7c553f9d4d9fe79a17b4def1e59421e3c0d2205f3122cb015ae0ff7b"
+    },
+    {
+      "path": "dist/read/cases--02-finance-accounting--valuation-exercise.html",
+      "bytes": 11327,
+      "sha256": "8de26ec641fd7a87457af842f06c2e92e84f3130267d45c0d3899ed298bb2fae"
+    },
+    {
+      "path": "dist/read/cases--03-marketing--decision_template.html",
+      "bytes": 9223,
+      "sha256": "3549f8595cf89efc1f86504db8c9d91a550325db75f348648b5ea7403ae2811a"
+    },
+    {
+      "path": "dist/read/cases--03-marketing--printable-data.html",
+      "bytes": 11190,
+      "sha256": "37125fa1c727247a62ba5e5e0ea5e62d422b489dc394e25b7440122d3c495882"
+    },
+    {
+      "path": "dist/read/cases--03-marketing--readme.html",
+      "bytes": 17291,
+      "sha256": "a20e537c26f03af4d3f56707faa1439a9afe3e2028a10336085544cae5e4f77f"
+    },
+    {
+      "path": "dist/read/cases--04-operations--printable-data.html",
+      "bytes": 12750,
+      "sha256": "16da82090d5274c45da3518ada0d7bd7455b0e70ddf3c402fa15599932cfb5b8"
+    },
+    {
+      "path": "dist/read/cases--04-operations--readme.html",
+      "bytes": 16882,
+      "sha256": "2b041c2c937fc3e4fb912fa3097539ba3b690a384d42db3c46dff756dfc306ca"
+    },
+    {
+      "path": "dist/read/cases--05-analytics--memo_template.html",
+      "bytes": 8897,
+      "sha256": "192858333043962a6524387a7b8f852b2dafa036833eaa41cc247c2adb311f0a"
+    },
+    {
+      "path": "dist/read/cases--05-analytics--printable-data.html",
+      "bytes": 11857,
+      "sha256": "cc1815ef949c90b462f4397004a4b308c05f73e47523f4e4b1ac5ac18b287317"
+    },
+    {
+      "path": "dist/read/cases--05-analytics--readme.html",
+      "bytes": 17216,
+      "sha256": "1221124fa0bf02c0c546cc08f4a98f861a9668e7dc4cebd74b1b54f69ba1dd6a"
+    },
+    {
+      "path": "dist/read/cases--06-sales--discovery_template.html",
+      "bytes": 9136,
+      "sha256": "dae7df7cb4681984b1ee8de6392b77b91fdacd410b9cfe277230cb22c0910766"
+    },
+    {
+      "path": "dist/read/cases--06-sales--printable-data.html",
+      "bytes": 14307,
+      "sha256": "bd776bc94890ff1196346b535a9221ae7291501c0549d5d1bc6865752303d49b"
+    },
+    {
+      "path": "dist/read/cases--06-sales--readme.html",
+      "bytes": 17942,
+      "sha256": "efd8c9fdc21ae0372f8c0baf2b689b35cb7b0e656d1c8e93f2122bb991e3805f"
+    },
+    {
+      "path": "dist/read/content--00-start.html",
+      "bytes": 15449,
+      "sha256": "bcc56d6a0ef7288e96e605ad56f8aed07df4c4db91cac936d7673b066857bf0f"
+    },
+    {
+      "path": "dist/read/content--01-function-choice.html",
+      "bytes": 18486,
+      "sha256": "7f9dc43f7aa1c23f95855e3550c4179a25cb86c692c5fc584c259cf12e5a794f"
+    },
+    {
+      "path": "dist/read/content--02-evidence-plan.html",
+      "bytes": 16520,
+      "sha256": "54f9a4f4234ce706c0053ea288b713faa09a755b7693c5fb43829bec7a3f0648"
+    },
+    {
+      "path": "dist/read/content--03-applications.html",
+      "bytes": 20083,
+      "sha256": "0de6e87dba87fda6b6b4a5427d115d2322ffe96c03019988867dba438d3096ea"
+    },
+    {
+      "path": "dist/read/content--04-assessments.html",
+      "bytes": 16269,
+      "sha256": "a304e7a1a0f6b7c0bf12cfac2fa0da9ed623e705af77bc42c488e10f0cd99ebf"
+    },
+    {
+      "path": "dist/read/content--05-special-situations.html",
+      "bytes": 15819,
+      "sha256": "9fa189475d4549b6252665b351b81b1dc48ed15c75530a612e3c92fb7ce5a5d1"
+    },
+    {
+      "path": "dist/read/content--06-tracking-review.html",
+      "bytes": 16715,
+      "sha256": "f0e99c6569941f377ff743f26acad9175606aebc1d71cf2c1adf16f0901bcd86"
+    },
+    {
+      "path": "dist/read/content--regions--01-north-america.html",
+      "bytes": 19252,
+      "sha256": "7340f73f3b782d91b242834894e499449456e27805c302e5bac0d687c87bf686"
+    },
+    {
+      "path": "dist/read/content--regions--02-europe.html",
+      "bytes": 36638,
+      "sha256": "9744a989a3a3003b344670517eb3c80e5316f5a3ef1010cef345667963495192"
+    },
+    {
+      "path": "dist/read/content--regions--03-asia.html",
+      "bytes": 38408,
+      "sha256": "218735a974b345af7cf623c0302dd9c68041c357f991810d75976dffb39cb3f4"
+    },
+    {
+      "path": "dist/read/content--regions--04-oceania.html",
+      "bytes": 17458,
+      "sha256": "ce114504b934a21b08d8a6c0f6d8775a514689fc7ee56228e1ed4932927e4bc0"
+    },
+    {
+      "path": "dist/read/content--regions--05-china-return.html",
+      "bytes": 27351,
+      "sha256": "1810dc209d61f5482b6931eed9a5910510b357c5470c2c48fb3a954c0a17084e"
+    },
+    {
+      "path": "dist/read/content--routes--01-consulting.html",
+      "bytes": 23703,
+      "sha256": "f5739a9668b8c23f3ff9f0d81ff8bcd13d83047acbb66f1286f23570eba7f69e"
+    },
+    {
+      "path": "dist/read/content--routes--02-finance-accounting.html",
+      "bytes": 24833,
+      "sha256": "451892f69524241f0201d144764dfe5ad266e7732263f2a2560308789213564c"
+    },
+    {
+      "path": "dist/read/content--routes--03-marketing-brand.html",
+      "bytes": 21563,
+      "sha256": "f8f0b478fb55b4bed45c8d2901c848a171874bbc1ac4393f7eda7c998254925f"
+    },
+    {
+      "path": "dist/read/content--routes--04-operations-supply-chain.html",
+      "bytes": 20842,
+      "sha256": "d1c59ead64dd1d91ab7320ba57c3ed6dea75c6c37f5a5069c880e817474a0d6b"
+    },
+    {
+      "path": "dist/read/content--routes--05-business-analytics.html",
+      "bytes": 21224,
+      "sha256": "d9679b7b36596575f610297c176fbf90a9f53e7ed92d27c0f0a6bfb289e8817c"
+    },
+    {
+      "path": "dist/read/content--routes--06-sales-bd.html",
+      "bytes": 21203,
+      "sha256": "745eaf243ded2d2b3026a94407c64602777d2caef265b1134da9761eb2b550c4"
+    },
+    {
+      "path": "dist/read/contributing.html",
+      "bytes": 10765,
+      "sha256": "446e0b312a7319a706e57475cced9d2c1ca60460f312117b0a580b4c0802419b"
+    },
+    {
+      "path": "dist/read/deployment.html",
+      "bytes": 12423,
+      "sha256": "85795ca63ccb7d17d09fd1983431e42c98d400dbb393009f0565defa8cb416fc"
+    },
+    {
+      "path": "dist/read/publish.html",
+      "bytes": 15484,
+      "sha256": "c200141ea324d95e4a2b329521c8a6eaf3d863c83b28680f780032ac94356dc7"
+    },
+    {
+      "path": "dist/read/research--dedup.html",
+      "bytes": 12021,
+      "sha256": "6efc4d8bac6c30fea492e7aa4260fe3749138680bc5338b7a32c9840d919d8fb"
+    },
+    {
+      "path": "dist/read/research--fact-check.html",
+      "bytes": 31390,
+      "sha256": "7371526d4d29992b9128d3f9fb3368adf5bfca2dbd22bda0e8eb9e64f5e0f6e1"
+    },
+    {
+      "path": "dist/read/sources.html",
+      "bytes": 65666,
+      "sha256": "93d5cf68b14c491ed1d56409290dd55d8d932c73c1f1f9be2fc1983567e496dc"
+    },
+    {
+      "path": "dist/read/templates--csv--readme.html",
+      "bytes": 9757,
+      "sha256": "5485ab3e3155297e8f285537f12456cbbc0666c673d6060358cac67db70e203e"
+    },
+    {
+      "path": "dist/read/templates--readme.html",
+      "bytes": 12463,
+      "sha256": "b59a18dee68ac13bba11e8de4976dabc4e1a02c59862aa8a3e9f3c78fa623d34"
+    },
+    {
+      "path": "dist/read/verify.html",
+      "bytes": 14388,
+      "sha256": "69bb10e9c524f526c8946674858fcfd1fe0d7c17317526dc5db69e7ae51febe7"
+    }
+  ]
+}

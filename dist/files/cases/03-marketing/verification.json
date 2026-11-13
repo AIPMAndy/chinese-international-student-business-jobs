@@ -1,0 +1,27 @@
+{
+  "case": "03-marketing",
+  "status": "passed",
+  "history_orders": 735,
+  "history_revenue_cu": 36750.0,
+  "history_contribution_cu": -300.0,
+  "experiments": {
+    "retargeting": {
+      "incremental_orders": 30.0,
+      "incremental_cac_cu": 50.0,
+      "incremental_contribution_cu": -900.0,
+      "rate_difference_95pct_normal_interval": [
+        -0.001399,
+        0.013399
+      ]
+    },
+    "prospecting": {
+      "incremental_orders": 80.0,
+      "incremental_cac_cu": 15.0,
+      "incremental_contribution_cu": 400.0,
+      "rate_difference_95pct_normal_interval": [
+        0.00977,
+        0.02223
+      ]
+    }
+  }
+}

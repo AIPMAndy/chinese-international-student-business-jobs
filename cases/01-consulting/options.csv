@@ -1,0 +1,10 @@
+﻿option_id,parameter,value,unit,data_type
+A,delivery_to_pickup_orders,2000,orders_per_month,synthetic_assumption
+A,max_pickup_capacity,2500,orders_per_month,synthetic_assumption
+A,pickup_packaging,2,cny_per_order,synthetic_assumption
+A,pickup_commission,0,fraction,synthetic_assumption
+A,promotion,5000,cny_per_month,synthetic_assumption
+B,food_saving,1,cny_per_order,synthetic_assumption
+B,quality_cost,2000,cny_per_month,synthetic_assumption
+C,labor_saving,12000,cny_per_month,synthetic_assumption
+C,one_time_training,3000,cny_first_month,synthetic_assumption

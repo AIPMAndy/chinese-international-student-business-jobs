@@ -1,0 +1,953 @@
+{
+  "reviewer": "/root/regions",
+  "revision": "185-page-final",
+  "checked_at": "2026-11-13T08:08:30.021070+00:00",
+  "pdf": "downloads/business-careers-guide.pdf",
+  "pdf_sha256": "70ec71f8c647e1a034e47665a8b22d381688b6acbe6a47e336970f2acaba8c48",
+  "sha_verified": true,
+  "pdf_total_pages": 185,
+  "page_range": [
+    51,
+    100
+  ],
+  "pages_reviewed": 50,
+  "single_page_zoom_count": 11,
+  "method": "逐页查看7张联系表覆盖所有51—100页，另放大11页核验文字、表格、步骤分页和旧问题；第101页仅作为第100页关联表格的边界上下文观察。",
+  "status": "requires_two_heading_table_fixes",
+  "final_approval": false,
+  "summary": "原作者尾注孤页与评分单段孤页已修复，国名/资格组及绿色步骤分页改善；没有发现缺字、文字或表格截断、覆盖或越界。剩余两处标题与对应表格分离。",
+  "issues": [
+    {
+      "id": "FINAL-H89",
+      "pages": [
+        89,
+        90
+      ],
+      "severity": "major",
+      "kind": "heading_table_split",
+      "description": "步骤二：按职位改内容顺序的标题独留第89页；相关职能表完整出现在第90页。",
+      "status": "open",
+      "recommendation": "将标题与表格绑定为同一个分页单元。"
+    },
+    {
+      "id": "FINAL-H100",
+      "pages": [
+        100,
+        101
+      ],
+      "severity": "major",
+      "kind": "heading_table_split",
+      "description": "哪种现象值得查什么的标题独留第100页；相关观察表在第101页，旧版同一问题仍存在。",
+      "status": "open",
+      "recommendation": "将标题与表格绑定为同一个分页单元。"
+    }
+  ],
+  "pages": [
+    {
+      "page": 51,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-046-054.jpg",
+      "render_sha256": "5619ef7da98209740a9137bdaabf6a349aaf8be92ba8b52a0e98e896668e0f09",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 52,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-046-054.jpg",
+      "render_sha256": "c59c8b7a4824847fd9469210a9db19e585dabfc57051e3348d179f4d8019764e",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 53,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-046-054.jpg",
+      "render_sha256": "a139e889e2f2fc04901b32ee809343c1f93c8cc103734e36fa65ae24688d6f49",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 54,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-046-054.jpg",
+      "render_sha256": "df8974d052f78646076a0211b1e838888f687a3e36a5c6f0b934e96f4e5446cf",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 55,
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "contact_sheet": "audit/rendered/contact-055-063.jpg",
+      "render_sha256": "d98595be1f8770e9778834b99f066bcab9d0d92287f7c4d9a41325f21f1e886f",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 56,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-055-063.jpg",
+      "render_sha256": "51d7a392f40d4a3588d8a79610dd64926120aac5e35efb02c470c6fabd846414",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 57,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-055-063.jpg",
+      "render_sha256": "351ccf6173ef8e2142a9fe933fd368351a4801a982fcaffe19d9f808cc512196",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 58,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-055-063.jpg",
+      "render_sha256": "8c91f7ba84b1a17fb9a59c53d49fa2ea474e0b367ec4fe2b0d56cdee0168e6d5",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 59,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-055-063.jpg",
+      "render_sha256": "3052e5dd954b3bf9a67a9b8b1fbc6f6536e1f01fa4a9fb37925eedf3dde80efc",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 60,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-055-063.jpg",
+      "render_sha256": "8d2667d58aff3da69a32b9d340126d3348681e6f7e44d3335a2bc00ec985eb21",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 61,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-055-063.jpg",
+      "render_sha256": "b0f17f0cda3ab3e63870103865b4fba38b66a643b2667759a58a2a7e3abd34c1",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 62,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-055-063.jpg",
+      "render_sha256": "ec6c53702c62bc4c2bb32841a3319f17b73b0853053d6891a0f3aa3b0f3694d6",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 63,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-055-063.jpg",
+      "render_sha256": "995e0f637e6ab77f3cca17f05f63fc7db1983697b29cdee9e40d315352a406cc",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 64,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-064-072.jpg",
+      "render_sha256": "8a7a19d8758a30e2cc675fb49fc2c0364d7211ade71e0670b3e8089bfa49eb29",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 65,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-064-072.jpg",
+      "render_sha256": "5c2153ffbbfac2ee8d894a72011ba39415f125b3b022c871f3772e1add052b0d",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 66,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-064-072.jpg",
+      "render_sha256": "5b2777c3c6ee249ad3caabff7ce83134b68e341784af0513e70bcfceffb48678",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 67,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-064-072.jpg",
+      "render_sha256": "9b4ca48d6b701256678f8e96f9536271964d8782b1cdd25f605120a07f7dda1a",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 68,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-064-072.jpg",
+      "render_sha256": "9878e041e89be85a7f4474b976a44a955fa3e17363ed838d165e7b90e1b7ab19",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 69,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-064-072.jpg",
+      "render_sha256": "cf60b30416a27993036a5cf8b710d0396763160a9299f5042946d9de676e04ef",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 70,
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "contact_sheet": "audit/rendered/contact-064-072.jpg",
+      "render_sha256": "204936498b1e5914f3a75a1cb23c199666275e1dd37777ba0f33d10015f2dc75",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 71,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-064-072.jpg",
+      "render_sha256": "4396f3d6868d930ed4731000c8560ff3cd83142f64b4e1afbeed7b4d093c50e6",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 72,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-064-072.jpg",
+      "render_sha256": "bf11ab9200bacfbc92124086afa4317ce4a80b0b680f8787bedfe6cee3ede20f",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 73,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-073-081.jpg",
+      "render_sha256": "164194c9f3a47957dbd3d9dac4d3ad7d865ed03c9c1bc279b9e43fecfaddcb64",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 74,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-073-081.jpg",
+      "render_sha256": "013f42b26982641b2e19f61c257a6603e25455cf1c17c50e8908ac37f7929217",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 75,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-073-081.jpg",
+      "render_sha256": "edee278aa2b89bff17a087ab3e4e76e492c1552736649b0509929d2e10676efc",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 76,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-073-081.jpg",
+      "render_sha256": "7b794e920045632be80509e8449cec05eb568279fc2e565e5d9872a9e01334bf",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 77,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-073-081.jpg",
+      "render_sha256": "d2c3c7f6480fb2015059cbe03f637f8369e50f99aa6dd01c69082da5382840c4",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 78,
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "contact_sheet": "audit/rendered/contact-073-081.jpg",
+      "render_sha256": "c7c48a96fbefd4ea3f12dc2fad93978ad6e8167615a8a0add320615d27571c6c",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 79,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-073-081.jpg",
+      "render_sha256": "5d23f57bda3efc82a691600ebfd8e870301d802416917f6b7715abea35130c32",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 80,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-073-081.jpg",
+      "render_sha256": "d50c610fe4726b76ce1b63fb94368db90558599b7b1b5ce05e0503cf06732ab7",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 81,
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "contact_sheet": "audit/rendered/contact-073-081.jpg",
+      "render_sha256": "887c6ed88f16865bc8758109ebf7a6e0258df2207b7e2bfc4fd3f378de835822",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 82,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-082-090.jpg",
+      "render_sha256": "cf26187b4830d09178b68d4057b12918b0443bc729cae358cf3a161cb3a1bb6f",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 83,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-082-090.jpg",
+      "render_sha256": "9b45511ce7d3f7071d27995292a4bc815d8dfbffb580b29345b35ba49b3ed5e7",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 84,
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "contact_sheet": "audit/rendered/contact-082-090.jpg",
+      "render_sha256": "90c5f14d067420741167fbaa1d806ebbd4bdaa25c1cd0facab5d89980ee41067",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 85,
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "contact_sheet": "audit/rendered/contact-082-090.jpg",
+      "render_sha256": "731c672b005fe6c95b2a714bc25288ff397004e9c394c165fd22c6cf3626fc10",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 86,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-082-090.jpg",
+      "render_sha256": "2e3fa2bd9934222d2ada28f20b8152c43973b5149d30492102996bfc6b59946b",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 87,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-082-090.jpg",
+      "render_sha256": "b7cf74e30d8c866c577bcc22e06c57ce0aec88161ac935b9afef5793ca76bd49",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 88,
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "contact_sheet": "audit/rendered/contact-082-090.jpg",
+      "render_sha256": "c35ebdfd778bbb5aa37572a631578a7e67309e72eaf7e96a091ba2dfef7484d7",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 89,
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "contact_sheet": "audit/rendered/contact-082-090.jpg",
+      "render_sha256": "9100ffee6293d21ffeebcd5019ef9c18d2f5a9ac983601172e79349074c90898",
+      "status": "requires_heading_table_binding",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "requires_fix"
+      },
+      "issue_ids": [
+        "FINAL-H89"
+      ]
+    },
+    {
+      "page": 90,
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "contact_sheet": "audit/rendered/contact-082-090.jpg",
+      "render_sha256": "40f782f51cd2055b42124a488ab44bd10963aee8506ba11a99d66fb5a6f6a4d3",
+      "status": "requires_heading_table_binding",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "requires_fix"
+      },
+      "issue_ids": [
+        "FINAL-H89"
+      ]
+    },
+    {
+      "page": 91,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-091-099.jpg",
+      "render_sha256": "48eddbc1314f27a50690b2de6700eb8b5405062ff436ed3f82751b2277aefdf0",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 92,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-091-099.jpg",
+      "render_sha256": "c647d4d5583cee0c32c4a5e80480830b779c7a55f89bf1f8988f20f9b25e94cf",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 93,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-091-099.jpg",
+      "render_sha256": "57827ce90c3c04a340722647b60d14877d6af47515d2b3f1eac02c43f99ad818",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 94,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-091-099.jpg",
+      "render_sha256": "e0edc7833b8201c19bb9ecb5062f5b4df8446072665cbae610a536f67d1c28dd",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 95,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-091-099.jpg",
+      "render_sha256": "f48a0e70d48b1e5f35f70c8c20c1c6bc7f703e3a2ad7684ae495947cf80642df",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 96,
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "contact_sheet": "audit/rendered/contact-091-099.jpg",
+      "render_sha256": "6a5e83d08b90c4ea9986547cbc3e5b18a4c3a6744e8bd80cd694398a2119b00a",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 97,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-091-099.jpg",
+      "render_sha256": "4ecde9a3273cf49cb9783b5e72032e886883090fa417852a9158ae440fcd85b9",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 98,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-091-099.jpg",
+      "render_sha256": "1e4b7b0e5ba1084b8df5028f423a04581e6ee489382e157f0d4a3b226c0a22f3",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 99,
+      "reviewed_visually": true,
+      "single_page_zoom": false,
+      "contact_sheet": "audit/rendered/contact-091-099.jpg",
+      "render_sha256": "5feb4a07592bc3d3307410edb7ec8bd766bceadf833a37cc56149bd9525dad41",
+      "status": "passed",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "passed"
+      },
+      "issue_ids": []
+    },
+    {
+      "page": 100,
+      "reviewed_visually": true,
+      "single_page_zoom": true,
+      "contact_sheet": "audit/rendered/contact-100-108.jpg",
+      "render_sha256": "a15e1d25490f8554d066955aa19e34a7672f1dac37fb0bf611beb23cc4672a63",
+      "status": "requires_heading_table_binding",
+      "checks": {
+        "chinese_and_foreign_glyphs": "passed",
+        "clipping_and_overlap": "passed",
+        "table_cells": "passed",
+        "source_ids_and_line_wrapping": "passed",
+        "page_header_footer": "passed",
+        "orphan_page": "passed",
+        "heading_content_pagination": "requires_fix"
+      },
+      "issue_ids": [
+        "FINAL-H100"
+      ]
+    }
+  ]
+}

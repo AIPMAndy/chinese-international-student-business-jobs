@@ -1,0 +1,118 @@
+{
+  "checked": "2026-11-13",
+  "created": [
+    "cases/01-consulting/printable-data.md",
+    "cases/02-finance-accounting/printable-data.md",
+    "cases/03-marketing/printable-data.md",
+    "cases/04-operations/printable-data.md",
+    "cases/05-analytics/printable-data.md",
+    "cases/06-sales/printable-data.md"
+  ],
+  "input_file_count": 20,
+  "input_rows": 96,
+  "source_csvs": [
+    {
+      "path": "cases/01-consulting/channel-data.csv",
+      "rows": 4,
+      "sha256": "d2b0c266fffcc31ce2faaee27ed71d8f4ae250b8b3ba3929e1f35db7196088e5"
+    },
+    {
+      "path": "cases/01-consulting/fixed-costs.csv",
+      "rows": 2,
+      "sha256": "8ed090241131b819cdab8ef3a90d2359f5228cd9ed3c69b3085fdfa19aab8fe3"
+    },
+    {
+      "path": "cases/01-consulting/options.csv",
+      "rows": 9,
+      "sha256": "6c6d5cd13f90d1988e319f2dd0af5cdbef7c470103d5d586773627d407fc0d94"
+    },
+    {
+      "path": "cases/02-finance-accounting/pnl-inputs.csv",
+      "rows": 2,
+      "sha256": "ee94cc825252813fbcefc727af983b4c5074c5a3fc6e07c2b11b33c20bc86ac5"
+    },
+    {
+      "path": "cases/02-finance-accounting/working-capital.csv",
+      "rows": 4,
+      "sha256": "02cab79a17bf4aee0d8dca1fcb2731e369d83d5d772ef07835e9f3099830c4ec"
+    },
+    {
+      "path": "cases/02-finance-accounting/cash-flows.csv",
+      "rows": 9,
+      "sha256": "7c83552a0faa859f3557898ecbcb0867c6fdab283b20e041870d7b511247a321"
+    },
+    {
+      "path": "cases/02-finance-accounting/invoice-sample.csv",
+      "rows": 6,
+      "sha256": "a26a7aa6db4d8a61cb2ee0f9e20eb91a0ae80da220ed32a1fa3b7c1ed3effa24"
+    },
+    {
+      "path": "cases/02-finance-accounting/credit-forecast.csv",
+      "rows": 8,
+      "sha256": "e490dd510f97807fb2ee4b05296c66a4075e8dc96363f08e5f9f7cf85ab46352"
+    },
+    {
+      "path": "cases/02-finance-accounting/valuation-comps.csv",
+      "rows": 4,
+      "sha256": "bb7e5330f05c0679bcf3d751bbc9f853eba6bfa503e44a9753884c76f99c66ee"
+    },
+    {
+      "path": "cases/03-marketing/channel_history.csv",
+      "rows": 4,
+      "sha256": "d6d1cd8649c589b5628baa01168cd7735cb18f2f2108aa144a021443c104898b"
+    },
+    {
+      "path": "cases/03-marketing/randomized_tests.csv",
+      "rows": 4,
+      "sha256": "37151c8fddd4e85001f83ba5465047cdaa70831345b277f3e8b2984d467b1220"
+    },
+    {
+      "path": "cases/04-operations/assumptions.csv",
+      "rows": 4,
+      "sha256": "2b16faeb31c52ef7ef95c5b004b3336fca2b8ceb114b4a38ca942d8ac40531de"
+    },
+    {
+      "path": "cases/04-operations/demand.csv",
+      "rows": 8,
+      "sha256": "0e22255f9fa9f8d661bbd088fcd2886bc4abd375566015485b49944ddb6db405"
+    },
+    {
+      "path": "cases/04-operations/scheduled_receipts.csv",
+      "rows": 1,
+      "sha256": "7abef6ea8711a663c9b199783507fbf2d3b0460927fa615e994f5be11dfb8172"
+    },
+    {
+      "path": "cases/04-operations/supply_options.csv",
+      "rows": 3,
+      "sha256": "cde5548a0ff9c25055d24bf67a3e9c0db3fad7e4c1e5497ddec2d250004ecfa2"
+    },
+    {
+      "path": "cases/05-analytics/funnel.csv",
+      "rows": 4,
+      "sha256": "fad1e5a25eca2deecc35a3bf8afd3116fabb7dddbf833fc8e0f84d23deae05e9"
+    },
+    {
+      "path": "cases/05-analytics/cohorts.csv",
+      "rows": 3,
+      "sha256": "a7f3174cb53875dd70f60bbbcc760a9ac771a3e1a554b65d3c2bd056a3936823"
+    },
+    {
+      "path": "cases/06-sales/accounts.csv",
+      "rows": 4,
+      "sha256": "58da8288eadb50c2237b834c1048131b63b8df82a28585d65628ab54f2e97081"
+    },
+    {
+      "path": "cases/06-sales/pipeline.csv",
+      "rows": 4,
+      "sha256": "d9fbd51d0f7a08ac1f432daa8d840a59482b581206288aed54229588a7daa968"
+    },
+    {
+      "path": "cases/06-sales/value_assumptions.csv",
+      "rows": 9,
+      "sha256": "a3cf261a78d0a01378dab8021e270f3dfcb75a0fb1da1938bd3ee5561847b18f"
+    }
+  ],
+  "tables_max_columns": 4,
+  "original_inputs_unchanged": true,
+  "note": "全部数值由 CSV 读取；只输出原始输入，不读取参考答案或 worked_purchase_plans.csv。空值显示为 —，不补零。"
+}
