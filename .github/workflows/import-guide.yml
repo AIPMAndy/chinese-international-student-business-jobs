@@ -1,0 +1,120 @@
+name: Import complete business handbook
+on:
+  push:
+    paths: ['.github/workflows/import-guide.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: import-business-handbook
+  cancel-in-progress: false
+jobs:
+  import:
+    if: github.repository == 'AIPMAndy/chinese-international-student-business-jobs' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+      - name: Refuse to overwrite an already published handbook
+        run: test ! -f audit/GITHUB-IMPORT.json
+      - name: Recover exact source archive and apply hash-verified latest changes
+        shell: python
+        run: |
+          import base64, hashlib, io, json, lzma, pathlib, stat, urllib.request, zipfile
+          root=pathlib.Path.cwd()
+          url='https://andy-business-jobs.andyaipm.chatgpt.site/downloads/repository-source.zip'
+          request=urllib.request.Request(url,headers={'User-Agent':'Andy-authorized-source-migration/1.0'})
+          with urllib.request.urlopen(request,timeout=60) as response: data=response.read(20_000_001)
+          assert hashlib.sha256(data).hexdigest()=='b617d42616dfcd9ae66391d64d8c3a2281b5d96a55edf5fd71c05cf15551ef0e', 'Source snapshot changed'
+          with zipfile.ZipFile(io.BytesIO(data)) as z:
+              for item in z.infolist():
+                  parts=pathlib.PurePosixPath(item.filename)
+                  assert not parts.is_absolute() and '..' not in parts.parts
+                  assert parts.parts[0]=='chinese-international-student-business-jobs'
+                  relative=pathlib.Path(*parts.parts[1:])
+                  if not relative.parts or item.is_dir() or relative.parts[0]=='.github': continue
+                  assert not stat.S_ISLNK(item.external_attr>>16)
+                  assert not any(p in {'.git','.openai','.ssh','node_modules'} or p.startswith('.env') for p in relative.parts)
+                  target=root/relative
+                  assert not target.exists(), f'Concurrent file requires reconciliation: {relative}'
+                  target.parent.mkdir(parents=True,exist_ok=True); target.write_bytes(z.read(item))
+          encoded=pathlib.Path('.migration/business-delta.b64').read_text().replace('FDVWonWyzllJQ','FDVWonWyzlJQ')
+          raw=lzma.decompress(base64.b64decode(encoded,validate=True))
+          assert hashlib.sha256(raw).hexdigest()=='1b0c371b8c80d9339f1b8f50719248b9ecc3cb50bdc021c4e3987fc32ccc1294'
+          changes=json.loads(raw)
+          for name, change in changes.items():
+              path=pathlib.Path(name)
+              assert not path.is_absolute() and '..' not in path.parts and path.parts[0] not in {'.git','.github'}
+              previous=path.read_bytes() if path.is_file() else b''
+              if change.get('base_sha256'): assert hashlib.sha256(previous).hexdigest()==change['base_sha256'], name
+              pieces=[]
+              for operation in change['ops']:
+                  if isinstance(operation,str): pieces.append(base64.b64decode(operation,validate=True))
+                  else:
+                      start,length=operation; assert 0<=start<=start+length<=len(previous)
+                      pieces.append(previous[start:start+length])
+              result=b''.join(pieces)
+              assert hashlib.sha256(result).hexdigest()==change['sha256'], name
+              path.parent.mkdir(parents=True,exist_ok=True); path.write_bytes(result)
+          print('Validated latest source files:',len(changes))
+          pathlib.Path('.migration/business-delta.b64').unlink()
+          checker='https://raw.githubusercontent.com/AIPMAndy/chinese-international-student-product-jobs/4d1f8923a4a2ee8527838ae9e468bffa3e313b6f/tools/check_pages_links.py'
+          with urllib.request.urlopen(checker,timeout=45) as response: code=response.read()
+          assert hashlib.sha1(b'blob '+str(len(code)).encode()+b'\0'+code).hexdigest()=='fb044671ac39b3b48d7b3b05a61ded5dcea1bf19'
+          pathlib.Path('scripts/check_pages_links.py').write_bytes(code)
+      - name: Install official distribution fonts and PDF dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk fonts-noto-core
+          python3 -m pip install 'reportlab>=4,<5' 'fonttools>=4,<5' 'lxml>=5,<7' 'PyMuPDF>=1.24,<2' 'Pillow>=11,<14'
+          npm install --ignore-scripts
+      - name: Build full static website and PDF from validated sources
+        run: |
+          npm run build
+          python3 scripts/build-pdf.py
+          python3 scripts/package.py
+          npm run build
+          python3 scripts/package.py
+          cp downloads/repository-source.zip downloads/SHA256SUMS.txt dist/downloads/
+          python3 scripts/check_pages_links.py --require downloads/business-careers-guide.pdf --require downloads/repository-source.zip --require downloads/templates-and-cases.zip --require downloads/business-job-workbook.xlsx
+      - name: Verify release structure and record hashes
+        shell: python
+        run: |
+          import hashlib,json,pathlib,zipfile,fitz
+          document=fitz.open('downloads/business-careers-guide.pdf')
+          assert len(document)>=80
+          text=''.join(page.get_text() for page in document)
+          assert 'AIPMAndy' in text and 'metaver.vip' in text
+          with zipfile.ZipFile('downloads/repository-source.zip') as z:
+              assert not any(pathlib.Path(n).suffix.lower() in {'.ttf','.otf','.ttc','.woff','.woff2'} for n in z.namelist()), 'Font binaries must stay local'
+          records=[]
+          for path in sorted(pathlib.Path('dist').rglob('*')):
+              if path.is_file(): records.append({'path':str(path),'bytes':path.stat().st_size,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()})
+          report={'source_sha256':'b617d42616dfcd9ae66391d64d8c3a2281b5d96a55edf5fd71c05cf15551ef0e','latest_source_delta_sha256':'1b0c371b8c80d9339f1b8f50719248b9ecc3cb50bdc021c4e3987fc32ccc1294','pdf_pages':len(document),'html_pages':len(list(pathlib.Path('dist').rglob('*.html'))),'pages_deployment':'pending; an import is not evidence of a live website','files':records}
+          pathlib.Path('audit/GITHUB-IMPORT.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+      - name: Commit complete sources and release assets without force
+        run: |
+          git config user.name 'AI酋长Andy'
+          git config user.email '31501333+AIPMAndy@users.noreply.github.com'
+          git add --all
+          test -z "$(git diff --cached --name-only -- .github/workflows)"
+          test -z "$(git diff --cached --name-only | grep -E '\.(ttf|otf|ttc|woff|woff2)$')"
+          git commit -m 'Publish complete business careers handbook, six case studies, PDF, templates and Pages site'
+          git push origin HEAD:main
+          git rev-parse HEAD
+      - name: Preserve published PDF and evidence for visual inspection
+        uses: actions/upload-artifact@v4
+        with:
+          name: business-published-evidence
+          path: |
+            downloads/business-careers-guide.pdf
+            audit/GITHUB-IMPORT.json
+          retention-days: 3
+      - name: Preserve migration diagnostics if integrity checks fail
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: business-migration-diagnostics
+          path: .migration/
+          include-hidden-files: true
+          retention-days: 3
