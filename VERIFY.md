@@ -2,7 +2,7 @@
 
 版本：1.0｜核验日期：2026-11-13。作者：AI 酋长 Andy。
 
-**完整内容、PDF、模板与静态网站已制作；正式 GitHub 仓库创建、推送和 GitHub Pages 部署尚未完成。** 用户已授权发布，当前阻塞来自工具能力与登录会话。以下区分本地检查、历史预览验收和正式发布状态。
+**完整内容、PDF、模板与网站已公开发布，GitHub Pages 部署及发布后 HTTP / SHA-256 验证已通过。** 以下分别保留内容检查、历史预览和本次正式网站的证据。
 
 ## 内容与来源
 
@@ -33,22 +33,19 @@
 
 依据 [项目部署要求](DEPLOYMENT.md)，该预览不作为正式网站，不再继续发布。最终的官网链接修复、PDF 发布文字与重新打包的成品已在本地验证，未同步到该历史预览。不能将历史下载结果当作最终 GitHub Pages 下载验收。
 
-## GitHub 与正式网站：当前阻塞
+## GitHub 与正式网站：已完成
 
-唯一目标：`AIPMAndy/chinese-international-student-business-jobs`。
+唯一仓库：[AIPMAndy/chinese-international-student-business-jobs](https://github.com/AIPMAndy/chinese-international-student-business-jobs)。正式网站：[https://aipmandy.github.io/chinese-international-student-business-jobs/](https://aipmandy.github.io/chinese-international-student-business-jobs/)。
 
-- 最后核对时，目标仓库通过当前 GitHub 连接返回 404；只表示本次可访问范围内没有读到该仓库。
-- 当前 GitHub 连接未提供新建仓库操作；本机 `gh auth status` 显示未登录，浏览器创建入口此前显示登录页。
-- 用户已明确授权创建和推送，不需要再次口头授权。由于缺少可执行建仓的会话/接口，本次没有完成新仓库创建、GitHub 推送或 Pages 工作流。
-- 未取得正式 `page_url`，未宣称预计 Pages 地址已上线。完整源码、静态成品和限定目标的发布脚本已交付。
+源码、PDF、工作簿、模板与案例包、静态网站均已推送至公开仓库。GitHub Pages 部署成功；本次发布后对首页、正文、CSS、JS、PDF、XLSX、模板 ZIP 和源码 ZIP 共 8 个实际 URL 检查，均返回 HTTP 200，且 SHA-256 与部署提交的 dist 文件一致。 [查看成功运行](https://github.com/AIPMAndy/chinese-international-student-business-jobs/actions/runs/43487152686)，对应提交 `dfb6ef5b37c2e50d506283d64886a7d85194c639`。该记录绑定此提交，后续更新以新的工作流结果为准。
 
-机器可读状态：`audit/github-publication-status.json`。恢复执行步骤见 [PUBLISH.md](PUBLISH.md)；正式完成标准见 [DEPLOYMENT.md](DEPLOYMENT.md)。
+此前 404 与未建仓状态是历史记录。本次远端校验确认 53 个 HTML、3,599 个引用及四份必需下载无错误。机器可读记录见 `audit/github-publication-status.json`；发布方法见 [PUBLISH.md](PUBLISH.md)。历史预览的手机测试不替代实体设备验收。
 
 ## 验收边界
 
 - 官方网页会更新、岗位会关闭；研究样本不等于持续在招清单。脚本没有声称验证全部外部网页的实时可用性。
 - 31 个地区入口深度不同，README 与各地区章逐项列出不足；不把局部样本外推成整个国家的招聘习惯。
 - 所有案例与申请样例均为教学模拟，不是客户成果；评分不是雇主评分、通过率或 Offer 概率。
-- 原生 Excel 桌面、实体手机与目标 GitHub Pages 工作流尚未执行。
+- 原生 Excel 桌面和实体手机尚未测试；GitHub Pages 工作流与本次线上文件检查已经执行并通过。
 
 微信：AIPMAndy｜公众号：AI酋长Andy｜[个人官网](https://metaver.vip/)｜[公司官网](https://www.a6no1.cn/)

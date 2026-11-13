@@ -6,17 +6,12 @@
 <li>唯一仓库：<code>AIPMAndy/chinese-international-student-business-jobs</code>。</li>
 <li>默认分支：<code>main</code>；网站成品：本项目的 <code>dist/</code>。</li>
 <li>唯一正式网站目标：GitHub Pages。</li>
-<li>预计地址：<code>https://aipmandy.github.io/chinese-international-student-business-jobs/</code>。这是部署目标，尚不能作为上线证明；实际地址以成功部署返回的 <code>page_url</code> 为准。</li>
+<li>正式网站：<a href="https://aipmandy.github.io/chinese-international-student-business-jobs/">https://aipmandy.github.io/chinese-international-student-business-jobs/</a>，已由成功部署日志及实际 HTTP 检查确认。</li>
 </ul>
 <p>历史 ChatGPT Pages / Sites 的部署和访问记录不作为本项目的正式交付地址或 GitHub Pages 验收结果。</p>
-<h2 id="section-2">当前阻塞：执行能力与认证会话</h2>
-<p>用户已明确授权向上述新仓库推送，无须重复请求口头授权。本次已核查环境的状态为：</p>
-<ul>
-<li>通过当前连接读取目标仓库返回 404；账号内名称检索没有同名结果。名称查重限于当前可访问范围，创建前仍须重新核对。</li>
-<li>当前 GitHub 连接可读取已有仓库，但没有可调用的新建仓库接口。</li>
-<li>本机 <code>gh auth status</code> 显示未登录；浏览器进入新建仓库地址后显示 GitHub 登录页。</li>
-</ul>
-<p>因此当前状态为 <strong>源码与成品已准备，待具备建仓能力的已认证通道执行推送、部署与线上验收</strong>。阻塞来自现有执行通道，不是用户未授权。不得通过推送到其他旧仓库替代本项目的新建发布。</p>
+<h2 id="section-2">已完成的远程发布</h2>
+<p>源码、PDF、工作簿、模板与案例包、静态网站均已推送至公开仓库。GitHub Pages 部署成功；本次发布后对首页、正文、CSS、JS、PDF、XLSX、模板 ZIP 和源码 ZIP 共 8 个实际 URL 检查，均返回 HTTP 200，且 SHA-256 与部署提交的 dist 文件一致。 <a href="https://github.com/AIPMAndy/chinese-international-student-business-jobs/actions/runs/43487152686">查看成功运行</a>，对应提交 <code>dfb6ef5b37c2e50d506283d64886a7d85194c639</code>。该记录绑定此提交，后续更新以新的工作流结果为准。</p>
+<p>最初的 404、缺少建仓接口与未登录记录属于发布前历史阶段，不再代表当前状态。目标仓库已存在；后续应审阅并更新本仓库 main，不要重复建仓。用户原有推送授权持续有效。</p>
 <h2 id="section-3">源码包与离线复现</h2>
 <p>完整源码在 <code>downloads/repository-source.zip</code>。解压出的独立项目包含中文正文、案例、模板、构建脚本、已审阅 PDF、XLSX 和静态网站。</p>
 <p>源码 ZIP 不包含自身及自身的摘要文件，以避免递归包含和循环摘要；因此解压后，<code>dist/downloads/repository-source.zip</code> 与下载摘要需要在本项目内重新生成。这是打包规则，不代表正文、PDF 或案例缺失。</p>
@@ -28,8 +23,8 @@ python3 scripts/check_pages_links.py
 <p><code>package.py</code> 先打包模板与案例，把已完成的 PDF、XLSX 和模板包放入静态下载目录，再生成排除自包的源码 ZIP 及 <code>downloads/SHA256SUMS.txt</code>。复制步骤补齐网站的源码下载和摘要。新的下载摘要以本次生成结果为准。</p>
 <p>链接检查模拟 GitHub Pages 的仓库子路径，验证首页、章节资源、锚点及四个必需下载文件。该步骤不访问互联网，只证明本地静态结构符合部署要求。</p>
 <p>若正文或页面发生变化，应按项目构建说明重建对应成品后再打包；仅恢复解压包的下载结构，不需要重跑 PDF 渲染。</p>
-<h2 id="section-4">使用已授权的 GitHub 账号执行新建与推送</h2>
-<p>当 GitHub CLI 已在 <code>github.com</code> 认证为 AIPMAndy，且此新仓库仍未创建时，在本项目根目录执行：</p>
+<h2 id="section-4">首次建仓脚本（历史说明）</h2>
+<p>本仓库已存在，不应重跑首次创建命令。以下保留首次建仓脚本说明；后续更新直接使用已经确认的本项目仓库。原首次创建条件为 GitHub CLI 已认证为 AIPMAndy 且仓库尚不存在：</p>
 <pre><code class="language-bash">bash scripts/publish-github.sh
 </code></pre>
 <p>脚本按以下顺序执行：</p>
@@ -43,7 +38,7 @@ python3 scripts/check_pages_links.py
 <p>脚本不会复用或覆盖已存在的远程仓库。若建仓成功后因网络问题导致推送失败，应先核实目标仓库与 <code>github</code> remote 确实对应唯一目标，再重试推送；不要删除仓库，也不要改用其他项目。身份或接口问题应准确报告，不能解释为用户撤回授权。</p>
 <h2 id="section-5">GitHub Pages 部署与完成验收</h2>
 <p>已提供 <code>.github/workflows/pages.yml</code>，只允许本仓库 <code>main</code> 分支发布已提交的 <code>dist/</code>。在新仓库 <strong>Settings → Pages → Build and deployment → Source</strong> 选择 <strong>GitHub Actions</strong>，然后触发工作流；远端不会重新生成 PDF。</p>
-<p>工作流依据 <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages">GitHub 官方自定义 Pages 工作流文档</a> 配置，来源核对日期为 2026-11-13。工作流文件存在不等于部署已经成功；当前尚无此目标仓库的成功运行与线上访问证据。</p>
+<p>工作流依据 <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages">GitHub 官方自定义 Pages 工作流文档</a> 配置，来源核对日期为 2026-11-13。当前已取得上方成功运行与线上访问证据。后续每次发布仍须等待其工作流完成，不能用旧版本的成功替代新版本验收。</p>
 <p>完成正式交付需要保留：</p>
 <ul>
 <li>GitHub <code>main</code> 提交 SHA 与本次发布提交一致的读回结果。</li>

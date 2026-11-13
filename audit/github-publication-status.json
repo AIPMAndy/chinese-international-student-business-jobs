@@ -1,0 +1,26 @@
+{
+  "repository": "AIPMAndy/chinese-international-student-business-jobs",
+  "repository_status": "public",
+  "branch": "main",
+  "deployment_target": "GitHub Pages",
+  "site_url": "https://aipmandy.github.io/chinese-international-student-business-jobs/",
+  "evidence": {
+    "run_url": "https://github.com/AIPMAndy/chinese-international-student-business-jobs/actions/runs/43487152686",
+    "commit_sha": "dfb6ef5b37c2e50d506283d64886a7d85194c639",
+    "conclusion": "success",
+    "http_checks": 8,
+    "http_status": 200,
+    "comparison": "Full response SHA-256 equals the corresponding committed dist file",
+    "paths": [
+      "index.html",
+      "read/content--00-start.html",
+      "assets/style.css",
+      "assets/app.js",
+      "downloads/business-careers-guide.pdf",
+      "downloads/business-job-workbook.xlsx",
+      "downloads/templates-and-cases.zip",
+      "downloads/repository-source.zip"
+    ]
+  },
+  "scope": "This evidence is bound to the named commit. Documentation may be updated without changing versioned PDF or archive bytes. Physical mobile devices and native desktop Excel have not been retested."
+}

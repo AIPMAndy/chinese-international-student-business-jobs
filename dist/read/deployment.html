@@ -6,7 +6,8 @@
 <li>默认分支：<code>main</code>。</li>
 <li>站点成品：<code>dist/</code>。</li>
 <li>发布工作流：<code>.github/workflows/pages.yml</code>。</li>
-<li>预计 Pages 地址：<code>https://aipmandy.github.io/chinese-international-student-business-jobs/</code>。这是目标地址，<strong>并非已上线证明</strong>；实际地址以 GitHub Pages 设置及成功部署的 <code>page_url</code> 为准。</li>
+<li>正式 Pages 地址：<a href="https://aipmandy.github.io/chinese-international-student-business-jobs/">https://aipmandy.github.io/chinese-international-student-business-jobs/</a>，已由成功部署及实际访问确认。</li>
+<li>源码、PDF、工作簿、模板与案例包、静态网站均已推送至公开仓库。GitHub Pages 部署成功；本次发布后对首页、正文、CSS、JS、PDF、XLSX、模板 ZIP 和源码 ZIP 共 8 个实际 URL 检查，均返回 HTTP 200，且 SHA-256 与部署提交的 dist 文件一致。 <a href="https://github.com/AIPMAndy/chinese-international-student-business-jobs/actions/runs/43487152686">查看成功运行</a>，对应提交 <code>dfb6ef5b37c2e50d506283d64886a7d85194c639</code>。该记录绑定此提交，后续更新以新的工作流结果为准。</li>
 </ul>
 <p>ChatGPT Pages / Sites 不再作为此项目的正式部署目标。保留的历史配置不能作为继续发布到旧服务的依据。</p>
 <h2 id="section-2">发布前</h2>
@@ -25,7 +26,7 @@
 </ul>
 <h2 id="section-3">GitHub 设置和推送</h2>
 <p>确认精确仓库 <code>AIPMAndy/chinese-international-student-business-jobs</code> 已存在且属于 AIPMAndy；若尚未创建，在具备建仓操作的已授权会话中创建此独立公开仓库。新建接口缺失不应被描述为“用户未授权”。</p>
-<p>在本仓库 <strong>Settings → Pages → Build and deployment → Source</strong> 选择 <strong>GitHub Actions</strong>。工作流在 <code>main</code> 推送后自动执行，也可在 Actions 页面手动运行；只允许本仓库的 <code>main</code> 发布。</p>
+<p>在本仓库 <strong>Settings → Pages → Build and deployment → Source</strong> 选择 <strong>GitHub Actions</strong>。工作流在 <code>main</code> 的静态产物、Pages 工作流或检查脚本更新后自动执行，也可在 Actions 页面手动运行；只允许本仓库的 <code>main</code> 发布。</p>
 <p>工作流直接检查并发布已提交的 <code>dist/</code>，不会在远端重新生成 PDF。部署作业仅取得 <code>contents: read</code>、<code>pages: write</code>、<code>id-token: write</code>，使用 <code>github-pages</code> 环境。</p>
 <h2 id="section-4">完成标准</h2>
 <ol>

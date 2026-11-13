@@ -21,7 +21,7 @@
 | 做完整案例，核对自己的答案 | [下载模板与案例包](downloads/templates-and-cases.zip) |
 | 检查研究、计算、排版和发布状态 | [验证记录](VERIFY.md) · [事实复核](research/FACT-CHECK.md) |
 
-GitHub 目标仓库为 `AIPMAndy/chinese-international-student-business-jobs`。本次已完成名称查重与独立项目制作；GitHub 新建与推送状态以[发布记录](PUBLISH.md)为准。没有把尚未创建的地址当作已上线仓库。
+公开仓库为 [AIPMAndy/chinese-international-student-business-jobs](https://github.com/AIPMAndy/chinese-international-student-business-jobs)，正文、PDF、模板、源码与正式网站均已发布。GitHub Pages 部署及发布后 HTTP / SHA-256 检查已成功；完整证据见[发布记录](PUBLISH.md)。
 
 ## 六条路线，分别训练
 
