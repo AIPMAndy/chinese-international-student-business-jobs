@@ -2,7 +2,7 @@ name: Deploy verified business handbook
 on:
   push:
     branches: [main]
-    paths: ['dist/**', '.github/workflows/pages.yml', 'scripts/**', 'assets/**', 'content/**', 'cases/**', 'templates/**', 'research/**', 'downloads/**']
+    paths: ['dist/**', '.github/workflows/pages.yml', 'scripts/**', 'assets/**', 'content/**', 'cases/**', 'templates/**', 'research/**', 'downloads/**', 'README.md', 'PUBLISH.md', 'DEPLOYMENT.md', 'VERIFY.md', 'SOURCES.md', 'CONTRIBUTING.md', 'CONTENT_LICENSE.md']
   workflow_dispatch:
 permissions:
   contents: read
