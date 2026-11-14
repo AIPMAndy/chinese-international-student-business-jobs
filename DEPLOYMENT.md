@@ -36,7 +36,7 @@ ChatGPT Pages / Sites 不再作为此项目的正式部署目标。保留的历�
 
 在本仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。工作流在 `main` 的静态产物、Pages 工作流或检查脚本更新后自动执行，也可在 Actions 页面手动运行；只允许本仓库的 `main` 发布。
 
-工作流直接检查并发布已提交的 `dist/`，不会在远端重新生成 PDF。部署作业仅取得 `contents: read`、`pages: write`、`id-token: write`，使用 `github-pages` 环境。
+自 2026-11-14 起，工作流先用已锁定的 Node 依赖从 `scripts/build-site.mjs` 重建全 53 页网站，再重新打包模板、案例和源码归档；验证逐页 canonical/OG/JSON-LD、robots/sitemap、章节链接及 PDF/ZIP 存在性后发布，并对本轮在线产物逐项进行 HTTP 200 和 SHA-256 核对。已审阅的 180 页 PDF 不在远端重排。仓库内 `dist/` 是旧快照，最终上线文件以当轮 Actions 构建结果为准。部署作业仅取得 `contents: read`、`pages: write`、`id-token: write` 权限。
 
 ## 完成标准
 
