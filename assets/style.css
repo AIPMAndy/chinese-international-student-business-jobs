@@ -17,3 +17,17 @@ body{background:var(--paper);color:var(--ink)}.top{background:rgba(255,255,255,.
 .filter[aria-pressed="true"]{background:#244a72;color:#fff}
 .contact{background:#17293a;border-radius:20px}.contact .button.secondary{border-color:rgba(255,255,255,.28)}
 @media(max-width:700px){.hero{padding-top:36px}.hero-book{box-shadow:6px 8px 0 #e3e8ed}}
+
+/* Search accessibility and legible brand contact area. */
+.search-control{display:flex;gap:10px;align-items:stretch}
+.search-control input{flex:1;min-width:0}
+.clear-search{min-height:48px;padding:9px 16px;border:1px solid #bdcbd7;border-radius:8px;background:#fff;color:#193c5d;font-size:14px;white-space:nowrap}
+.clear-search:disabled{opacity:.6;cursor:not-allowed}
+.contact{padding:36px;margin:20px 0 46px}
+.contact h3,.contact p strong{color:#fff}
+.contact p{color:#dce6ef}
+.contact .eyebrow{color:#a9d0ee}
+.contact .copy-status{color:#d6efff}
+.contact .copy{background:#fff;color:#18344e;border-color:#dce6ef;border-radius:8px;min-height:48px}
+.contact .button.secondary{background:#fff;color:#173a5b;border-color:#fff}
+@media(max-width:700px){.contact{padding:26px 20px;margin-bottom:26px}}
