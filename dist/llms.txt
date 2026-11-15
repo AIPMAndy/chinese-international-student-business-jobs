@@ -1,6 +1,6 @@
 # 中国留学生商科岗位求职保姆级攻略
 
-> AI 酋长 Andy / 星觉科技。免费、完整的职能路径选择、地区申请规则、案例训练与可编辑模板。岗位与签证/身份信息以最新雇主/官方入口为准，不保证录用或工作资格。
+> AI酋长Andy / 星觉科技 · 北京。免费、完整的职能路径选择、地区申请规则、案例训练与可编辑模板。岗位与签证/身份信息以最新雇主/官方入口为准，不保证录用或工作资格。
 
 - 首页：https://aipmandy.github.io/chinese-international-student-business-jobs/
 - 六条职能路线：https://aipmandy.github.io/chinese-international-student-business-jobs/#routes

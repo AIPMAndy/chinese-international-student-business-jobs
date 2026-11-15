@@ -40,6 +40,8 @@ for file in pages:
     check('<meta name="description"' in content, rel + ": no description")
     check('<meta property="og:title"' in content, rel + ": no OG title")
     check('<meta property="og:url" content="' + expected + '"' in content, rel + ": wrong OG URL")
+    check('<meta property="og:image" content="' + base + "assets/social-preview.png" + '"' in content, rel + ": missing OG image")
+    check('<meta name="twitter:card" content="summary_large_image"' in content, rel + ": wrong Twitter card")
     check('<meta name="robots" content="' + ("noindex,follow" if rel == "404.html" else "index,follow") + '"' in content, rel + ": wrong robots")
     data = re.search(r'<script type="application/ld\+json">(.*?)</script>', content, re.S)
     if not data:
@@ -49,7 +51,7 @@ for file in pages:
             obj = json.loads(html.unescape(data.group(1)))
             check(obj.get("@type") == "WebPage" and obj.get("url") == expected, rel + ": invalid JSON-LD identity")
             check(obj.get("isAccessibleForFree") is True, rel + ": incorrectly describes free content")
-            check(obj.get("author", {}).get("name") == "AI 酋长 Andy", rel + ": no known author")
+            check(obj.get("author", {}).get("name") == "AI酋长Andy", rel + ": no known author")
             check(obj.get("publisher", {}).get("url") == "https://www.a6no1.cn/", rel + ": no known company")
         except (ValueError, TypeError) as exc:
             errors.append(rel + ": invalid JSON-LD: " + str(exc))
