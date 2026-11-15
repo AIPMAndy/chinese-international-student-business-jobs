@@ -222,8 +222,8 @@ class Cover(Flowable):
         for i,t in enumerate(labels):
             x=35+(i%2)*(TEXTW/2+5);yy=y-(i//2)*48;c.setStrokeColor(colors.HexColor('#414c3e'));c.line(x,yy+15,x+TEXTW/2-18,yy+15);c.setFont('Book',9.3);c.drawString(x,yy,t)
         c.setStrokeColor(colors.HexColor('#52604f'));c.line(34,109,WIDTH-34,109)
-        c.setFont('BookBold',12);c.setFillColor(colors.HexColor('#f4f6ee'));c.drawString(34,84,'AI 酋长 Andy')
-        c.setFont('Book',8.3);c.setFillColor(colors.HexColor('#b4c1ac'));c.drawString(34,65,'微信 AIPMAndy · 公众号 AI酋长Andy');c.drawString(34,45,'免费完整开放  /  VERSION 1.0  /  2026-11-13')
+        c.setFont('BookBold',12);c.setFillColor(colors.HexColor('#f4f6ee'));c.drawString(34,84,'AI酋长Andy')
+        c.setFont('Book',8.3);c.setFillColor(colors.HexColor('#b4c1ac'));c.drawString(34,65,'流量 AI 联合创始人、星觉 AI 创始人 · 星觉科技 · 北京');c.drawString(34,45,'微信 AIPMAndy · 免费完整开放  /  VERSION 1.0  /  2026-11-13')
         c.setFont('Book',46);c.setFillColor(colors.HexColor('#8ca282'));c.drawRightString(WIDTH-33,47,'06')
         c.restoreState()
 
@@ -238,7 +238,7 @@ class BookDoc(BaseDocTemplate):
 def page_decor(c,doc):
     if doc.page==1:return
     c.saveState();c.setFillColor(PAPER);c.rect(0,0,WIDTH,HEIGHT,fill=1,stroke=0)
-    c.setFont('Book',7.3);c.setFillColor(MUTED);c.drawString(LEFT,HEIGHT-12.5*mm,'中国留学生商科求职 / AI 酋长 Andy')
+    c.setFont('Book',7.3);c.setFillColor(MUTED);c.drawString(LEFT,HEIGHT-12.5*mm,'中国留学生商科求职 / AI酋长Andy')
     c.setStrokeColor(LINE);c.setLineWidth(.4);c.line(LEFT,HEIGHT-15*mm,WIDTH-RIGHT,HEIGHT-15*mm)
     c.line(LEFT,14*mm,WIDTH-RIGHT,14*mm);c.setFont('Book',7);c.drawString(LEFT,9.3*mm,'微信 AIPMAndy · 免费完整开放 · 2026-11-13');c.drawRightString(WIDTH-RIGHT,9.3*mm,str(doc.page));c.restoreState()
 
@@ -250,7 +250,7 @@ def get_html():
 doc=BookDoc(str(DEST),pagesize=(WIDTH,HEIGHT),leftMargin=LEFT,rightMargin=RIGHT,topMargin=TOP,bottomMargin=BOTTOM,title=BOOK['title'],author=BOOK['author'],subject='留学生商科职能选择、申请路径与专业案例训练',pageCompression=1,allowSplitting=1)
 doc.addPageTemplates(PageTemplate(id='Book',frames=[Frame(LEFT,BOTTOM,TEXTW,HEIGHT-TOP-BOTTOM,id='normal',leftPadding=0,rightPadding=0,topPadding=0,bottomPadding=0)],onPage=page_decor))
 story=[Cover(),PageBreak(),para('阅读指引 / BEFORE YOU START','kicker'),para('先选一条路线，<br/>再完成一份证据。','chapter')]
-story += [para('本书帮助你回答三个问题：我适合哪类商科职能，如何满足岗位要求，怎样证明自己能做。请按目标地区、实际职责和招聘入口使用，不按专业名称无差别投递。'),para('每一步都写输入、操作、输出、验收与错误处理。所有案例和候选人样例均明确标注为教学模拟；课程、证书和模拟不能冒充实际工作经历。','quote'),para('作者与版本','h2'),para('AI 酋长 Andy · 前腾讯、百度 AI 产品专家，前大模型公司 VP。<br/>微信：AIPMAndy · 公众号：AI酋长Andy<br/>版本：1.0 · 核对日期：2026-11-13'),para(f'<link href="{SITE}" color="#31543b">GitHub Pages（发布状态见 VERIFY.md）</link><br/><link href="https://metaver.vip/" color="#31543b">个人官网 metaver.vip</link> · <link href="https://www.a6no1.cn/" color="#31543b">公司官网 www.a6no1.cn</link>'),para('范围与使用','h2'),para('覆盖北美、欧洲、亚洲、大洋洲及回国申请。非洲、南美洲不在本册范围；各国家和职能的覆盖深度不同。政策、职位状态和批次日期以官方现行页面为准。来源表区分适用范围和限制。'),para('免费内容完整开放。职业方向判断、材料诊断与面试陪跑是自愿选择的服务，不承诺录用或薪资。原创文字与教学数据 CC BY 4.0；网站代码 MIT。第三方来源、商标与招聘内容归各权利人。','small'),PageBreak(),para('目录 / CONTENTS','kicker'),para('从问题进入正文','chapter')]
+story += [para('本书帮助你回答三个问题：我适合哪类商科职能，如何满足岗位要求，怎样证明自己能做。请按目标地区、实际职责和招聘入口使用，不按专业名称无差别投递。'),para('每一步都写输入、操作、输出、验收与错误处理。所有案例和候选人样例均明确标注为教学模拟；课程、证书和模拟不能冒充实际工作经历。','quote'),para('作者与版本','h2'),para('AI酋长Andy · 流量 AI 联合创始人、星觉 AI 创始人 · 星觉科技 · 北京<br/>微信：AIPMAndy<br/>版本：1.0 · 核对日期：2026-11-13'),para(f'<link href="{SITE}" color="#31543b">GitHub Pages（发布状态见 VERIFY.md）</link><br/><link href="https://metaver.vip/" color="#31543b">个人官网 metaver.vip</link> · <link href="https://www.a6no1.cn/" color="#31543b">公司官网 www.a6no1.cn</link>'),para('范围与使用','h2'),para('覆盖北美、欧洲、亚洲、大洋洲及回国申请。非洲、南美洲不在本册范围；各国家和职能的覆盖深度不同。政策、职位状态和批次日期以官方现行页面为准。来源表区分适用范围和限制。'),para('免费内容完整开放。职业方向判断、材料诊断与面试陪跑是自愿选择的服务，不承诺录用或薪资。原创文字与教学数据 CC BY 4.0；网站代码 MIT。第三方来源、商标与招聘内容归各权利人。','small'),PageBreak(),para('目录 / CONTENTS','kicker'),para('从问题进入正文','chapter')]
 toc=TableOfContents();toc.levelStyles=[style('TOC',fontSize=9.0,leading=15,spaceBefore=0,spaceAfter=0,leftIndent=0,rightIndent=20)];toc.tableStyle=TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),0),('TOPPADDING',(0,0),(-1,-1),2),('BOTTOMPADDING',(0,0),(-1,-1),2)]);toc.dotsMinLevel=0;story.append(toc)
 htmls=get_html()
 for i,ch in enumerate(BOOK['chapters']):
@@ -263,7 +263,7 @@ for i,ch in enumerate(BOOK['chapters']):
     story.append(para(f'{ch["section"]} / {i+1:02d}','kicker'))
     title=para(escape(ch['title']),'chapter');title._chapter_key=f'ch-{i}';title._section=ch['section'];story.append(title)
     parsed=LH.fragment_fromstring(normalize(htmls[current_file]),create_parent='div');story+=parse_nodes(parsed,current_file=='SOURCES.md')
-story+=[PageBreak(),para('下一步 / YOUR NEXT STEP','kicker'),para('选一个岗位，<br/>交一份能被追问的材料。','chapter'),para('今天不必读完全部章节。先核对一个目标岗位的资格与职责，再从对应案例开始。把自己的分析和限制讲清楚，就是下一步可检查的进展。'),para('完整模板与数据','h2'),para(f'GitHub Pages 待发布；下列地址是部署目标：<br/><link href="{SITE}/" color="#31543b">{SITE}/</link><br/>工作簿、CSV、SQL、Markdown 与案例题解已随完整资料包交付。'),para('作者：AI 酋长 Andy','h2'),para('微信：<b>AIPMAndy</b><br/>公众号：<b>AI酋长Andy</b><br/><link href="https://metaver.vip/" color="#31543b">个人官网：https://metaver.vip/</link><br/><link href="https://www.a6no1.cn/" color="#31543b">公司官网：https://www.a6no1.cn/</link>'),para('咨询入口承接职业方向判断、申请材料诊断与面试陪跑。免费内容可独立使用，不承诺录用或薪资。','quote')]
+story+=[PageBreak(),para('下一步 / YOUR NEXT STEP','kicker'),para('选一个岗位，<br/>交一份能被追问的材料。','chapter'),para('今天不必读完全部章节。先核对一个目标岗位的资格与职责，再从对应案例开始。把自己的分析和限制讲清楚，就是下一步可检查的进展。'),para('完整模板与数据','h2'),para(f'GitHub Pages 已公开上线：<br/><link href="{SITE}/" color="#31543b">{SITE}/</link><br/>工作簿、CSV、SQL、Markdown 与案例题解已随完整资料包交付。'),para('作者：AI酋长Andy','h2'),para('流量 AI 联合创始人、星觉 AI 创始人 · 星觉科技 · 北京<br/>微信：<b>AIPMAndy</b><br/><link href="https://metaver.vip/" color="#31543b">个人官网：https://metaver.vip/</link><br/><link href="https://www.a6no1.cn/" color="#31543b">公司官网：https://www.a6no1.cn/</link>'),para('咨询入口承接职业方向判断、申请材料诊断与面试陪跑。免费内容可独立使用，不承诺录用或薪资。','quote')]
 doc.multiBuild(story,maxPasses=5)
 (TMP/'toc.json').write_text(json.dumps(doc.headings,ensure_ascii=False,indent=2))
 print(json.dumps({'pdf':str(DEST),'bytes':DEST.stat().st_size,'chapters':len(BOOK['chapters']),'last_page':doc.page},ensure_ascii=False))

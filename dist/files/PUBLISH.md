@@ -9,19 +9,15 @@
 - 唯一仓库：`AIPMAndy/chinese-international-student-business-jobs`。
 - 默认分支：`main`；网站成品：本项目的 `dist/`。
 - 唯一正式网站目标：GitHub Pages。
-- 预计地址：`https://aipmandy.github.io/chinese-international-student-business-jobs/`。这是部署目标，尚不能作为上线证明；实际地址以成功部署返回的 `page_url` 为准。
+- 正式网站：[https://aipmandy.github.io/chinese-international-student-business-jobs/](https://aipmandy.github.io/chinese-international-student-business-jobs/)，已由成功部署日志及实际 HTTP 检查确认。
 
 历史 ChatGPT Pages / Sites 的部署和访问记录不作为本项目的正式交付地址或 GitHub Pages 验收结果。
 
-## 当前阻塞：执行能力与认证会话
+## 已完成的远程发布
 
-用户已明确授权向上述新仓库推送，无须重复请求口头授权。本次已核查环境的状态为：
+源码、PDF、工作簿、模板与案例包、静态网站均已推送至公开仓库。GitHub Pages 部署成功；本次发布后对首页、正文、CSS、JS、PDF、XLSX、模板 ZIP 和源码 ZIP 共 8 个实际 URL 检查，均返回 HTTP 200，且 SHA-256 与部署提交的 dist 文件一致。 [查看成功运行](https://github.com/AIPMAndy/chinese-international-student-business-jobs/actions/runs/43487152686)，对应提交 `dfb6ef5b37c2e50d506283d64886a7d85194c639`。该记录绑定此提交，后续更新以新的工作流结果为准。
 
-- 通过当前连接读取目标仓库返回 404；账号内名称检索没有同名结果。名称查重限于当前可访问范围，创建前仍须重新核对。
-- 当前 GitHub 连接可读取已有仓库，但没有可调用的新建仓库接口。
-- 本机 `gh auth status` 显示未登录；浏览器进入新建仓库地址后显示 GitHub 登录页。
-
-因此当前状态为 **源码与成品已准备，待具备建仓能力的已认证通道执行推送、部署与线上验收**。阻塞来自现有执行通道，不是用户未授权。不得通过推送到其他旧仓库替代本项目的新建发布。
+最初的 404、缺少建仓接口与未登录记录属于发布前历史阶段，不再代表当前状态。目标仓库已存在；后续应审阅并更新本仓库 `main`，不要重复建仓。用户原有推送授权持续有效。
 
 ## 源码包与离线复现
 
@@ -43,7 +39,9 @@ python3 scripts/check_pages_links.py
 
 若正文或页面发生变化，应按项目构建说明重建对应成品后再打包；仅恢复解压包的下载结构，不需要重跑 PDF 渲染。
 
-## 使用已授权的 GitHub 账号执行新建与推送
+## 首次建仓脚本（历史说明）
+
+本仓库已存在，不应重跑首次创建命令。下面保留脚本设计与恢复边界；后续更新直接使用已经确认的本项目仓库。
 
 当 GitHub CLI 已在 `github.com` 认证为 AIPMAndy，且此新仓库仍未创建时，在本项目根目录执行：
 
@@ -65,7 +63,7 @@ bash scripts/publish-github.sh
 
 已提供 `.github/workflows/pages.yml`，只允许本仓库 `main` 分支发布已提交的 `dist/`。在新仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**，然后触发工作流；远端不会重新生成 PDF。
 
-工作流依据 [GitHub 官方自定义 Pages 工作流文档](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) 配置，来源核对日期为 2026-11-13。工作流文件存在不等于部署已经成功；当前尚无此目标仓库的成功运行与线上访问证据。
+工作流依据 [GitHub 官方自定义 Pages 工作流文档](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) 配置，来源核对日期为 2026-11-13。当前已取得上方成功运行与线上访问证据。后续每次发布仍须等待其工作流完成，不能用旧版本的成功替代新版本验收。
 
 完成正式交付需要保留：
 

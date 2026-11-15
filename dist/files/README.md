@@ -2,8 +2,8 @@
 
 **先选职能，读懂真实岗位，再拿出能被追问的能力证据。**
 
-作者：**AI 酋长 Andy**｜前腾讯、百度 AI 产品专家，前大模型公司 VP  
-微信：**AIPMAndy**｜公众号：**AI酋长Andy**  
+作者：**AI酋长Andy**｜流量 AI 联合创始人、星觉 AI 创始人 · 星觉科技 · 北京  
+微信：**AIPMAndy**  
 [个人官网](https://metaver.vip/) · [公司官网](https://www.a6no1.cn/)
 
 版本 **1.0 · 2026-11-13**。面向商科及相关专业的中国留学生，覆盖在读、毕业前、毕业后和回国申请。正文、模板、数据、题解和 PDF 完整免费开放。
@@ -12,7 +12,7 @@
 
 | 你要做什么 | 入口 |
 | --- | --- |
-| 在线阅读、手机浏览与搜索 | GitHub Pages 待发布；[部署目标与实际验收状态](DEPLOYMENT.md) |
+| 在线阅读、手机浏览与搜索 | [打开正式 GitHub Pages 网站](https://aipmandy.github.io/chinese-international-student-business-jobs/) · [部署说明](DEPLOYMENT.md) |
 | 从零开始，确定本周行动 | [阅读起点](content/00-start.md) |
 | 比较两个目标职能 | [真实岗位研究与职能选择](content/01-function-choice.md) |
 | 找出经历与 JD 的差距 | [能力证据与行动计划](content/02-evidence-plan.md) |
@@ -21,7 +21,7 @@
 | 做完整案例，核对自己的答案 | [下载模板与案例包](downloads/templates-and-cases.zip) |
 | 检查研究、计算、排版和发布状态 | [验证记录](VERIFY.md) · [事实复核](research/FACT-CHECK.md) |
 
-GitHub 目标仓库为 `AIPMAndy/chinese-international-student-business-jobs`。本次已完成名称查重与独立项目制作；GitHub 新建与推送状态以[发布记录](PUBLISH.md)为准。没有把尚未创建的地址当作已上线仓库。
+公开仓库为 [AIPMAndy/chinese-international-student-business-jobs](https://github.com/AIPMAndy/chinese-international-student-business-jobs)，正文、PDF、模板、源码与正式网站均已发布。GitHub Pages 部署及发布后 HTTP / SHA-256 检查已成功；完整证据见[发布记录](PUBLISH.md)。
 
 ## 六条路线，分别训练
 
@@ -49,6 +49,16 @@ GitHub 目标仓库为 `AIPMAndy/chinese-international-student-business-jobs`。
 | [回国申请](content/regions/05-china-return.md) | 中国内地：招聘入口、毕业与初次就业口径、学历材料、到岗与中文证据 |
 
 非洲、南美洲不在本项目范围。这里没有声称完成其余世界每个国家、每种学历、每个雇主与每类执业资格的核查。具体不足见[覆盖缺口](#尚未充分覆盖)。
+
+## 常见问题
+
+**覆盖每个国家与地区吗？** 否。本版有 31 个条目，深度不一；非洲与南美洲不在项目范围，其余市场也未逐国完整展开。
+
+**是否逐一核实每种执业资格或许可？** 否。金融牌照、各地签字权与细分合规未形成完整独立训练包；申请前须对照官方现行规则与雇主说明。
+
+**教学案例算工作经验吗？** 不算。案例与填写示例均为教学模拟，简历中只能如实标注为自主练习或模拟项目，不能写成雇主实习或客户交付。
+
+**还有哪些已知缺口？** 见下方[尚未充分覆盖](#尚未充分覆盖)；本 README 不以新增推断填补这些空白。
 
 ## 一轮完整行动
 
@@ -117,4 +127,4 @@ Linux 字体路径见构建脚本；其他系统需调整本地字体路径。�
 
 **免费内容可独立使用。** 如果需要结合个人情况判断职能、诊断申请材料或做面试陪跑，可以联系微信 **AIPMAndy**，注明地区、毕业时间、目标职能和当前卡点。咨询不承诺录用或薪资。
 
-作者：AI 酋长 Andy｜公众号：AI酋长Andy｜[个人官网](https://metaver.vip/)｜[公司官网](https://www.a6no1.cn/)
+作者：AI酋长Andy｜星觉科技 · 北京｜微信：AIPMAndy｜[个人官网](https://metaver.vip/)｜[公司官网](https://www.a6no1.cn/)
