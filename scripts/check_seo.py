@@ -42,6 +42,7 @@ for file in pages:
     check('<meta property="og:url" content="' + expected + '"' in content, rel + ": wrong OG URL")
     check('<meta property="og:image" content="' + base + "assets/social-preview.png" + '"' in content, rel + ": missing OG image")
     check('<meta name="twitter:card" content="summary_large_image"' in content, rel + ": wrong Twitter card")
+    check('<meta name="twitter:image" content="' + base + "assets/social-preview.png" + '"' in content, rel + ": missing Twitter image")
     check('<meta name="robots" content="' + ("noindex,follow" if rel == "404.html" else "index,follow") + '"' in content, rel + ": wrong robots")
     data = re.search(r'<script type="application/ld\+json">(.*?)</script>', content, re.S)
     if not data:

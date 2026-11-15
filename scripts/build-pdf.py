@@ -222,8 +222,8 @@ class Cover(Flowable):
         for i,t in enumerate(labels):
             x=35+(i%2)*(TEXTW/2+5);yy=y-(i//2)*48;c.setStrokeColor(colors.HexColor('#414c3e'));c.line(x,yy+15,x+TEXTW/2-18,yy+15);c.setFont('Book',9.3);c.drawString(x,yy,t)
         c.setStrokeColor(colors.HexColor('#52604f'));c.line(34,109,WIDTH-34,109)
-        c.setFont('BookBold',12);c.setFillColor(colors.HexColor('#f4f6ee'));c.drawString(34,84,'AI 酋长 Andy')
-        c.setFont('Book',8.3);c.setFillColor(colors.HexColor('#b4c1ac'));c.drawString(34,65,'微信 AIPMAndy · 公众号 AI酋长Andy');c.drawString(34,45,'免费完整开放  /  VERSION 1.0  /  2026-11-13')
+        c.setFont('BookBold',12);c.setFillColor(colors.HexColor('#f4f6ee'));c.drawString(34,84,'AI酋长Andy')
+        c.setFont('Book',8.3);c.setFillColor(colors.HexColor('#b4c1ac'));c.drawString(34,65,'流量 AI 联合创始人、星觉 AI 创始人 · 星觉科技 · 北京');c.drawString(34,45,'微信 AIPMAndy · 免费完整开放  /  VERSION 1.0  /  2026-11-13')
         c.setFont('Book',46);c.setFillColor(colors.HexColor('#8ca282'));c.drawRightString(WIDTH-33,47,'06')
         c.restoreState()
 
@@ -238,7 +238,7 @@ class BookDoc(BaseDocTemplate):
 def page_decor(c,doc):
     if doc.page==1:return
     c.saveState();c.setFillColor(PAPER);c.rect(0,0,WIDTH,HEIGHT,fill=1,stroke=0)
-    c.setFont('Book',7.3);c.setFillColor(MUTED);c.drawString(LEFT,HEIGHT-12.5*mm,'中国留学生商科求职 / AI 酋长 Andy')
+    c.setFont('Book',7.3);c.setFillColor(MUTED);c.drawString(LEFT,HEIGHT-12.5*mm,'中国留学生商科求职 / AI酋长Andy')
     c.setStrokeColor(LINE);c.setLineWidth(.4);c.line(LEFT,HEIGHT-15*mm,WIDTH-RIGHT,HEIGHT-15*mm)
     c.line(LEFT,14*mm,WIDTH-RIGHT,14*mm);c.setFont('Book',7);c.drawString(LEFT,9.3*mm,'微信 AIPMAndy · 免费完整开放 · 2026-11-13');c.drawRightString(WIDTH-RIGHT,9.3*mm,str(doc.page));c.restoreState()
 
@@ -263,7 +263,7 @@ for i,ch in enumerate(BOOK['chapters']):
     story.append(para(f'{ch["section"]} / {i+1:02d}','kicker'))
     title=para(escape(ch['title']),'chapter');title._chapter_key=f'ch-{i}';title._section=ch['section'];story.append(title)
     parsed=LH.fragment_fromstring(normalize(htmls[current_file]),create_parent='div');story+=parse_nodes(parsed,current_file=='SOURCES.md')
-story+=[PageBreak(),para('下一步 / YOUR NEXT STEP','kicker'),para('选一个岗位，<br/>交一份能被追问的材料。','chapter'),para('今天不必读完全部章节。先核对一个目标岗位的资格与职责，再从对应案例开始。把自己的分析和限制讲清楚，就是下一步可检查的进展。'),para('完整模板与数据','h2'),para(f'GitHub Pages 待发布；下列地址是部署目标：<br/><link href="{SITE}/" color="#31543b">{SITE}/</link><br/>工作簿、CSV、SQL、Markdown 与案例题解已随完整资料包交付。'),para('作者：AI 酋长 Andy','h2'),para('微信：<b>AIPMAndy</b><br/>公众号：<b>AI酋长Andy</b><br/><link href="https://metaver.vip/" color="#31543b">个人官网：https://metaver.vip/</link><br/><link href="https://www.a6no1.cn/" color="#31543b">公司官网：https://www.a6no1.cn/</link>'),para('咨询入口承接职业方向判断、申请材料诊断与面试陪跑。免费内容可独立使用，不承诺录用或薪资。','quote')]
+story+=[PageBreak(),para('下一步 / YOUR NEXT STEP','kicker'),para('选一个岗位，<br/>交一份能被追问的材料。','chapter'),para('今天不必读完全部章节。先核对一个目标岗位的资格与职责，再从对应案例开始。把自己的分析和限制讲清楚，就是下一步可检查的进展。'),para('完整模板与数据','h2'),para(f'GitHub Pages 已公开上线：<br/><link href="{SITE}/" color="#31543b">{SITE}/</link><br/>工作簿、CSV、SQL、Markdown 与案例题解已随完整资料包交付。'),para('作者：AI酋长Andy','h2'),para('流量 AI 联合创始人、星觉 AI 创始人 · 星觉科技 · 北京<br/>微信：<b>AIPMAndy</b><br/><link href="https://metaver.vip/" color="#31543b">个人官网：https://metaver.vip/</link><br/><link href="https://www.a6no1.cn/" color="#31543b">公司官网：https://www.a6no1.cn/</link>'),para('咨询入口承接职业方向判断、申请材料诊断与面试陪跑。免费内容可独立使用，不承诺录用或薪资。','quote')]
 doc.multiBuild(story,maxPasses=5)
 (TMP/'toc.json').write_text(json.dumps(doc.headings,ensure_ascii=False,indent=2))
 print(json.dumps({'pdf':str(DEST),'bytes':DEST.stat().st_size,'chapters':len(BOOK['chapters']),'last_page':doc.page},ensure_ascii=False))
