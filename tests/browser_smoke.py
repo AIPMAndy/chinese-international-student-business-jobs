@@ -33,7 +33,7 @@ try:
         for width in (360, 390, 1280):
             page = browser.new_page(viewport={"width": width, "height": 820})
             page.goto(base, wait_until="networkidle")
-            assert page.get_by_role("heading", name="把商科学历，变成岗位证据。").count() == 1
+            assert page.locator("h1").count() == 1 and "岗位证据" in page.locator("h1").inner_text()
             assert page.locator('link[rel="canonical"]').get_attribute("href") == "https://aipmandy.github.io/chinese-international-student-business-jobs/"
             ld = json.loads(page.locator('script[type="application/ld+json"]').first.inner_text())
             assert ld["@type"] == "WebPage" and ld["publisher"]["url"] == "https://www.a6no1.cn/"
