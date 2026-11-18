@@ -86,6 +86,34 @@ try:
             page.screenshot(path=str(artifact / f"homepage-{width}.png"), full_page=True)
             summary.append({"viewport": width, "search": "pass", "filters": "pass", "menu": "pass", "contact": "pass", "overflow": "pass"})
             page.close()
+        # Test source-data fidelity, status filtering, real downloads and mobile layout.
+        for width in (360, 390, 1280):
+            desk = browser.new_page(viewport={"width": width, "height": 820}, accept_downloads=True)
+            desk.goto(base + "/sources-workbench.html", wait_until="networkidle")
+            source_ld = json.loads(desk.locator('script[type="application/ld+json"]').first.inner_text())
+            assert source_ld["url"].endswith("/sources-workbench.html") and len(source_ld["citation"]) >= 90
+            assert desk.locator(".source-record").count() >= 90
+            assert desk.locator(".source-record:visible").count() == 25
+            desk.locator("#source-search").fill("BS09")
+            assert desk.locator(".source-record:visible").count() == 1
+            with desk.expect_download() as receipt:
+                desk.locator("#source-export").click()
+            target = artifact / f"evidence-{width}.txt"
+            receipt.value.save_as(str(target))
+            body = target.read_text(encoding="utf-8-sig")
+            assert "BS09" in body and "2026-11-13" in body and "AIPMAndy" in body
+            desk.locator("#source-reset").click()
+            desk.locator("#source-type").select_option("government")
+            assert desk.locator(".source-record:visible").count() > 0
+            desk.locator("#source-type").select_option("all")
+            desk.locator("#source-priority").check()
+            assert desk.locator(".source-record:visible").count() > 0
+            desk.locator("#source-reset").click()
+            desk.locator("#source-more").click()
+            assert desk.locator(".source-record:visible").count() == 50
+            assert desk.evaluate("document.documentElement.scrollWidth <= window.innerWidth + 2")
+            desk.screenshot(path=str(artifact / f"source-workbench-{width}.png"), full_page=True)
+            desk.close()
         browser.close()
 finally:
     server.shutdown()
