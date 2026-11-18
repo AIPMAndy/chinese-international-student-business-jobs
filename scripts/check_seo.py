@@ -14,6 +14,8 @@ name = root.name
 base = "https://aipmandy.github.io/" + name + "/"
 business = name.endswith("-business-jobs")
 pages = [site / "index.html", site / "404.html"]
+if business:
+    pages.append(site / "sources-workbench.html")
 pages += sorted((site / ("read" if business else "chapters")).glob("*.html"))
 if not business:
     pages += [site / "resources.html", site / "verification.html"]
