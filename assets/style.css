@@ -52,3 +52,6 @@ body{background:var(--paper);color:var(--ink)}.top{background:rgba(255,255,255,.
 .source-next{border-top:1px solid var(--line);margin-top:44px;padding-top:35px;max-width:850px}.source-next h2{font-size:27px}.source-next p{font-size:15px;color:var(--muted)}.source-next a{color:#285d84}
 @media(max-width:950px){.source-controls{grid-template-columns:1fr 1fr}.source-checkbox{grid-column:1/-1}}
 @media(max-width:700px){.source-totals{display:grid;gap:10px}.source-tool{padding:20px 16px}.source-controls{grid-template-columns:1fr}.source-checkbox{grid-column:auto;min-height:44px}.source-grid{grid-template-columns:1fr}.source-record{padding:20px}.source-actions>.button{flex:1 1 190px}}
+
+/* Disabled downloads are visibly unavailable and cannot be activated. */
+#source-export:disabled{opacity:.55;cursor:not-allowed}
