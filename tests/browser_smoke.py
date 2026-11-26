@@ -43,7 +43,13 @@ try:
                 menu.click()
                 assert menu.get_attribute("aria-expanded") == "true"
                 assert page.locator("#main-nav").is_visible()
+                page.locator("#main-nav a").first.focus()
+                page.keyboard.press("Escape")
+                assert menu.get_attribute("aria-expanded") == "false"
+                assert menu.evaluate("el => document.activeElement === el")
                 menu.click()
+                assert menu.get_attribute("aria-expanded") == "true"
+                page.locator("#guide-search").focus()
                 assert menu.get_attribute("aria-expanded") == "false"
 
             finance = page.locator('[data-filter="finance"]')
@@ -89,7 +95,9 @@ try:
         # Test source-data fidelity, status filtering, real downloads and mobile layout.
         for width in (360, 390, 1280):
             desk = browser.new_page(viewport={"width": width, "height": 820}, accept_downloads=True)
+            desk.emulate_media(reduced_motion="reduce")
             desk.goto(base + "/sources-workbench.html", wait_until="networkidle")
+            assert desk.evaluate("getComputedStyle(document.documentElement).scrollBehavior") == "auto"
             source_ld = json.loads(desk.locator('script[type="application/ld+json"]').first.inner_text())
             assert source_ld["url"].endswith("/sources-workbench.html") and len(source_ld["citation"]) >= 90
             assert desk.locator(".source-record").count() >= 90
@@ -102,7 +110,15 @@ try:
             receipt.value.save_as(str(target))
             body = target.read_text(encoding="utf-8-sig")
             assert "BS09" in body and "2026-11-13" in body and "AIPMAndy" in body
+            export_button = desk.locator("#source-export")
+            desk.locator("#source-search").fill("zzzz-no-source-match-123")
+            assert desk.locator(".source-record:visible").count() == 0
+            assert export_button.is_disabled()
+            assert "没有匹配记录" in desk.locator("#source-status").inner_text()
+            assert desk.locator("#source-search").evaluate("el => document.activeElement === el")
             desk.locator("#source-reset").click()
+            assert export_button.is_enabled()
+            assert desk.locator("#source-search").evaluate("el => document.activeElement === el")
             desk.locator("#source-type").select_option("government")
             assert desk.locator(".source-record:visible").count() > 0
             desk.locator("#source-type").select_option("all")
