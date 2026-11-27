@@ -1,0 +1,88 @@
+# 中国留学生商科岗位求职保姆级攻略
+
+> 中国留学生商科求职攻略：咨询、金融会计、市场、运营供应链、经营分析与销售 BD。不承诺录用。
+
+- 作者：AI酋长Andy（AIPMAndy），官网 https://metaver.vip/
+- 开源仓库：https://github.com/AIPMAndy/chinese-international-student-business-jobs
+- 在线地址：https://aipmandy.github.io/chinese-international-student-business-jobs/
+- 许可：CC BY 4.0
+- 语言：中文（zh-CN）
+- 最近更新：2026-11-26
+
+## 这是什么
+
+作者：AI酋长Andy｜流量 AI 联合创始人、星觉 AI 创始人 · 星觉科技 · 北京  
+微信：AIPMAndy  
+个人官网https://metaver.vip/ · 公司官网https://www.a6no1.cn/
+版本 1.0 · 2026-11-13。面向商科及相关专业的中国留学生，覆盖在读、毕业前、毕业后和回国申请。正文、模板、数据、题解和 PDF 完整免费开放。
+
+## 主要页面
+
+- [中国留学生商科岗位求职保姆级攻略 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/)
+- [咨询案例参考答案 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--01-consulting--answer.html)
+- [咨询案例题面 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--01-consulting--brief.html)
+- [咨询案例｜可打印输入数据 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--01-consulting--printable-data.html)
+- [案例 01｜订单没少，利润为什么腰斩？ · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--01-consulting--readme.html)
+- [咨询案例评分与复盘 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--01-consulting--rubric.html)
+- [A｜FP&amp;A 参考答案 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--02-finance-accounting--answer.html)
+- [B｜核算与审计：六条发票记录 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--02-finance-accounting--audit-exercise.html)
+- [A｜FP&amp;A 完整案例题面 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--02-finance-accounting--brief.html)
+- [C｜信贷：利润为正，是否就能借款？ · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--02-finance-accounting--credit-exercise.html)
+- [金融与会计案例｜可打印输入数据 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--02-finance-accounting--printable-data.html)
+- [案例 02｜财务判断与会计证据 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--02-finance-accounting--readme.html)
+- [A｜FP&amp;A 评分与复盘 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--02-finance-accounting--rubric.html)
+- [D｜公司研究：企业价值与股权价值 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--02-finance-accounting--valuation-exercise.html)
+- [营销决策练习填写页 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--03-marketing--decision_template.html)
+- [市场与品牌案例｜可打印输入数据 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--03-marketing--printable-data.html)
+- [案例 03：归因成绩很好，要不要继续加预算？ · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--03-marketing--readme.html)
+- [运营与供应链案例｜可打印输入数据 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--04-operations--printable-data.html)
+- [案例 04：仓库放不下，又不能断货，怎么补货？ · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--04-operations--readme.html)
+- [经营分析决策备忘录 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--05-analytics--memo_template.html)
+- [商业与经营分析案例｜可打印输入数据 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--05-analytics--printable-data.html)
+- [案例 05：每组转化率都提高，总转化率为什么下降？ · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--05-analytics--readme.html)
+- [需求发现纪要 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--06-sales--discovery_template.html)
+- [销售与商务拓展案例｜可打印输入数据 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--06-sales--printable-data.html)
+- [案例 06：哪些商机值得推进，价值该怎样算？ · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/cases--06-sales--readme.html)
+- [先找到职能，再证明你能做 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/content--00-start.html)
+- [用真实岗位选职能 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/content--01-function-choice.html)
+- [把经历变成能力证据 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/content--02-evidence-plan.html)
+- [分路线组织申请材料 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/content--03-applications.html)
+- [面试、案例与展示怎么练 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/content--04-assessments.html)
+- [常见障碍：把问题拆到可以行动 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/content--05-special-situations.html)
+- [用申请记录调整目标 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/content--06-tracking-review.html)
+- [北美：先把工作资格与招聘资格分开 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/content--regions--01-north-america.html)
+- [欧洲：国家、语言和项目要分开研究 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/content--regions--02-europe.html)
+- [亚洲与中东：先核身份，再核语言和职能 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/content--regions--03-asia.html)
+- [大洋洲：毕业工作权与企业开放范围要同时核对 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/content--regions--04-oceania.html)
+- [回国求职：把留学经历变成岗位证据 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/content--regions--05-china-return.html)
+- [咨询与专业服务：把商业问题变成可检查的判断 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/content--routes--01-consulting.html)
+- [金融、会计与企业财务：先选工作对象，再选证书 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/content--routes--02-finance-accounting.html)
+- [市场与品牌：证明你能理解消费者，并把预算变成可检验的业务选择 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-business-jobs/read/content--routes--03-marketing-brand.html)
+
+## 内容目录
+
+- 现在开始
+- 六条路线，分别训练
+- 地区入口
+- 一轮完整行动
+- 材料、面试与特殊情况
+- 来源与维护
+- 尚未充分覆盖
+- 开发与复现
+- 授权与联系
+
+## 关键事实
+
+- 名称：中国留学生商科岗位求职保姆级攻略
+- 类型：中文开源项目
+- 许可：CC BY 4.0
+- 语言：中文
+- 最近更新：2026-11-26
+- 仓库：https://github.com/AIPMAndy/chinese-international-student-business-jobs
+
+## 相关链接
+
+- [作者官网](https://metaver.vip/)
+- [GitHub 主页](https://github.com/AIPMAndy/AIPMAndy)
+- [开源总目录](https://aipmandy.github.io/)
+- [机器可读摘要](https://aipmandy.github.io/chinese-international-student-business-jobs/llms.txt)
